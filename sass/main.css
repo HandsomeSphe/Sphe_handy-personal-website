@@ -22,6 +22,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  padding: 0 3.5rem;
 }
 
 .home__nav {
@@ -37,7 +38,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 1rem 3.5rem;
+  padding-top: 1rem;
   font-size: 0.8rem;
   font-weight: 500;
 }
@@ -75,7 +76,7 @@ body {
 .home__body--title {
   width: 70%;
   height: 15vh;
-  margin: 10rem 3.5rem;
+  margin: 10rem 0 2rem 0;
 }
 
 .home__body--title > h3 {
@@ -87,5 +88,41 @@ body {
 .home__body--title > p {
   color: rgba(255, 255, 255, 0.75);
   font-size: 1rem;
+}
+
+.home__body--buttons {
+  color: white;
+  width: 26%;
+  height: 7vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.home__body--buttons > .hireBtn {
+  width: 8rem;
+  height: 5.7vh;
+  color: rgba(0, 0, 0, 0.75);
+  background-color: #c4c4c4;
+  text-align: center;
+  font-size: 0.8rem;
+  font-weight: 600;
+  padding: 0.5rem 0;
+  cursor: pointer;
+}
+
+.home__body--buttons > .needAWebsiteBtn {
+  width: 8rem;
+  height: 5.7vh;
+  color: rgba(255, 255, 255, 0.9);
+  border: 1px solid lightgray;
+  text-align: center;
+  padding: 0.5rem 0;
+  font-weight: 500;
+  font-size: 0.7rem;
+  cursor: pointer;
 }
 /*# sourceMappingURL=main.css.map */

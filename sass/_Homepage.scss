@@ -10,6 +10,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  padding: 0 3.5rem;
   /////////////////
   //////////////NAVIGATION BAR //////////////////////////
   &__nav {
@@ -19,7 +20,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem 3.5rem;
+    padding-top: 1rem;
     font-size: 0.8rem;
     font-weight: 500;
     &--logo {
@@ -47,7 +48,7 @@
     &--title {
       width: 70%;
       height: 15vh;
-      margin: 10rem 3.5rem;
+      margin: 10rem 0 2rem 0;
     }
     &--title > h3 {
       color: rgba(255, 255, 255, 0.9);
@@ -57,6 +58,35 @@
     &--title > p {
       color: rgba(255, 255, 255, 0.75);
       font-size: 1rem;
+    }
+    &--buttons {
+      color: white;
+      width: 26%;
+      height: 7vh;
+      display: flex;
+      justify-content: space-between;
+    }
+    &--buttons > .hireBtn {
+      width: 8rem;
+      height: 5.7vh;
+      color: rgba(0, 0, 0, 0.75);
+      background-color: #c4c4c4;
+      text-align: center;
+      font-size: 0.8rem;
+      font-weight: 600;
+      padding: 0.5rem 0;
+      cursor: pointer;
+    }
+    &--buttons > .needAWebsiteBtn {
+      width: 8rem;
+      height: 5.7vh;
+      color: rgba(255, 255, 255, 0.9);
+      border: 1px solid lightgray;
+      text-align: center;
+      padding: 0.5rem 0;
+      font-weight: 500;
+      font-size: 0.7rem;
+      cursor: pointer;
     }
   }
 }
