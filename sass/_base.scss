@@ -11,3 +11,15 @@ body {
   font-size: 62.5%;
   font-weight: 400;
 }
+@mixin box {
+  width: 100%;
+  height: auto;
+  border: 1px solid lightgray;
+  text-align: center;
+  padding: 1rem;
+}
+@mixin iconResize {
+  width: 3rem;
+  height: 3rem;
+  margin: 15% 40% 10% 40%;
+}
