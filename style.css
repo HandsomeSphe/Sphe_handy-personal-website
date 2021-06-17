@@ -14,3 +14,11 @@ Single-colored icons can be modified like so:
   color: red;
 }
 ========================================== */
+
+.icon-gray {
+  width: 0.92578125em;
+}
+
+.icon-check {
+  width: 0.927734375em;
+}
