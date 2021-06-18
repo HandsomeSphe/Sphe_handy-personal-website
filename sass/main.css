@@ -161,6 +161,151 @@ body {
   font-size: 0.8rem;
 }
 
+.footer {
+  width: 100%;
+  height: 55vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer__heading {
+  margin-bottom: 1rem;
+  width: 8.5rem;
+  border-bottom: 0.2rem solid black;
+}
+
+.footer__1 {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 40%;
+          flex: 0 0 40%;
+  padding: 3rem 0 0 3rem;
+}
+
+.footer__1--Instagram, .footer__1--twitter, .footer__1--facebook {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.footer__2 {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 25%;
+          flex: 0 0 25%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 3rem 0 0 2rem;
+}
+
+.footer__3 {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  padding: 3rem 0 0 3rem;
+}
+
+.footer__3--platforms {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 2.5rem;
+}
+
+.instagram,
+.twitter,
+.facebook {
+  width: 2rem;
+  height: 2rem;
+  margin-right: 0.5rem;
+  cursor: pointer;
+  -webkit-transition: all ease 0.4s;
+  transition: all ease 0.4s;
+}
+
+.instagram:hover,
+.twitter:hover,
+.facebook:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  fill: lightgray;
+}
+
+.dribble {
+  width: 2.5rem;
+  height: 2.5rem;
+  margin-right: 0.7rem;
+  cursor: pointer;
+}
+
+.upwork,
+.fiverr {
+  width: 4rem;
+  height: 4rem;
+  margin-right: 0.7rem;
+  cursor: pointer;
+}
+
+.locationpin {
+  width: 1rem;
+  height: 1rem;
+  margin-right: 0.4rem;
+}
+
+.location {
+  font-weight: 700;
+}
+
+.platforms__heading {
+  font-size: 1rem;
+  font-weight: 600;
+  width: 5rem;
+  border-bottom: 0.2rem solid black;
+  margin-bottom: 1rem;
+}
+
+.html,
+.JS,
+.sass {
+  width: 3rem;
+  height: 3rem;
+  margin-right: 0.7rem;
+  fill: #666;
+  cursor: text;
+}
+
+.figma {
+  width: 4rem;
+  height: 4rem;
+  fill: #666;
+  cursor: text;
+}
+
+.css {
+  width: 2.5rem;
+  height: 2.5rem;
+  margin-right: 0.7rem;
+  fill: #666;
+  cursor: text;
+}
+
+.tools {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 .home {
   width: 100%;
   height: 100vh;
@@ -655,5 +800,38 @@ span {
   font-weight: 700;
   font-size: 1rem;
   margin-top: 5rem;
+}
+
+.extrapage {
+  width: 100%;
+  height: 65vh;
+  background-color: black;
+}
+
+.FAQ {
+  width: 100%;
+  height: 100%;
+  padding: 4rem;
+}
+
+.FAQ__title {
+  font-size: 1rem;
+  font-weight: 600;
+  color: white;
+  margin-bottom: 1rem;
+}
+
+.FAQ__1, .FAQ__2, .FAQ__3 {
+  width: 80%;
+  height: 8vh;
+  background-color: white;
+  margin-bottom: 0.2rem;
+  padding: 0.7rem 0 0 1rem;
+  cursor: pointer;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.FAQ__1--text, .FAQ__2--text, .FAQ__3--text {
+  display: none;
 }
 /*# sourceMappingURL=main.css.map */
