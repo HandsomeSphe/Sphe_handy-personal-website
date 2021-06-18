@@ -110,7 +110,7 @@ body {
 #email,
 #mssg {
   width: 75%;
-  height: 4vh;
+  height: 5vh;
   margin-bottom: 0.2rem;
   border: 1px solid lightgray;
   padding-left: 0.3rem;
@@ -148,7 +148,7 @@ body {
 
 .submit {
   width: 75%;
-  height: 4vh;
+  height: 5vh;
   cursor: pointer;
   border: none;
   font-family: poppins, sans-serif;
@@ -412,6 +412,16 @@ body {
   cursor: pointer;
 }
 
+.hireBtn > a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.75);
+}
+
+.needAWebsiteBtn > a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.9);
+}
+
 .wrapperSmall {
   -webkit-box-sizing: content-box;
           box-sizing: content-box;
@@ -634,6 +644,11 @@ span {
   display: flex;
 }
 
+.buttons2 > .viewText a {
+  text-decoration: none;
+  color: white;
+}
+
 .viewBtn {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -664,20 +679,23 @@ span {
   background-color: rgba(0, 0, 0, 0.5);
 }
 
-.codeBtn2 > .codeText {
+.codeBtn2 > .codeText a {
   color: black;
+  text-decoration: none;
 }
 
-.viewText {
+.viewText > a {
   margin-right: 0.5rem;
   font-weight: 500;
   color: white;
+  text-decoration: none;
 }
 
-.codeText {
+.codeText > a {
   margin-right: 0.5rem;
   font-weight: 600;
   color: rgba(0, 0, 0, 0.45);
+  text-decoration: none;
 }
 
 .Plans {

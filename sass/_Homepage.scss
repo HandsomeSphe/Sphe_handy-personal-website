@@ -76,6 +76,7 @@
       padding: 0.5rem 0;
       cursor: pointer;
     }
+
     &--buttons > .needAWebsiteBtn {
       width: 8rem;
       height: 5.7vh;
@@ -88,6 +89,14 @@
       cursor: pointer;
     }
   }
+}
+.hireBtn > a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.75);
+}
+.needAWebsiteBtn > a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.9);
 }
 .wrapperSmall {
   box-sizing: content-box;

@@ -90,6 +90,10 @@
   display: flex;
   // justify-content: space-between;
 }
+.buttons2 > .viewText a {
+  text-decoration: none;
+  color: white;
+}
 .viewBtn {
   display: flex;
   text-align: center;
@@ -114,16 +118,20 @@
   cursor: pointer;
   background-color: rgba(0, 0, 0, 0.5);
 }
-.codeBtn2 > .codeText {
+.codeBtn2 > .codeText a {
   color: black;
+  text-decoration: none;
 }
-.viewText {
+.viewText > a {
   margin-right: 0.5rem;
   font-weight: 500;
   color: white;
+  text-decoration: none;
 }
-.codeText {
+
+.codeText > a {
   margin-right: 0.5rem;
   font-weight: 600;
   color: rgba(0, 0, 0, 0.45);
+  text-decoration: none;
 }
