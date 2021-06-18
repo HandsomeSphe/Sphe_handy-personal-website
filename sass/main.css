@@ -72,6 +72,95 @@ body {
   margin: 15% 40% 10% 40%;
 }
 
+.Contacts {
+  width: 100%;
+  height: 100vh;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.9)), to(rgba(0, 0, 0, 0.9))), url("/Images/pexels-cottonbro-4709285.jpg");
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url("/Images/pexels-cottonbro-4709285.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 7rem 0 0 12rem;
+}
+
+.Contacts__wrapper {
+  width: 80%;
+  height: 65vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 4rem;
+  padding-left: 2rem;
+}
+
+.form {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 60%;
+          flex: 0 0 60%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#name,
+#email,
+#mssg {
+  width: 75%;
+  height: 4vh;
+  margin-bottom: 0.2rem;
+  border: 1px solid lightgray;
+  padding-left: 0.3rem;
+  background-color: transparent;
+}
+
+::-webkit-input-placeholder {
+  color: lightgray;
+  font-family: poppins, sans-serif;
+  font-size: 0.7rem;
+}
+
+:-ms-input-placeholder {
+  color: lightgray;
+  font-family: poppins, sans-serif;
+  font-size: 0.7rem;
+}
+
+::-ms-input-placeholder {
+  color: lightgray;
+  font-family: poppins, sans-serif;
+  font-size: 0.7rem;
+}
+
+::placeholder {
+  color: lightgray;
+  font-family: poppins, sans-serif;
+  font-size: 0.7rem;
+}
+
+#mssg {
+  height: 25vh;
+  resize: none;
+}
+
+.submit {
+  width: 75%;
+  height: 4vh;
+  cursor: pointer;
+  border: none;
+  font-family: poppins, sans-serif;
+}
+
+.ownerInfo > h4 {
+  color: lightgray;
+  margin-bottom: 0.6rem;
+  font-weight: 700;
+  font-size: 0.8rem;
+}
+
 .home {
   width: 100%;
   height: 100vh;
