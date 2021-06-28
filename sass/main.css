@@ -115,6 +115,7 @@ body {
   border: 1px solid lightgray;
   padding-left: 0.3rem;
   background-color: transparent;
+  color: #fff;
 }
 
 ::-webkit-input-placeholder {
@@ -163,7 +164,7 @@ body {
 
 .footer {
   width: 100%;
-  height: 55vh;
+  height: 50vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -217,7 +218,6 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-bottom: 2.5rem;
 }
 
 .instagram,
@@ -415,11 +415,14 @@ body {
 .hireBtn > a {
   text-decoration: none;
   color: rgba(0, 0, 0, 0.75);
+  text-transform: uppercase;
 }
 
 .needAWebsiteBtn > a {
   text-decoration: none;
   color: rgba(255, 255, 255, 0.9);
+  font-weight: 500;
+  text-transform: uppercase;
 }
 
 .wrapperSmall {
@@ -499,6 +502,65 @@ span {
     -webkit-transform: translateY(-200%);
             transform: translateY(-200%);
   }
+}
+
+.home__nav2 {
+  width: 100%;
+  height: 3rem;
+  background-color: white;
+  color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0.3rem 3rem;
+  font-size: 0.8rem;
+  font-weight: 500;
+  overflow: hidden;
+  display: none;
+}
+
+.home__nav2--logo {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 70%;
+          flex: 0 0 70%;
+  cursor: pointer;
+}
+
+.home__nav2--list {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.home__nav2--list > li {
+  list-style-type: none;
+}
+
+.home__nav2--list > li a {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.Home,
+.about,
+.portfolio,
+.plans,
+.contacts {
+  cursor: pointer;
 }
 
 .mywork__section {
@@ -698,6 +760,10 @@ span {
   text-decoration: none;
 }
 
+#codeText > a {
+  cursor: text;
+}
+
 .Plans {
   width: 100%;
   height: 100vh;
@@ -837,6 +903,7 @@ span {
   font-weight: 600;
   color: white;
   margin-bottom: 1rem;
+  cursor: pointer;
 }
 
 .FAQ__1, .FAQ__2, .FAQ__3 {
@@ -845,11 +912,22 @@ span {
   background-color: white;
   margin-bottom: 0.2rem;
   padding: 0.7rem 0 0 1rem;
-  cursor: pointer;
   color: rgba(0, 0, 0, 0.8);
+}
+
+.FAQ__1--heading, .FAQ__2--heading, .FAQ__3--heading {
+  cursor: pointer;
 }
 
 .FAQ__1--text, .FAQ__2--text, .FAQ__3--text {
   display: none;
+}
+
+.cross {
+  fill: black;
+  width: 1rem;
+  height: 1rem;
+  margin-top: 1rem;
+  cursor: pointer;
 }
 /*# sourceMappingURL=main.css.map */

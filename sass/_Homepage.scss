@@ -93,10 +93,13 @@
 .hireBtn > a {
   text-decoration: none;
   color: rgba(0, 0, 0, 0.75);
+  text-transform: uppercase;
 }
 .needAWebsiteBtn > a {
   text-decoration: none;
   color: rgba(255, 255, 255, 0.9);
+  font-weight: 500;
+  text-transform: uppercase;
 }
 .wrapperSmall {
   box-sizing: content-box;
@@ -141,4 +144,44 @@ span {
   100% {
     transform: translateY(-200%);
   }
+}
+.home__nav2 {
+  width: 100%;
+  height: 3rem;
+  background-color: rgba(255, 255, 255, 1);
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.3rem 3rem;
+  font-size: 0.8rem;
+  font-weight: 500;
+  overflow: hidden;
+  display: none;
+  &--logo {
+    flex: 0 0 70%;
+    cursor: pointer;
+  }
+  &--list {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+  }
+  &--list > li {
+    list-style-type: none;
+  }
+  &--list > li a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    cursor: pointer;
+  }
+}
+
+.Home,
+.about,
+.portfolio,
+.plans,
+.contacts {
+  cursor: pointer;
 }
