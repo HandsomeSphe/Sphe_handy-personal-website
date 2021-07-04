@@ -27,6 +27,20 @@ const userName = document.querySelector("#name");
 const userEmail = document.querySelector("#email");
 const message = document.querySelector("#mssg");
 const submit = document.querySelector(".submit");
+///////////////////////////////////////////
+///////////////// The FAQs buttons
+let showMoreBtn1 = document.querySelector(".FAQ__1--headingBtn");
+let showMoreBtn2 = document.querySelector(".FAQ__2--headingBtn");
+let showMoreBtn3 = document.querySelector(".FAQ__3--headingBtn");
+let showLessBtn1 = document.querySelector(".FAQ__1--headingBtnLess");
+let showLessBtn2 = document.querySelector(".FAQ__2--headingBtnLess");
+let showLessBtn3 = document.querySelector(".FAQ__3--headingBtnLess");
+let showText1 = document.querySelector(".FAQ__1--text");
+let showText2 = document.querySelector(".FAQ__2--text");
+let showText3 = document.querySelector(".FAQ__3--text");
+let FaqBox1 = document.querySelector(".FAQ__1");
+let FaqBox2 = document.querySelector(".FAQ__2");
+let FaqBox3 = document.querySelector(".FAQ__3");
 
 submit.addEventListener("click", () => {
   setTimeout(() => {
@@ -35,9 +49,6 @@ submit.addEventListener("click", () => {
     message.value = "";
   }, 1000);
 });
-
-///////////////////////////////////////////
-///////////////// What will happen when you click the FAQ
 
 ///////////////////////////////////////////
 ///////////////// Bring up the second navigation bar when you scroll down
@@ -103,4 +114,43 @@ icontactsTab.addEventListener("click", () => {
   contactsPage.scrollIntoView({
     behavior: "smooth",
   });
+});
+
+///////////////////////////////////////////
+///////////////// What will happen when you click the show more button in the FAQ
+showMoreBtn1.addEventListener("click", () => {
+  FaqBox1.style.height = "15vh";
+  showText1.style.display = "block";
+  showMoreBtn1.style.display = "none";
+  showLessBtn1.style.display = "block";
+});
+showLessBtn1.addEventListener("click", () => {
+  FaqBox1.style.height = "8vh";
+  showText1.style.display = "none";
+  showMoreBtn1.style.display = "block";
+  showLessBtn1.style.display = "none";
+});
+showMoreBtn2.addEventListener("click", () => {
+  FaqBox2.style.height = "20vh";
+  showText2.style.display = "block";
+  showMoreBtn2.style.display = "none";
+  showLessBtn2.style.display = "block";
+});
+showLessBtn2.addEventListener("click", () => {
+  FaqBox2.style.height = "8vh";
+  showText2.style.display = "none";
+  showMoreBtn2.style.display = "block";
+  showLessBtn2.style.display = "none";
+});
+showMoreBtn3.addEventListener("click", () => {
+  FaqBox3.style.height = "15vh";
+  showText3.style.display = "block";
+  showMoreBtn3.style.display = "none";
+  showLessBtn3.style.display = "block";
+});
+showLessBtn3.addEventListener("click", () => {
+  FaqBox3.style.height = "8vh";
+  showText3.style.display = "none";
+  showMoreBtn3.style.display = "block";
+  showLessBtn3.style.display = "none";
 });

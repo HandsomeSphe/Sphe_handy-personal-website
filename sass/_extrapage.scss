@@ -29,12 +29,15 @@
   &__1--heading,
   &__2--heading,
   &__3--heading {
-    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
   }
   &__1--text,
   &__2--text,
   &__3--text {
     display: none;
+    font-size: 0.7rem;
+    font-weight: 500;
   }
 }
 .cross {
@@ -43,4 +46,29 @@
   height: 1rem;
   margin-top: 1rem;
   cursor: pointer;
+}
+.FAQ__1--headingBtn,
+.FAQ__2--headingBtn,
+.FAQ__3--headingBtn {
+  font-size: 0.7rem;
+  border: 1px solid #666;
+  margin-right: 1.5rem;
+  height: 1.8rem;
+  width: 5rem;
+  text-align: center;
+  padding: 0.4rem;
+  cursor: pointer;
+}
+.FAQ__1--headingBtnLess,
+.FAQ__2--headingBtnLess,
+.FAQ__3--headingBtnLess {
+  font-size: 0.7rem;
+  border: 1px solid #666;
+  margin-right: 1.5rem;
+  height: 1.8rem;
+  width: 5rem;
+  text-align: center;
+  padding: 0.4rem;
+  cursor: pointer;
+  display: none;
 }
