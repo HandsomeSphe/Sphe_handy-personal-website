@@ -1,4 +1,37 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+@mixin repsond($breakpoint) {
+  @if $breakpoint == s-phone {
+    @media only screen and (max-width: 25em) {
+      @content;
+    }
+  }
+  @if $breakpoint == m-phone {
+    @media only screen and (max-width: 31.25em) {
+      @content;
+    }
+  }
+  @if $breakpoint == x-phone {
+    @media only screen and (max-width: 37.5em) {
+      @content;
+    }
+  }
+  @if $breakpoint == tab-port {
+    @media only screen and (max-width: 43.75em) {
+      @content;
+    }
+  }
+  @if $breakpoint == tab-land {
+    @media only screen and (max-width: 56.65em) {
+      @content;
+    }
+  }
+  @if $breakpoint == Desktop {
+    @media only screen and (min-width: 62.5em) {
+      @content;
+    }
+  }
+}
 *,
 *::before,
 *::after {
@@ -6,10 +39,14 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 body {
   font-family: poppins, sans-serif;
   font-size: 62.5%;
   font-weight: 400;
+  @include repsond(s-phone) {
+    font-size: 62.5%;
+  }
 }
 @mixin box {
   width: 100%;
@@ -17,11 +54,19 @@ body {
   border: 1px solid rgba(211, 211, 211, 0.5);
   text-align: center;
   padding: 1rem;
+  @include repsond(s-phone) {
+    padding: 0.6rem;
+  }
 }
 @mixin iconResize {
   width: 3rem;
   height: 3rem;
   margin: 15% 40% 10% 40%;
+  @include repsond(s-phone) {
+    width: 1.6rem;
+    height: 1.6rem;
+    margin: 5% 30% 5% 30%;
+  }
 }
 @mixin myworkGrids {
   display: grid;

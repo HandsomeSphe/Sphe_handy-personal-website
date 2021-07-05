@@ -14,11 +14,25 @@ body {
   font-weight: 400;
 }
 
+@media only screen and (max-width: 25em) {
+  body {
+    font-size: 62.5%;
+  }
+}
+
 .About {
   width: 100%;
   height: 100vh;
   background-color: black;
   padding: 3rem 10rem 0 10rem;
+}
+
+@media only screen and (max-width: 25em) {
+  .About {
+    width: 100%;
+    height: 150vh;
+    padding: 1.5rem;
+  }
 }
 
 .About__boxes {
@@ -32,12 +46,27 @@ body {
   color: white;
 }
 
+@media only screen and (max-width: 25em) {
+  .About__boxes {
+    -ms-grid-columns: 11rem 11rem;
+        grid-template-columns: 11rem 11rem;
+    -ms-grid-rows: 11rem 11rem 11rem;
+        grid-template-rows: 11rem 11rem 11rem;
+  }
+}
+
 .About__boxes--1, .About__boxes--2, .About__boxes--3, .About__boxes--4, .About__boxes--5, .About__boxes--6 {
   width: 100%;
   height: auto;
   border: 1px solid rgba(211, 211, 211, 0.5);
   text-align: center;
   padding: 1rem;
+}
+
+@media only screen and (max-width: 25em) {
+  .About__boxes--1, .About__boxes--2, .About__boxes--3, .About__boxes--4, .About__boxes--5, .About__boxes--6 {
+    padding: 0.6rem;
+  }
 }
 
 .About__boxes--1 > h3,
@@ -49,6 +78,18 @@ body {
   font-size: 1rem;
   color: rgba(255, 255, 255, 0.9);
   margin-bottom: 0.3rem;
+}
+
+@media only screen and (max-width: 25em) {
+  .About__boxes--1 > h3,
+  .About__boxes--2 > h3,
+  .About__boxes--3 > h3,
+  .About__boxes--4 > h3,
+  .About__boxes--5 > h3,
+  .About__boxes--6 > h3 {
+    font-size: 0.8rem;
+    margin-bottom: 0.1rem;
+  }
 }
 
 .About__boxes--1 > p,
@@ -72,6 +113,19 @@ body {
   margin: 15% 40% 10% 40%;
 }
 
+@media only screen and (max-width: 25em) {
+  #code,
+  #globe,
+  #resize,
+  #gauge,
+  #tools,
+  #circle {
+    width: 1.6rem;
+    height: 1.6rem;
+    margin: 5% 30% 5% 30%;
+  }
+}
+
 .About__me {
   width: 100%;
   height: 20vh;
@@ -79,6 +133,16 @@ body {
   font-weight: 400;
   font-size: 0.8rem;
   line-height: 1.5rem;
+}
+
+@media only screen and (max-width: 25em) {
+  .About__me {
+    width: 100%;
+    height: 15vh;
+    font-size: 0.765rem;
+    line-height: auto;
+    margin-bottom: 7rem;
+  }
 }
 
 .Contacts {
@@ -100,6 +164,13 @@ body {
   display: flex;
   padding-top: 4rem;
   padding-left: 2rem;
+}
+
+@media only screen and (max-width: 25em) {
+  .Contacts__wrapper {
+    width: 100%;
+    height: 100vh;
+  }
 }
 
 .form {
@@ -177,6 +248,13 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+@media only screen and (max-width: 25em) {
+  .footer {
+    width: 100%;
+    height: 100vh;
+  }
 }
 
 .footer__heading {
@@ -327,6 +405,13 @@ body {
   position: relative;
 }
 
+@media only screen and (max-width: 25em) {
+  .home {
+    width: 100%;
+    padding: 1.3rem 2rem;
+  }
+}
+
 .home__nav {
   color: white;
   width: 100%;
@@ -342,8 +427,16 @@ body {
           align-items: center;
   padding-top: 1rem;
   font-size: 0.8rem;
-  font-weight: 500;
+  font-weight: 600;
   text-transform: uppercase;
+}
+
+@media only screen and (max-width: 25em) {
+  .home__nav {
+    width: 100%;
+    height: 7vh;
+    padding-top: 0.7rem;
+  }
 }
 
 .home__nav--logo {
@@ -365,6 +458,12 @@ body {
           justify-content: space-between;
 }
 
+@media only screen and (max-width: 25em) {
+  .home__nav--list {
+    display: none;
+  }
+}
+
 .home__nav--list > li {
   list-style-type: none;
 }
@@ -372,7 +471,7 @@ body {
 .home__nav--list > li a {
   text-decoration: none;
   color: white;
-  font-weight: 500;
+  font-weight: 600;
   cursor: pointer;
 }
 
@@ -382,9 +481,22 @@ body {
   margin: 10rem 0 1rem 0;
 }
 
+@media only screen and (max-width: 25em) {
+  .home__body--title {
+    margin: 10rem 0 0.5rem 0;
+  }
+}
+
 .home__body--title > p {
   color: rgba(255, 255, 255, 0.75);
   font-size: 1rem;
+}
+
+@media only screen and (max-width: 25em) {
+  .home__body--title > p {
+    font-size: 0.6rem;
+    font-weight: 600;
+  }
 }
 
 .home__body--buttons {
@@ -399,6 +511,12 @@ body {
           justify-content: space-between;
 }
 
+@media only screen and (max-width: 25em) {
+  .home__body--buttons {
+    width: 63%;
+  }
+}
+
 .home__body--buttons > .hireBtn {
   width: 8rem;
   height: 5.7vh;
@@ -411,6 +529,15 @@ body {
   cursor: pointer;
 }
 
+@media only screen and (max-width: 25em) {
+  .home__body--buttons > .hireBtn {
+    width: 6rem;
+    height: 5.7vh;
+    font-size: 0.6rem;
+    font-weight: 700;
+  }
+}
+
 .home__body--buttons > .needAWebsiteBtn {
   width: 8rem;
   height: 5.7vh;
@@ -418,9 +545,18 @@ body {
   border: 1px solid lightgray;
   text-align: center;
   padding: 0.5rem 0;
-  font-weight: 500;
+  font-weight: 700;
   font-size: 0.7rem;
   cursor: pointer;
+}
+
+@media only screen and (max-width: 25em) {
+  .home__body--buttons > .needAWebsiteBtn {
+    width: 6rem;
+    height: 5.7vh;
+    font-size: 0.6rem;
+    font-weight: 700;
+  }
 }
 
 .hireBtn > a {
@@ -445,9 +581,16 @@ body {
   height: 4.2rem;
   color: rgba(255, 255, 255, 0.9);
   font-size: 2.2rem;
-  font-weight: 500;
+  font-weight: 600;
   text-transform: uppercase;
   font-family: poppins;
+}
+
+@media only screen and (max-width: 25em) {
+  .wrapperSmall {
+    font-size: 1.2rem;
+    height: 2.3rem;
+  }
 }
 
 .words {
@@ -460,10 +603,18 @@ span {
   padding-left: 1rem;
   padding-top: 0.35rem;
   font-size: 2.2rem;
-  font-weight: 500;
+  font-weight: 600;
   -webkit-animation: spin_words 6s infinite;
           animation: spin_words 6s infinite;
   text-transform: uppercase;
+}
+
+@media only screen and (max-width: 25em) {
+  span {
+    font-size: 1.2rem;
+    padding-left: 0.5rem;
+    padding-top: 0.1rem;
+  }
 }
 
 @-webkit-keyframes spin_words {
@@ -586,6 +737,13 @@ span {
   padding: 5rem 3rem 0 3rem;
 }
 
+@media only screen and (max-width: 25em) {
+  .mywork__section {
+    width: 100%;
+    height: 200vh;
+  }
+}
+
 .mywork {
   width: 100%;
   height: 100vh;
@@ -596,6 +754,12 @@ span {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+}
+
+@media only screen and (max-width: 25em) {
+  .mywork {
+    width: 100%;
+  }
 }
 
 .mywork__wrapper {
@@ -619,6 +783,17 @@ span {
   grid-row: 2/10;
 }
 
+@media only screen and (max-width: 25em) {
+  .mywork__wrapper--pic {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 10;
+    grid-column: 1/11;
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 4;
+    grid-row: 2/6;
+  }
+}
+
 .mywork__wrapper--description {
   background-color: white;
   -webkit-box-shadow: 4px 0 50px rgba(0, 0, 0, 0.25);
@@ -632,8 +807,25 @@ span {
   grid-row: 3/7;
 }
 
+@media only screen and (max-width: 25em) {
+  .mywork__wrapper--description {
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 8;
+    grid-column: 2/10;
+    -ms-grid-row: 5;
+    -ms-grid-row-span: 3;
+    grid-row: 5/8;
+  }
+}
+
 .mywork__wrapper--description > .title {
   color: rgba(0, 0, 0, 0.9);
+}
+
+@media only screen and (max-width: 25em) {
+  .mywork__wrapper--description > .title {
+    font-size: 0.7rem;
+  }
 }
 
 .mywork__wrapper--description > .subtitle {
@@ -641,10 +833,23 @@ span {
   margin-bottom: 0.7rem;
 }
 
+@media only screen and (max-width: 25em) {
+  .mywork__wrapper--description > .subtitle {
+    margin-bottom: 0.4rem;
+    font-size: 0.6rem;
+  }
+}
+
 .mywork__wrapper--description > .descript {
   font-size: 0.8rem;
   color: rgba(0, 0, 0, 0.5);
   margin-bottom: 0.7rem;
+}
+
+@media only screen and (max-width: 25em) {
+  .mywork__wrapper--description > .descript {
+    font-size: 0.6rem;
+  }
 }
 
 .mywork__wrapper2 {
@@ -668,6 +873,17 @@ span {
   grid-row: 2/5;
 }
 
+@media only screen and (max-width: 25em) {
+  .mywork__wrapper2--pic {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 10;
+    grid-column: 1/11;
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 5;
+    grid-row: 2/7;
+  }
+}
+
 .mywork__wrapper2--description {
   background-color: white;
   -webkit-box-shadow: 4px 0 50px rgba(0, 0, 0, 0.25);
@@ -681,13 +897,37 @@ span {
   padding: 1rem;
 }
 
+@media only screen and (max-width: 25em) {
+  .mywork__wrapper2--description {
+    -ms-grid-row: 5;
+    -ms-grid-row-span: 4;
+    grid-row: 5/9;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 8;
+    grid-column: 2/10;
+  }
+}
+
 .mywork__wrapper2--description > .title {
   color: rgba(0, 0, 0, 0.9);
+}
+
+@media only screen and (max-width: 25em) {
+  .mywork__wrapper2--description > .title {
+    font-size: 0.7rem;
+  }
 }
 
 .mywork__wrapper2--description > .subtitle {
   color: rgba(0, 0, 0, 0.6);
   margin-bottom: 0.7rem;
+}
+
+@media only screen and (max-width: 25em) {
+  .mywork__wrapper2--description > .subtitle {
+    font-size: 0.6rem;
+    margin-bottom: 0.4rem;
+  }
 }
 
 .mywork__wrapper2--description > .descript {
@@ -696,10 +936,24 @@ span {
   margin-bottom: 0.7rem;
 }
 
+@media only screen and (max-width: 25em) {
+  .mywork__wrapper2--description > .descript {
+    font-size: 0.6rem;
+  }
+}
+
 #penty,
 #cafe {
   width: 100%;
   height: 20rem;
+}
+
+@media only screen and (max-width: 25em) {
+  #penty,
+  #cafe {
+    width: 100%;
+    height: 12rem;
+  }
 }
 
 #eye,
@@ -722,6 +976,13 @@ span {
   display: flex;
 }
 
+@media only screen and (max-width: 25em) {
+  .buttons,
+  .buttons2 {
+    width: 90%;
+  }
+}
+
 .buttons2 > .viewText a {
   text-decoration: none;
   color: white;
@@ -740,6 +1001,13 @@ span {
   cursor: pointer;
 }
 
+@media only screen and (max-width: 25em) {
+  .viewBtn {
+    width: 40%;
+    height: 1.7rem;
+  }
+}
+
 .codeBtn,
 .codeBtn2 {
   width: 40%;
@@ -750,6 +1018,14 @@ span {
   height: 2rem;
   cursor: text;
   background-color: rgba(0, 0, 0, 0.12);
+}
+
+@media only screen and (max-width: 25em) {
+  .codeBtn,
+  .codeBtn2 {
+    width: 40%;
+    height: 1.7rem;
+  }
 }
 
 .codeBtn2 {
@@ -794,6 +1070,13 @@ span {
   height: 100vh;
   background-color: black;
   padding: 5rem 0;
+}
+
+@media only screen and (max-width: 25em) {
+  .Plans {
+    width: 100%;
+    height: 100vh;
+  }
 }
 
 .contaneir {
@@ -917,6 +1200,13 @@ span {
   background-color: black;
 }
 
+@media only screen and (max-width: 25em) {
+  .extrapage {
+    width: 100%;
+    height: 100vh;
+  }
+}
+
 .FAQ {
   width: 100%;
   height: 100%;
@@ -1007,6 +1297,13 @@ span {
   visibility: none;
 }
 
+@media only screen and (max-width: 25em) {
+  .hirePopup {
+    width: 70%;
+    padding: 1rem;
+  }
+}
+
 .hirePopup__heading {
   width: 100%;
   height: 2vh;
@@ -1026,6 +1323,12 @@ span {
   font-weight: 500;
 }
 
+@media only screen and (max-width: 25em) {
+  .hirePopup__heading--text {
+    font-size: 0.7rem;
+  }
+}
+
 .hirePopup__heading--remove {
   font-size: 0.8rem;
   font-weight: 500;
@@ -1035,6 +1338,15 @@ span {
   width: 4rem;
   color: #666;
   cursor: pointer;
+}
+
+@media only screen and (max-width: 25em) {
+  .hirePopup__heading--remove {
+    font-size: 0.6rem;
+    padding: 0 0.4rem;
+    height: 1rem;
+    width: 3rem;
+  }
 }
 
 .hirePopup__main {
@@ -1050,6 +1362,14 @@ span {
 .hirePopup__main--text {
   font-weight: 500;
   margin-bottom: 2rem;
+}
+
+@media only screen and (max-width: 25em) {
+  .hirePopup__main--text {
+    font-size: 0.6rem;
+    margin-top: 0.3rem;
+    color: #666;
+  }
 }
 
 #form,
@@ -1073,6 +1393,15 @@ span {
   font-family: poppins, sans-serif;
 }
 
+@media only screen and (max-width: 25em) {
+  .companyName,
+  .companyEmail {
+    width: 90%;
+    height: 1.5rem;
+    border: 1px solid #666;
+  }
+}
+
 .mssgCompany {
   width: 45%;
   height: 20vh;
@@ -1081,6 +1410,13 @@ span {
   margin-bottom: 0.3rem;
   padding: 0.5rem;
   font-family: poppins, sans-serif;
+}
+
+@media only screen and (max-width: 25em) {
+  .mssgCompany {
+    width: 90%;
+    border: 1px solid #666;
+  }
 }
 
 .mssgCompany:active,
@@ -1108,6 +1444,15 @@ span {
   cursor: pointer;
 }
 
+@media only screen and (max-width: 25em) {
+  #Hsubmit,
+  #Csubmit {
+    width: 90%;
+    height: 2.3;
+    font-size: 0.7rem;
+  }
+}
+
 .websitePopup {
   position: absolute;
   top: 50%;
@@ -1122,6 +1467,13 @@ span {
   padding: 2rem;
   display: none;
   visibility: none;
+}
+
+@media only screen and (max-width: 25em) {
+  .websitePopup {
+    width: 70%;
+    padding: 1rem;
+  }
 }
 
 .websitePopup__heading {
@@ -1143,6 +1495,12 @@ span {
   font-weight: 500;
 }
 
+@media only screen and (max-width: 25em) {
+  .websitePopup__heading--text {
+    font-size: 0.7rem;
+  }
+}
+
 .websitePopup__heading--remove {
   font-size: 0.8rem;
   font-weight: 500;
@@ -1152,6 +1510,15 @@ span {
   width: 4rem;
   color: #666;
   cursor: pointer;
+}
+
+@media only screen and (max-width: 25em) {
+  .websitePopup__heading--remove {
+    font-size: 0.6rem;
+    padding: 0 0.4rem;
+    height: 1rem;
+    width: 3rem;
+  }
 }
 
 .websitePopup__main {
@@ -1169,6 +1536,14 @@ span {
   margin-bottom: 2rem;
 }
 
+@media only screen and (max-width: 25em) {
+  .websitePopup__main--text {
+    font-size: 0.6rem;
+    margin-top: 0.3rem;
+    color: #666;
+  }
+}
+
 .clientName,
 .clientPlan,
 .clientEmail {
@@ -1180,6 +1555,17 @@ span {
   font-family: poppins, sans-serif;
 }
 
+@media only screen and (max-width: 25em) {
+  .clientName,
+  .clientPlan,
+  .clientEmail {
+    width: 90%;
+    height: 2.3rem;
+    height: 1.5rem;
+    border: 1px solid #666;
+  }
+}
+
 .mssgClient {
   width: 45%;
   height: 20vh;
@@ -1188,6 +1574,14 @@ span {
   margin-bottom: 0.3rem;
   padding: 0.5rem;
   font-family: poppins, sans-serif;
+}
+
+@media only screen and (max-width: 25em) {
+  .mssgClient {
+    width: 90%;
+    height: 23vh;
+    border: 1px solid #666;
+  }
 }
 
 .mssgClient:active,
