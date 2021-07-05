@@ -11,7 +11,29 @@ let companyMssg = document.querySelector(".mssgCompany");
 let hirePopup = document.querySelector(".hirePopup");
 let websitePopup = document.querySelector(".websitePopup");
 let removePopupWeb = document.querySelector(".websitePopup__heading--remove");
+let hireSubmitBtn = document.querySelector("#Hsubmit");
+let ClientSubmitBtn = document.querySelector("#Csubmit");
+let clientName = document.querySelector(".clientName");
+let clientPlan = document.querySelector(".clientPlan");
+let clientEmail = document.querySelector(".clientEmail");
+let clientMssg = document.querySelector(".mssgClient");
+function clearHireDetails() {
+  setTimeout(() => {
+    companyName.value = "";
+    companyEmail.value = "";
+    companyMssg.value = "";
+  }, 1000);
+}
+hireSubmitBtn.addEventListener("click", clearHireDetails);
 
+ClientSubmitBtn.addEventListener("click", () => {
+  setTimeout(() => {
+    clientName.value = "";
+    clientPlan.value = "";
+    clientEmail.value = "";
+    clientMssg.value = "";
+  }, 1000);
+});
 ///////////////////////////////////////////
 ///////////////// Second(one on top) navigation tabs and pages
 let homeTab = document.querySelector(".Home");
