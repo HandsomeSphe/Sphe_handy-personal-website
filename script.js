@@ -154,7 +154,7 @@ icontactsTab.addEventListener("click", () => {
 ///////////////////////////////////////////
 ///////////////// What will happen when you click the show more button in the FAQ
 showMoreBtn1.addEventListener("click", () => {
-  FaqBox1.style.height = "15vh";
+  FaqBox1.style.height = "35vh";
   showText1.style.display = "block";
   showMoreBtn1.style.display = "none";
   showLessBtn1.style.display = "block";
@@ -166,7 +166,7 @@ showLessBtn1.addEventListener("click", () => {
   showLessBtn1.style.display = "none";
 });
 showMoreBtn2.addEventListener("click", () => {
-  FaqBox2.style.height = "20vh";
+  FaqBox2.style.height = "35vh";
   showText2.style.display = "block";
   showMoreBtn2.style.display = "none";
   showLessBtn2.style.display = "block";
@@ -178,7 +178,7 @@ showLessBtn2.addEventListener("click", () => {
   showLessBtn2.style.display = "none";
 });
 showMoreBtn3.addEventListener("click", () => {
-  FaqBox3.style.height = "15vh";
+  FaqBox3.style.height = "35vh";
   showText3.style.display = "block";
   showMoreBtn3.style.display = "none";
   showLessBtn3.style.display = "block";

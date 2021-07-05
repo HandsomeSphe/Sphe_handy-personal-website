@@ -7,6 +7,11 @@
   background-size: cover;
   background-repeat: no-repeat;
   padding: 7rem 0 0 12rem;
+  @include repsond(s-phone) {
+    width: 100%;
+    height: 100vh;
+    padding: 10rem 3rem;
+  }
   &__wrapper {
     width: 80%;
     height: 65vh;
@@ -17,6 +22,8 @@
     @include repsond(s-phone) {
       width: 100%;
       height: 100vh;
+      flex-direction: column;
+      padding: 2rem;
     }
   }
 }
@@ -24,6 +31,9 @@
   flex: 0 0 60%;
   display: flex;
   flex-direction: column;
+  @include repsond(s-phone) {
+    flex: 0 0 60%;
+  }
 }
 #name,
 #email,
@@ -35,6 +45,9 @@
   padding-left: 0.3rem;
   background-color: transparent;
   color: #fff;
+  @include repsond(s-phone) {
+    width: 95%;
+  }
 }
 ::placeholder {
   color: lightgray;
@@ -51,10 +64,17 @@
   cursor: pointer;
   border: none;
   font-family: poppins, sans-serif;
+  @include repsond(s-phone) {
+    width: 95%;
+  }
 }
 .ownerInfo > h4 {
   color: lightgray;
   margin-bottom: 0.6rem;
   font-weight: 700;
   font-size: 0.8rem;
+
+  @include repsond(s-phone) {
+    font-size: 0.6rem;
+  }
 }

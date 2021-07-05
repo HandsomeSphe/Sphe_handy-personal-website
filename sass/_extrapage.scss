@@ -11,6 +11,9 @@
   width: 100%;
   height: 100%;
   padding: 4rem;
+  @include repsond(s-phone) {
+    padding: 2rem;
+  }
 
   &__title {
     font-size: 1rem;
@@ -18,6 +21,10 @@
     color: white;
     margin-bottom: 1rem;
     cursor: pointer;
+    @include repsond(s-phone) {
+      font-size: 0.7rem;
+      font-weight: 400;
+    }
   }
   &__1,
   &__2,
@@ -29,12 +36,21 @@
     padding: 0.7rem 0 0 1rem;
 
     color: rgba(0, 0, 0, 0.8);
+    @include repsond(s-phone) {
+      width: 100%;
+      height: 15vh;
+      padding: 0.7rem;
+    }
   }
   &__1--heading,
   &__2--heading,
   &__3--heading {
     display: flex;
     justify-content: space-between;
+    @include repsond(s-phone) {
+      font-size: 0.5rem;
+      align-items: center;
+    }
   }
   &__1--text,
   &__2--text,
@@ -63,6 +79,16 @@
   text-align: center;
   padding: 0.4rem;
   cursor: pointer;
+  @include repsond(s-phone) {
+    font-size: 0.5rem;
+    height: 1rem;
+    width: 5rem;
+    padding: 0.15rem;
+    margin-right: 0.2rem;
+    border: none;
+    border-radius: 50rem;
+    background-color: lightcoral;
+  }
 }
 .FAQ__1--headingBtnLess,
 .FAQ__2--headingBtnLess,
@@ -76,4 +102,14 @@
   padding: 0.4rem;
   cursor: pointer;
   display: none;
+  @include repsond(s-phone) {
+    font-size: 0.5rem;
+    height: 1rem;
+    width: 5rem;
+    padding: 0.15rem;
+    margin-right: 0.2rem;
+    border: none;
+    border-radius: 50rem;
+    background-color: lightcoral;
+  }
 }
