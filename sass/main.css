@@ -72,6 +72,15 @@ body {
   margin: 15% 40% 10% 40%;
 }
 
+.About__me {
+  width: 100%;
+  height: 20vh;
+  color: white;
+  font-weight: 400;
+  font-size: 0.8rem;
+  line-height: 1.5rem;
+}
+
 .Contacts {
   width: 100%;
   height: 100vh;
@@ -315,6 +324,7 @@ body {
   background-size: cover;
   background-position: center;
   padding: 0 3.5rem;
+  position: relative;
 }
 
 .home__nav {
@@ -943,6 +953,7 @@ span {
   display: none;
   font-size: 0.7rem;
   font-weight: 500;
+  width: 70%;
 }
 
 .cross {
@@ -978,5 +989,214 @@ span {
   padding: 0.4rem;
   cursor: pointer;
   display: none;
+}
+
+.hirePopup {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 65%;
+  height: 65vh;
+  background-color: white;
+  padding: 2rem;
+  display: none;
+  visibility: none;
+}
+
+.hirePopup__heading {
+  width: 100%;
+  height: 4vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.hirePopup__heading--text {
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.hirePopup__heading--remove {
+  font-size: 0.8rem;
+  font-weight: 500;
+  border-bottom: 0.3px solid #666;
+  padding: 0 0.6rem;
+  height: 1.7rem;
+  width: 4.5rem;
+  color: #666;
+  cursor: pointer;
+}
+
+.hirePopup__main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.hirePopup__main--text {
+  font-weight: 500;
+  margin-bottom: 2rem;
+}
+
+#form,
+#websiteform {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.companyName,
+.companyEmail {
+  width: 45%;
+  height: 2rem;
+  color: rgba(0, 0, 0, 0.7);
+  margin-bottom: 0.3rem;
+  padding: 0.5rem;
+  font-family: poppins, sans-serif;
+}
+
+.mssgCompany {
+  width: 45%;
+  height: 20vh;
+  resize: none;
+  color: #000;
+  margin-bottom: 0.3rem;
+  padding: 0.5rem;
+  font-family: poppins, sans-serif;
+}
+
+.mssgCompany:active,
+.mssgCompany:focus {
+  outline: none;
+}
+
+.companyName:active,
+.companyName:focus,
+.companyEmail:active,
+.companyEmail:focus {
+  outline: none;
+}
+
+#Hsubmit,
+#Csubmit {
+  width: 45%;
+  height: 2rem;
+  background-color: #666;
+  color: white;
+  border: none;
+  font-family: poppins, sans-serif;
+  font-weight: 400;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+.websitePopup {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 65%;
+  height: 65vh;
+  background-color: white;
+  padding: 2rem;
+  display: none;
+  visibility: none;
+}
+
+.websitePopup__heading {
+  width: 100%;
+  height: 4vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.websitePopup__heading--text {
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.websitePopup__heading--remove {
+  font-size: 0.8rem;
+  font-weight: 500;
+  border-bottom: 0.3px solid #666;
+  padding: 0 0.6rem;
+  height: 1.7rem;
+  width: 4.5rem;
+  color: #666;
+  cursor: pointer;
+}
+
+.websitePopup__main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.websitePopup__main--text {
+  font-weight: 500;
+  margin-bottom: 2rem;
+}
+
+.clientName,
+.clientPlan,
+.clientEmail {
+  width: 45%;
+  height: 2rem;
+  color: rgba(0, 0, 0, 0.7);
+  margin-bottom: 0.3rem;
+  padding: 0.5rem;
+  font-family: poppins, sans-serif;
+}
+
+.mssgClient {
+  width: 45%;
+  height: 20vh;
+  resize: none;
+  color: #000;
+  margin-bottom: 0.3rem;
+  padding: 0.5rem;
+  font-family: poppins, sans-serif;
+}
+
+.mssgClient:active,
+.mssgClient:focus {
+  outline: none;
+}
+
+.clientName:active,
+.clientName:focus,
+.clientPlan:active,
+.clientPlan:focus,
+.clientEmail:active,
+.clientEmail:focus {
+  outline: none;
 }
 /*# sourceMappingURL=main.css.map */

@@ -55,8 +55,121 @@
         </div>
       </section>
       <!---/////////////////////
+        ///////////////////THIS IS A POP-UP for HIRE ME //////////////-->
+      <div class="hirePopup">
+        <div class="hirePopup__heading">
+          <div class="hirePopup__heading--text">Keen to work with you</div>
+          <div class="hirePopup__heading--remove">remove</div>
+        </div>
+        <div class="hirePopup__main">
+          <div class="hirePopup__main--text">Please fill in the details</div>
+          <div class="hirePopup__main--form">
+            <form
+              id="form"
+              action="https://formspree.io/f/xzbyvzqn"
+              method="POST"
+            >
+              <label for="companyName">
+                <input
+                  type="text"
+                  name="companyName"
+                  placeholder="name of your company"
+                  class="companyName"
+                  required
+                />
+              </label>
+              <label for="email">
+                <input
+                  type="email"
+                  name="email"
+                  placeholder="email address"
+                  class="companyEmail"
+                  required
+                />
+              </label>
+              <textarea
+                name="message"
+                cols="30"
+                rows="10"
+                class="mssgCompany"
+                placeholder="message"
+                aria-autocomplete="none"
+              >
+              </textarea>
+              <button id="Hsubmit" type="submit">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <!---/////////////////////
+        ///////////////////THIS IS A POP-UP for need a website //////////////-->
+      <div class="websitePopup">
+        <div class="websitePopup__heading">
+          <div class="websitePopup__heading--text">
+            Welcome! how can I assist
+          </div>
+          <div class="websitePopup__heading--remove">remove</div>
+        </div>
+        <div class="websitePopup__main">
+          <div class="websitePopup__main--text">Please fill in the details</div>
+          <div class="websitePopup__main--form">
+            <form
+              id="websiteform"
+              action="https://formspree.io/f/xzbyvzqn"
+              method="POST"
+            >
+              <label for="clientName">
+                <input
+                  type="text"
+                  name="clientName"
+                  placeholder="Your name"
+                  class="clientName"
+                  required
+                />
+              </label>
+              <label for="clientPlan">
+                <input
+                  type="text"
+                  name="clientPlan"
+                  placeholder="website plan (e.g Basic or Premium)"
+                  class="clientPlan"
+                  required
+                />
+              </label>
+              <label for="clientEmail">
+                <input
+                  type="email"
+                  name="clientEmail"
+                  placeholder="email address"
+                  class="clientEmail"
+                  required
+                />
+              </label>
+              <textarea
+                name="clientMessage"
+                cols="30"
+                rows="10"
+                class="mssgClient"
+                placeholder="message"
+                aria-autocomplete="none"
+              >
+              </textarea>
+              <button id="Csubmit" type="submit">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <!---/////////////////////
         ///////////////////THIS IS AN ABOUT PAGE//////////////-->
       <section class="About">
+        <div class="About__me">
+          Hi guys, My name Sphelele Muthwa(Sphe_handy) from Durban, South
+          Africa. I am a front-end developer and I use vanilla JavaScript,
+          Html5, CSS3 and Sass to build static website. I am UI/UX website
+          designer as well. I have been a website designer and developer for 3
+          years now and I have work on a lot of projects. This is what I will
+          provide:
+        </div>
         <div class="About__boxes">
           <div class="About__boxes--1">
             <svg id="code">
@@ -504,7 +617,7 @@
         <div class="footer__1">
           <h3 class="footer__heading">Social media handles</h3>
           <div class="footer__1--Instagram">
-            <a href="https://www.instagram.com/Sphe_handy">
+            <a href="https://www.instagram.com/Sphe_handy" target="_blank">
               <svg class="instagram">
                 <use
                   xlink:href="Images/SVG/sprite.svg#icon-instagram-with-circle-2"
@@ -515,7 +628,7 @@
             <p>Sphe_handy</p>
           </div>
           <div class="footer__1--twitter">
-            <a href="#">
+            <a href="https://twitter.com/home" target="_blank">
               <svg class="twitter">
                 <use
                   xlink:href="Images/SVG/sprite.svg#icon-twitter-with-circle-2"
@@ -526,7 +639,7 @@
             <p>Sphe_handy</p>
           </div>
           <div class="footer__1--facebook">
-            <a href="https://www.facebook.com/">
+            <a href="https://www.facebook.com/" target="_blank">
               <svg class="facebook">
                 <use
                   xlink:href="Images/SVG/sprite.svg#icon-facebook-with-circle-2"
@@ -546,17 +659,20 @@
         <div class="footer__3">
           <h3 class="platforms__heading">Platforms</h3>
           <div class="footer__3--platforms">
-            <a href="https://dribbble.com/KingHandsome">
+            <a href="https://dribbble.com/KingHandsome" target="_blank">
               <svg class="dribble">
                 <use xlink:href="Images/SVG/sprite.svg#icon-dribble"></use>
               </svg>
             </a>
-            <a href="https://www.upwork.com/ab/find-work/">
+            <a href="https://www.upwork.com/ab/find-work/" target="_blank">
               <svg class="upwork">
-                <use xlink:href="Images/SVG/sprite.svg#icon-Upwork"></use>
+                <use
+                  xlink:href="Images/SVG/sprite.svg#icon-Upwork"
+                  target="_blank"
+                ></use>
               </svg>
             </a>
-            <a href="https://www.fiverr.com">
+            <a href="https://www.fiverr.com" target="_blank">
               <svg class="fiverr">
                 <use xlink:href="Images/SVG/sprite.svg#icon-Fiverr-Logo"></use>
               </svg>

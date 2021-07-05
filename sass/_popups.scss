@@ -1,0 +1,161 @@
+.hirePopup {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 65%;
+  height: 65vh;
+  background-color: white;
+  padding: 2rem;
+
+  display: none;
+  visibility: none;
+  &__heading {
+    width: 100%;
+    height: 4vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &--text {
+      font-size: 0.9rem;
+      font-weight: 500;
+    }
+    &--remove {
+      font-size: 0.8rem;
+      font-weight: 500;
+      border-bottom: 0.3px solid #666;
+      //border-radius: 5px;
+      padding: 0 0.6rem;
+      height: 1.7rem;
+      width: 4.5rem;
+      color: #666;
+      cursor: pointer;
+    }
+  }
+  &__main {
+    display: flex;
+    flex-direction: column;
+    &--text {
+      font-weight: 500;
+      margin-bottom: 2rem;
+    }
+  }
+}
+#form,
+#websiteform {
+  display: flex;
+  flex-direction: column;
+}
+.companyName,
+.companyEmail {
+  width: 45%;
+  height: 2rem;
+  color: rgba(0, 0, 0, 0.7);
+  margin-bottom: 0.3rem;
+  padding: 0.5rem;
+  font-family: poppins, sans-serif;
+}
+.mssgCompany {
+  width: 45%;
+  height: 20vh;
+  resize: none;
+  color: #000;
+  margin-bottom: 0.3rem;
+  padding: 0.5rem;
+  font-family: poppins, sans-serif;
+}
+.mssgCompany:active,
+.mssgCompany:focus {
+  outline: none;
+}
+.companyName:active,
+.companyName:focus,
+.companyEmail:active,
+.companyEmail:focus {
+  outline: none;
+}
+#Hsubmit,
+#Csubmit {
+  width: 45%;
+  height: 2rem;
+  background-color: #666;
+  color: white;
+  border: none;
+  font-family: poppins, sans-serif;
+  font-weight: 400;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+.websitePopup {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 65%;
+  height: 65vh;
+  background-color: white;
+  padding: 2rem;
+  display: none;
+  visibility: none;
+  &__heading {
+    width: 100%;
+    height: 4vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &--text {
+      font-size: 0.9rem;
+      font-weight: 500;
+    }
+    &--remove {
+      font-size: 0.8rem;
+      font-weight: 500;
+      border-bottom: 0.3px solid #666;
+      //border-radius: 5px;
+      padding: 0 0.6rem;
+      height: 1.7rem;
+      width: 4.5rem;
+      color: #666;
+      cursor: pointer;
+    }
+  }
+  &__main {
+    display: flex;
+    flex-direction: column;
+    &--text {
+      font-weight: 500;
+      margin-bottom: 2rem;
+    }
+  }
+}
+.clientName,
+.clientPlan,
+.clientEmail {
+  width: 45%;
+  height: 2rem;
+  color: rgba(0, 0, 0, 0.7);
+  margin-bottom: 0.3rem;
+  padding: 0.5rem;
+  font-family: poppins, sans-serif;
+}
+.mssgClient {
+  width: 45%;
+  height: 20vh;
+  resize: none;
+  color: #000;
+  margin-bottom: 0.3rem;
+  padding: 0.5rem;
+  font-family: poppins, sans-serif;
+}
+.mssgClient:active,
+.mssgClient:focus {
+  outline: none;
+}
+.clientName:active,
+.clientName:focus,
+.clientPlan:active,
+.clientPlan:focus,
+.clientEmail:active,
+.clientEmail:focus {
+  outline: none;
+}

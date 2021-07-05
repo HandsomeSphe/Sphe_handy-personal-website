@@ -1,6 +1,18 @@
 let secondNavigation = document.querySelector(".home__nav2");
 let firstNavigation = document.querySelector(".home__nav");
 ///////////////////////////////////////////
+///////////////// Home page buttons
+let needAwebsiteBtn = document.querySelector(".needAWebsiteBtn");
+let hireMeBtn = document.querySelector(".hireBtn");
+let removePopupHire = document.querySelector(".hirePopup__heading--remove");
+let companyName = document.querySelector(".companyName");
+let companyEmail = document.querySelector(".companyEmail");
+let companyMssg = document.querySelector(".mssgCompany");
+let hirePopup = document.querySelector(".hirePopup");
+let websitePopup = document.querySelector(".websitePopup");
+let removePopupWeb = document.querySelector(".websitePopup__heading--remove");
+
+///////////////////////////////////////////
 ///////////////// Second(one on top) navigation tabs and pages
 let homeTab = document.querySelector(".Home");
 let aboutTab = document.querySelector(".about");
@@ -95,6 +107,7 @@ iportfolioTab.addEventListener("click", () => {
     behavior: "smooth",
   });
 });
+needAwebsiteBtn.addEventListener("click", () => {});
 plansTab.addEventListener("click", () => {
   plansPage.scrollIntoView({
     behavior: "smooth",
@@ -153,4 +166,18 @@ showLessBtn3.addEventListener("click", () => {
   showText3.style.display = "none";
   showMoreBtn3.style.display = "block";
   showLessBtn3.style.display = "none";
+});
+removePopupHire.addEventListener("click", () => {
+  hirePopup.style.display = "none";
+  hirePopup.style.visibility = "none";
+});
+hireMeBtn.addEventListener("click", () => {
+  hirePopup.style.display = "block";
+});
+removePopupWeb.addEventListener("click", () => {
+  websitePopup.style.display = "none";
+  websitePopup.style.visibility = "none";
+});
+needAwebsiteBtn.addEventListener("click", () => {
+  websitePopup.style.display = "block";
 });
