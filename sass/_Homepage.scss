@@ -12,10 +12,16 @@
   background-position: center;
   padding: 0 3.5rem;
   position: relative;
+  @include repsond(m-phone) {
+    width: 100%;
+    height: 100vh;
+    padding: 1.4rem 2rem;
+  }
   @include repsond(s-phone) {
     width: 100%;
     padding: 1.3rem 2rem;
   }
+
   /////////////////
   //////////////NAVIGATION BAR //////////////////////////
   &__nav {
@@ -29,13 +35,16 @@
     font-size: 0.8rem;
     font-weight: 600;
     text-transform: uppercase;
+    @include repsond(m-phone) {
+      width: 100%;
+      height: 7vh;
+      padding-top: 0.7rem;
+    }
     @include repsond(s-phone) {
       width: 100%;
       height: 7vh;
       padding-top: 0.7rem;
     }
-    // position: sticky;
-    // top: 0;
 
     &--logo {
       flex: 0 0 65%;
@@ -45,6 +54,9 @@
       flex: 1;
       display: flex;
       justify-content: space-between;
+      @include repsond(m-phone) {
+        display: none;
+      }
       @include repsond(s-phone) {
         display: none;
       }
@@ -66,6 +78,9 @@
       width: 100%;
       height: 15vh;
       margin: 10rem 0 1rem 0;
+      @include repsond(m-phone) {
+        margin: 10rem 0 0.5rem 0;
+      }
       @include repsond(s-phone) {
         margin: 10rem 0 0.5rem 0;
       }
@@ -74,6 +89,10 @@
     &--title > p {
       color: rgba(255, 255, 255, 0.75);
       font-size: 1rem;
+      @include repsond(m-phone) {
+        font-size: 0.6rem;
+        font-weight: 600;
+      }
       @include repsond(s-phone) {
         font-size: 0.6rem;
         font-weight: 600;
@@ -85,6 +104,9 @@
       height: 7vh;
       display: flex;
       justify-content: space-between;
+      @include repsond(m-phone) {
+        width: 55%;
+      }
       @include repsond(s-phone) {
         width: 63%;
       }
@@ -99,11 +121,16 @@
       font-weight: 600;
       padding: 0.5rem 0;
       cursor: pointer;
+      @include repsond(m-phone) {
+        width: 7rem;
+        height: 6.6vh;
+      }
       @include repsond(s-phone) {
         width: 6rem;
         height: 5.7vh;
         font-size: 0.6rem;
         font-weight: 700;
+        padding: 0.3rem 0;
       }
     }
 
@@ -117,9 +144,14 @@
       font-weight: 700;
       font-size: 0.7rem;
       cursor: pointer;
+      @include repsond(m-phone) {
+        width: 7rem;
+        height: 6.6vh;
+      }
       @include repsond(s-phone) {
         width: 6rem;
         height: 5.7vh;
+        padding: 0.3rem 0;
         font-size: 0.6rem;
         font-weight: 700;
       }
@@ -146,9 +178,13 @@
   font-weight: 600;
   text-transform: uppercase;
   font-family: poppins;
+  @include repsond(m-phone) {
+    font-size: 1.5rem;
+    height: 2.4rem;
+  }
   @include repsond(s-phone) {
-    font-size: 1.2rem;
-    height: 2.3rem;
+    font-size: 1.5rem;
+    height: 2.7rem;
   }
 }
 .words {
@@ -163,6 +199,11 @@ span {
   font-weight: 600;
   animation: spin_words 6s infinite;
   text-transform: uppercase;
+  @include repsond(m-phone) {
+    font-size: 1.5rem;
+    padding-left: 0.6rem;
+    padding-top: 0.2rem;
+  }
   @include repsond(s-phone) {
     font-size: 1.2rem;
     padding-left: 0.5rem;
@@ -208,7 +249,13 @@ span {
   font-weight: 500;
   overflow: hidden;
   display: none;
+  @include repsond(m-phone) {
+    width: 100%;
+    padding: 0.3rem 2rem;
+  }
   @include repsond(s-phone) {
+    width: 100%;
+    padding: 0.3rem 2rem;
   }
   &--logo {
     flex: 0 0 70%;
@@ -218,6 +265,12 @@ span {
     flex: 1;
     display: flex;
     justify-content: space-between;
+    @include repsond(m-phone) {
+      display: none;
+    }
+    @include repsond(s-phone) {
+      display: none;
+    }
   }
   &--list > li {
     list-style-type: none;

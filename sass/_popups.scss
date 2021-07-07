@@ -12,6 +12,7 @@
   visibility: none;
   @include repsond(s-phone) {
     width: 70%;
+    height: 70vh;
     padding: 1rem;
   }
   &__heading {
@@ -133,6 +134,7 @@
   visibility: none;
   @include repsond(s-phone) {
     width: 70%;
+    height: 70vh;
     padding: 1rem;
   }
   &__heading {
