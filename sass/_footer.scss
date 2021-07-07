@@ -2,6 +2,11 @@
   width: 100%;
   height: 50vh;
   display: flex;
+  @include repsond(m-phone) {
+    width: 100%;
+    height: 100vh;
+    flex-direction: column;
+  }
   @include repsond(s-phone) {
     width: 100%;
     height: 100vh;
@@ -93,8 +98,11 @@
   margin-right: 0.7rem;
   fill: #666;
   cursor: text;
+  @include repsond(m-phone) {
+    width: 2rem;
+  }
   @include repsond(s-phone) {
-    width: 2;
+    width: 2rem;
     height: 2rem;
   }
 }
@@ -103,6 +111,10 @@
   height: 4rem;
   fill: #666;
   cursor: text;
+  @include repsond(m-phone) {
+    width: 3rem;
+    height: 3rem;
+  }
   @include repsond(s-phone) {
     width: 3rem;
     height: 3rem;
@@ -114,6 +126,10 @@
   margin-right: 0.7rem;
   fill: #666;
   cursor: text;
+  @include repsond(m-phone) {
+    width: 2rem;
+    height: 2rem;
+  }
   @include repsond(s-phone) {
     width: 2rem;
     height: 2rem;

@@ -209,6 +209,14 @@ body {
   padding: 7rem 0 0 12rem;
 }
 
+@media only screen and (max-width: 31.25em) {
+  .Contacts {
+    width: 100%;
+    height: 100vh;
+    padding: 10rem 3rem;
+  }
+}
+
 @media only screen and (max-width: 25em) {
   .Contacts {
     width: 100%;
@@ -225,6 +233,18 @@ body {
   display: flex;
   padding-top: 4rem;
   padding-left: 2rem;
+}
+
+@media only screen and (max-width: 31.25em) {
+  .Contacts__wrapper {
+    width: 100%;
+    height: 100vh;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 2rem;
+  }
 }
 
 @media only screen and (max-width: 25em) {
@@ -252,6 +272,14 @@ body {
           flex-direction: column;
 }
 
+@media only screen and (max-width: 31.25em) {
+  .form {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 60%;
+            flex: 0 0 60%;
+  }
+}
+
 @media only screen and (max-width: 25em) {
   .form {
     -webkit-box-flex: 0;
@@ -270,6 +298,15 @@ body {
   padding-left: 0.3rem;
   background-color: transparent;
   color: #fff;
+}
+
+@media only screen and (max-width: 31.25em) {
+  #name,
+  #email,
+  #mssg {
+    width: 95%;
+    height: 6vh;
+  }
 }
 
 @media only screen and (max-width: 25em) {
@@ -317,6 +354,12 @@ body {
   font-family: poppins, sans-serif;
 }
 
+@media only screen and (max-width: 31.25em) {
+  .submit {
+    width: 95%;
+  }
+}
+
 @media only screen and (max-width: 25em) {
   .submit {
     width: 95%;
@@ -328,6 +371,12 @@ body {
   margin-bottom: 0.6rem;
   font-weight: 700;
   font-size: 0.8rem;
+}
+
+@media only screen and (max-width: 31.25em) {
+  .ownerInfo > h4 {
+    font-size: 0.6rem;
+  }
 }
 
 @media only screen and (max-width: 25em) {
@@ -342,6 +391,17 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+@media only screen and (max-width: 31.25em) {
+  .footer {
+    width: 100%;
+    height: 100vh;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
 }
 
 @media only screen and (max-width: 25em) {
@@ -467,11 +527,19 @@ body {
   cursor: text;
 }
 
+@media only screen and (max-width: 31.25em) {
+  .html,
+  .JS,
+  .sass {
+    width: 2rem;
+  }
+}
+
 @media only screen and (max-width: 25em) {
   .html,
   .JS,
   .sass {
-    width: 2;
+    width: 2rem;
     height: 2rem;
   }
 }
@@ -481,6 +549,13 @@ body {
   height: 4rem;
   fill: #666;
   cursor: text;
+}
+
+@media only screen and (max-width: 31.25em) {
+  .figma {
+    width: 3rem;
+    height: 3rem;
+  }
 }
 
 @media only screen and (max-width: 25em) {
@@ -496,6 +571,13 @@ body {
   margin-right: 0.7rem;
   fill: #666;
   cursor: text;
+}
+
+@media only screen and (max-width: 31.25em) {
+  .css {
+    width: 2rem;
+    height: 2rem;
+  }
 }
 
 @media only screen and (max-width: 25em) {
@@ -695,6 +777,8 @@ body {
   .home__body--buttons > .hireBtn {
     width: 7rem;
     height: 6.6vh;
+    font-weight: 700;
+    padding: 0.4rem 0;
   }
 }
 
@@ -724,6 +808,8 @@ body {
   .home__body--buttons > .needAWebsiteBtn {
     width: 7rem;
     height: 6.6vh;
+    padding: 0.4rem 0;
+    font-weight: 700;
   }
 }
 
@@ -956,6 +1042,13 @@ span {
   padding: 5rem 3rem 0 3rem;
 }
 
+@media only screen and (max-width: 31.25em) {
+  .mywork__section {
+    width: 100%;
+    height: 200vh;
+  }
+}
+
 @media only screen and (max-width: 25em) {
   .mywork__section {
     width: 100%;
@@ -973,6 +1066,12 @@ span {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+}
+
+@media only screen and (max-width: 31.25em) {
+  .mywork {
+    width: 100%;
+  }
 }
 
 @media only screen and (max-width: 25em) {
@@ -1002,6 +1101,17 @@ span {
   grid-row: 2/10;
 }
 
+@media only screen and (max-width: 31.25em) {
+  .mywork__wrapper--pic {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 10;
+    grid-column: 1/11;
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 5;
+    grid-row: 2/7;
+  }
+}
+
 @media only screen and (max-width: 25em) {
   .mywork__wrapper--pic {
     -ms-grid-column: 1;
@@ -1026,6 +1136,17 @@ span {
   grid-row: 3/7;
 }
 
+@media only screen and (max-width: 31.25em) {
+  .mywork__wrapper--description {
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 8;
+    grid-column: 2/10;
+    -ms-grid-row: 5;
+    -ms-grid-row-span: 3;
+    grid-row: 5/8;
+  }
+}
+
 @media only screen and (max-width: 25em) {
   .mywork__wrapper--description {
     -ms-grid-column: 2;
@@ -1041,6 +1162,12 @@ span {
   color: rgba(0, 0, 0, 0.9);
 }
 
+@media only screen and (max-width: 31.25em) {
+  .mywork__wrapper--description > .title {
+    font-size: 0.7rem;
+  }
+}
+
 @media only screen and (max-width: 25em) {
   .mywork__wrapper--description > .title {
     font-size: 0.7rem;
@@ -1050,6 +1177,13 @@ span {
 .mywork__wrapper--description > .subtitle {
   color: rgba(0, 0, 0, 0.6);
   margin-bottom: 0.7rem;
+}
+
+@media only screen and (max-width: 31.25em) {
+  .mywork__wrapper--description > .subtitle {
+    margin-bottom: 0.4rem;
+    font-size: 0.6rem;
+  }
 }
 
 @media only screen and (max-width: 25em) {
@@ -1063,6 +1197,12 @@ span {
   font-size: 0.8rem;
   color: rgba(0, 0, 0, 0.5);
   margin-bottom: 0.7rem;
+}
+
+@media only screen and (max-width: 31.25em) {
+  .mywork__wrapper--description > .descript {
+    font-size: 0.6rem;
+  }
 }
 
 @media only screen and (max-width: 25em) {
@@ -1092,6 +1232,17 @@ span {
   grid-row: 2/5;
 }
 
+@media only screen and (max-width: 31.25em) {
+  .mywork__wrapper2--pic {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 10;
+    grid-column: 1/11;
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 6;
+    grid-row: 2/8;
+  }
+}
+
 @media only screen and (max-width: 25em) {
   .mywork__wrapper2--pic {
     -ms-grid-column: 1;
@@ -1116,6 +1267,17 @@ span {
   padding: 1rem;
 }
 
+@media only screen and (max-width: 31.25em) {
+  .mywork__wrapper2--description {
+    -ms-grid-row: 5;
+    -ms-grid-row-span: 4;
+    grid-row: 5/9;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 8;
+    grid-column: 2/10;
+  }
+}
+
 @media only screen and (max-width: 25em) {
   .mywork__wrapper2--description {
     -ms-grid-row: 5;
@@ -1131,6 +1293,12 @@ span {
   color: rgba(0, 0, 0, 0.9);
 }
 
+@media only screen and (max-width: 31.25em) {
+  .mywork__wrapper2--description > .title {
+    font-size: 0.7rem;
+  }
+}
+
 @media only screen and (max-width: 25em) {
   .mywork__wrapper2--description > .title {
     font-size: 0.7rem;
@@ -1140,6 +1308,13 @@ span {
 .mywork__wrapper2--description > .subtitle {
   color: rgba(0, 0, 0, 0.6);
   margin-bottom: 0.7rem;
+}
+
+@media only screen and (max-width: 31.25em) {
+  .mywork__wrapper2--description > .subtitle {
+    font-size: 0.6rem;
+    margin-bottom: 0.4rem;
+  }
 }
 
 @media only screen and (max-width: 25em) {
@@ -1155,6 +1330,12 @@ span {
   margin-bottom: 0.7rem;
 }
 
+@media only screen and (max-width: 31.25em) {
+  .mywork__wrapper2--description > .descript {
+    font-size: 0.6rem;
+  }
+}
+
 @media only screen and (max-width: 25em) {
   .mywork__wrapper2--description > .descript {
     font-size: 0.6rem;
@@ -1165,6 +1346,14 @@ span {
 #cafe {
   width: 100%;
   height: 20rem;
+}
+
+@media only screen and (max-width: 31.25em) {
+  #penty,
+  #cafe {
+    width: 100%;
+    height: 13rem;
+  }
 }
 
 @media only screen and (max-width: 25em) {
@@ -1195,6 +1384,13 @@ span {
   display: flex;
 }
 
+@media only screen and (max-width: 31.25em) {
+  .buttons,
+  .buttons2 {
+    width: 70%;
+  }
+}
+
 @media only screen and (max-width: 25em) {
   .buttons,
   .buttons2 {
@@ -1220,6 +1416,13 @@ span {
   cursor: pointer;
 }
 
+@media only screen and (max-width: 31.25em) {
+  .viewBtn {
+    width: 40%;
+    height: 1.7rem;
+  }
+}
+
 @media only screen and (max-width: 25em) {
   .viewBtn {
     width: 40%;
@@ -1237,6 +1440,14 @@ span {
   height: 2rem;
   cursor: text;
   background-color: rgba(0, 0, 0, 0.12);
+}
+
+@media only screen and (max-width: 31.25em) {
+  .codeBtn,
+  .codeBtn2 {
+    width: 40%;
+    height: 1.7rem;
+  }
 }
 
 @media only screen and (max-width: 25em) {
@@ -1291,6 +1502,14 @@ span {
   padding: 5rem 0;
 }
 
+@media only screen and (max-width: 31.25em) {
+  .Plans {
+    width: 100%;
+    height: 250vh;
+    padding: 1rem;
+  }
+}
+
 @media only screen and (max-width: 25em) {
   .Plans {
     width: 100%;
@@ -1307,6 +1526,18 @@ span {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+@media only screen and (max-width: 31.25em) {
+  .contaneir {
+    margin-left: 1rem;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: 100vh;
+    width: 100%;
+  }
 }
 
 @media only screen and (max-width: 25em) {
@@ -1330,6 +1561,14 @@ span {
   padding: 1rem;
 }
 
+@media only screen and (max-width: 31.25em) {
+  .contaneir__card1, .contaneir__card3 {
+    margin-top: 1rem;
+    width: 80%;
+    height: 80vh;
+  }
+}
+
 @media only screen and (max-width: 25em) {
   .contaneir__card1, .contaneir__card3 {
     margin-top: 1rem;
@@ -1340,6 +1579,12 @@ span {
 
 .contaneir__card1 {
   margin-right: 1rem;
+}
+
+@media only screen and (max-width: 31.25em) {
+  .contaneir__card1 {
+    margin-right: 0;
+  }
 }
 
 @media only screen and (max-width: 25em) {
@@ -1369,6 +1614,14 @@ span {
   margin-right: 1rem;
   margin-top: 2rem;
   padding: 2rem;
+}
+
+@media only screen and (max-width: 31.25em) {
+  .contaneir__card2 {
+    margin-top: 1rem;
+    width: 80%;
+    height: 98vh;
+  }
 }
 
 @media only screen and (max-width: 25em) {
@@ -1455,6 +1708,13 @@ span {
   background-color: black;
 }
 
+@media only screen and (max-width: 31.25em) {
+  .extrapage {
+    width: 100%;
+    height: 100vh;
+  }
+}
+
 @media only screen and (max-width: 25em) {
   .extrapage {
     width: 100%;
@@ -1466,6 +1726,12 @@ span {
   width: 100%;
   height: 100%;
   padding: 4rem;
+}
+
+@media only screen and (max-width: 31.25em) {
+  .FAQ {
+    padding: 2rem;
+  }
 }
 
 @media only screen and (max-width: 25em) {
@@ -1482,6 +1748,13 @@ span {
   cursor: pointer;
 }
 
+@media only screen and (max-width: 31.25em) {
+  .FAQ__title {
+    font-size: 0.7rem;
+    font-weight: 400;
+  }
+}
+
 @media only screen and (max-width: 25em) {
   .FAQ__title {
     font-size: 0.7rem;
@@ -1491,11 +1764,19 @@ span {
 
 .FAQ__1, .FAQ__2, .FAQ__3 {
   width: 80%;
-  height: 8vh;
+  height: 12vh;
   background-color: white;
   margin-bottom: 0.2rem;
   padding: 0.7rem 0 0 1rem;
   color: rgba(0, 0, 0, 0.8);
+}
+
+@media only screen and (max-width: 31.25em) {
+  .FAQ__1, .FAQ__2, .FAQ__3 {
+    width: 100%;
+    height: 15vh;
+    padding: 0.7rem;
+  }
 }
 
 @media only screen and (max-width: 25em) {
@@ -1515,9 +1796,18 @@ span {
           justify-content: space-between;
 }
 
+@media only screen and (max-width: 31.25em) {
+  .FAQ__1--heading, .FAQ__2--heading, .FAQ__3--heading {
+    font-size: 0.7rem;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
 @media only screen and (max-width: 25em) {
   .FAQ__1--heading, .FAQ__2--heading, .FAQ__3--heading {
-    font-size: 0.5rem;
+    font-size: 0.6rem;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
@@ -1552,6 +1842,21 @@ span {
   cursor: pointer;
 }
 
+@media only screen and (max-width: 31.25em) {
+  .FAQ__1--headingBtn,
+  .FAQ__2--headingBtn,
+  .FAQ__3--headingBtn {
+    font-size: 0.5rem;
+    height: 1rem;
+    width: 5rem;
+    padding: 0.15rem;
+    margin-right: 0.2rem;
+    border: none;
+    border-radius: 50rem;
+    background-color: lightcoral;
+  }
+}
+
 @media only screen and (max-width: 25em) {
   .FAQ__1--headingBtn,
   .FAQ__2--headingBtn,
@@ -1579,6 +1884,21 @@ span {
   padding: 0.4rem;
   cursor: pointer;
   display: none;
+}
+
+@media only screen and (max-width: 31.25em) {
+  .FAQ__1--headingBtnLess,
+  .FAQ__2--headingBtnLess,
+  .FAQ__3--headingBtnLess {
+    font-size: 0.5rem;
+    height: 1rem;
+    width: 5rem;
+    padding: 0.15rem;
+    margin-right: 0.2rem;
+    border: none;
+    border-radius: 50rem;
+    background-color: lightcoral;
+  }
 }
 
 @media only screen and (max-width: 25em) {
@@ -1612,6 +1932,14 @@ span {
   visibility: none;
 }
 
+@media only screen and (max-width: 31.25em) {
+  .hirePopup {
+    width: 70%;
+    height: 70vh;
+    padding: 1rem;
+  }
+}
+
 @media only screen and (max-width: 25em) {
   .hirePopup {
     width: 70%;
@@ -1639,6 +1967,12 @@ span {
   font-weight: 500;
 }
 
+@media only screen and (max-width: 31.25em) {
+  .hirePopup__heading--text {
+    font-size: 0.9rem;
+  }
+}
+
 @media only screen and (max-width: 25em) {
   .hirePopup__heading--text {
     font-size: 0.7rem;
@@ -1654,6 +1988,15 @@ span {
   width: 4rem;
   color: #666;
   cursor: pointer;
+}
+
+@media only screen and (max-width: 31.25em) {
+  .hirePopup__heading--remove {
+    font-size: 0.7rem;
+    padding: 0 0.2rem;
+    height: 1rem;
+    width: 3rem;
+  }
 }
 
 @media only screen and (max-width: 25em) {
@@ -1678,6 +2021,14 @@ span {
 .hirePopup__main--text {
   font-weight: 500;
   margin-bottom: 2rem;
+}
+
+@media only screen and (max-width: 31.25em) {
+  .hirePopup__main--text {
+    font-size: 0.6rem;
+    margin-top: 0.3rem;
+    color: #666;
+  }
 }
 
 @media only screen and (max-width: 25em) {
@@ -1709,6 +2060,15 @@ span {
   font-family: poppins, sans-serif;
 }
 
+@media only screen and (max-width: 31.25em) {
+  .companyName,
+  .companyEmail {
+    width: 90%;
+    height: 2rem;
+    border: 1px solid #666;
+  }
+}
+
 @media only screen and (max-width: 25em) {
   .companyName,
   .companyEmail {
@@ -1726,6 +2086,13 @@ span {
   margin-bottom: 0.3rem;
   padding: 0.5rem;
   font-family: poppins, sans-serif;
+}
+
+@media only screen and (max-width: 31.25em) {
+  .mssgCompany {
+    width: 90%;
+    border: 1px solid #666;
+  }
 }
 
 @media only screen and (max-width: 25em) {
@@ -1760,11 +2127,20 @@ span {
   cursor: pointer;
 }
 
+@media only screen and (max-width: 31.25em) {
+  #Hsubmit,
+  #Csubmit {
+    width: 90%;
+    height: 7vh;
+    font-size: 0.7rem;
+  }
+}
+
 @media only screen and (max-width: 25em) {
   #Hsubmit,
   #Csubmit {
     width: 90%;
-    height: 2.3;
+    height: 7vh;
     font-size: 0.7rem;
   }
 }
@@ -1785,10 +2161,18 @@ span {
   visibility: none;
 }
 
+@media only screen and (max-width: 31.25em) {
+  .websitePopup {
+    width: 80%;
+    height: 80vh;
+    padding: 1rem;
+  }
+}
+
 @media only screen and (max-width: 25em) {
   .websitePopup {
-    width: 70%;
-    height: 70vh;
+    width: 80%;
+    height: 80vh;
     padding: 1rem;
   }
 }
@@ -1812,6 +2196,12 @@ span {
   font-weight: 500;
 }
 
+@media only screen and (max-width: 31.25em) {
+  .websitePopup__heading--text {
+    font-size: 0.9rem;
+  }
+}
+
 @media only screen and (max-width: 25em) {
   .websitePopup__heading--text {
     font-size: 0.7rem;
@@ -1827,6 +2217,15 @@ span {
   width: 4rem;
   color: #666;
   cursor: pointer;
+}
+
+@media only screen and (max-width: 31.25em) {
+  .websitePopup__heading--remove {
+    font-size: 0.7rem;
+    padding: 0 0.2rem;
+    height: 1rem;
+    width: 3rem;
+  }
 }
 
 @media only screen and (max-width: 25em) {
@@ -1853,6 +2252,14 @@ span {
   margin-bottom: 2rem;
 }
 
+@media only screen and (max-width: 31.25em) {
+  .websitePopup__main--text {
+    font-size: 0.6rem;
+    margin-top: 0.3rem;
+    color: #666;
+  }
+}
+
 @media only screen and (max-width: 25em) {
   .websitePopup__main--text {
     font-size: 0.6rem;
@@ -1872,13 +2279,22 @@ span {
   font-family: poppins, sans-serif;
 }
 
+@media only screen and (max-width: 31.25em) {
+  .clientName,
+  .clientPlan,
+  .clientEmail {
+    width: 90%;
+    height: 2rem;
+    border: 1px solid #666;
+  }
+}
+
 @media only screen and (max-width: 25em) {
   .clientName,
   .clientPlan,
   .clientEmail {
     width: 90%;
-    height: 2.3rem;
-    height: 1.5rem;
+    height: 2rem;
     border: 1px solid #666;
   }
 }
@@ -1891,6 +2307,14 @@ span {
   margin-bottom: 0.3rem;
   padding: 0.5rem;
   font-family: poppins, sans-serif;
+}
+
+@media only screen and (max-width: 31.25em) {
+  .mssgClient {
+    width: 90%;
+    height: 24vh;
+    border: 1px solid #666;
+  }
 }
 
 @media only screen and (max-width: 25em) {

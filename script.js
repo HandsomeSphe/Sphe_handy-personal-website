@@ -160,7 +160,7 @@ showMoreBtn1.addEventListener("click", () => {
   showLessBtn1.style.display = "block";
 });
 showLessBtn1.addEventListener("click", () => {
-  FaqBox1.style.height = "8vh";
+  FaqBox1.style.height = "12vh";
   showText1.style.display = "none";
   showMoreBtn1.style.display = "block";
   showLessBtn1.style.display = "none";
@@ -172,7 +172,7 @@ showMoreBtn2.addEventListener("click", () => {
   showLessBtn2.style.display = "block";
 });
 showLessBtn2.addEventListener("click", () => {
-  FaqBox2.style.height = "8vh";
+  FaqBox2.style.height = "12vh";
   showText2.style.display = "none";
   showMoreBtn2.style.display = "block";
   showLessBtn2.style.display = "none";
@@ -184,7 +184,7 @@ showMoreBtn3.addEventListener("click", () => {
   showLessBtn3.style.display = "block";
 });
 showLessBtn3.addEventListener("click", () => {
-  FaqBox3.style.height = "8vh";
+  FaqBox3.style.height = "12vh";
   showText3.style.display = "none";
   showMoreBtn3.style.display = "block";
   showLessBtn3.style.display = "none";

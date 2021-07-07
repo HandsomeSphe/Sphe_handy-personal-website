@@ -124,6 +124,8 @@
       @include repsond(m-phone) {
         width: 7rem;
         height: 6.6vh;
+        font-weight: 700;
+        padding: 0.4rem 0;
       }
       @include repsond(s-phone) {
         width: 6rem;
@@ -147,6 +149,8 @@
       @include repsond(m-phone) {
         width: 7rem;
         height: 6.6vh;
+        padding: 0.4rem 0;
+        font-weight: 700;
       }
       @include repsond(s-phone) {
         width: 6rem;
