@@ -1237,7 +1237,7 @@ body {
 
 @media only screen and (max-width: 25em) {
   .home__body--buttons {
-    width: 63%;
+    width: 67%;
     margin-top: 0;
   }
 }
