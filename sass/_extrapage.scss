@@ -1,7 +1,11 @@
 .extrapage {
   width: 100%;
   height: 65vh;
-  background-color: rgba(0, 0, 0, 1);
+  background-color: rgba(112, 128, 144, 50);
+  @include repsond(x-phone) {
+    width: 100%;
+    height: 100vh;
+  }
   @include repsond(m-phone) {
     width: 100%;
     height: 100vh;
@@ -15,11 +19,14 @@
   width: 100%;
   height: 100%;
   padding: 4rem;
+  @include repsond(x-phone) {
+    padding: 2rem;
+  }
   @include repsond(m-phone) {
     padding: 2rem;
   }
   @include repsond(s-phone) {
-    padding: 2rem;
+    padding: 1rem;
   }
 
   &__title {
@@ -28,6 +35,10 @@
     color: white;
     margin-bottom: 1rem;
     cursor: pointer;
+    @include repsond(x-phone) {
+      font-size: 0.8rem;
+      font-weight: 400;
+    }
     @include repsond(m-phone) {
       font-size: 0.7rem;
       font-weight: 400;
@@ -47,14 +58,19 @@
     padding: 0.7rem 0 0 1rem;
 
     color: rgba(0, 0, 0, 0.8);
+    @include repsond(x-phone) {
+      width: 70%;
+      height: 15vh;
+      padding: 0.7rem;
+    }
     @include repsond(m-phone) {
-      width: 100%;
+      width: 85%;
       height: 15vh;
       padding: 0.7rem;
     }
     @include repsond(s-phone) {
-      width: 100%;
-      height: 15vh;
+      width: 85%;
+      height: 12vh;
       padding: 0.7rem;
     }
   }
@@ -63,6 +79,10 @@
   &__3--heading {
     display: flex;
     justify-content: space-between;
+    @include repsond(x-phone) {
+      font-size: 0.7rem;
+      align-items: center;
+    }
     @include repsond(m-phone) {
       font-size: 0.7rem;
       align-items: center;
@@ -99,6 +119,16 @@
   text-align: center;
   padding: 0.4rem;
   cursor: pointer;
+  @include repsond(x-phone) {
+    font-size: 0.5rem;
+    height: 1rem;
+    width: 5rem;
+    padding: 0.15rem;
+    margin-right: 0.2rem;
+    border: none;
+    border-radius: 50rem;
+    background-color: lightcoral;
+  }
   @include repsond(m-phone) {
     font-size: 0.5rem;
     height: 1rem;
@@ -132,6 +162,16 @@
   padding: 0.4rem;
   cursor: pointer;
   display: none;
+  @include repsond(x-phone) {
+    font-size: 0.5rem;
+    height: 1rem;
+    width: 5rem;
+    padding: 0.15rem;
+    margin-right: 0.2rem;
+    border: none;
+    border-radius: 50rem;
+    background-color: lightcoral;
+  }
   @include repsond(m-phone) {
     font-size: 0.5rem;
     height: 1rem;

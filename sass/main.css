@@ -16,15 +16,23 @@ body {
 
 .About {
   width: 100%;
-  height: 100vh;
-  background-color: black;
-  padding: 3rem 10rem 0 10rem;
+  height: 130vh;
+  background-color: slategray;
+  padding: 3rem 10rem 0 13rem;
+}
+
+@media only screen and (max-width: 37.5em) {
+  .About {
+    width: 100%;
+    height: 185vh;
+    padding: 2rem 5rem;
+  }
 }
 
 @media only screen and (max-width: 31.25em) {
   .About {
     width: 100%;
-    height: 150vh;
+    height: 178vh;
     padding: 2.4rem;
   }
 }
@@ -32,8 +40,8 @@ body {
 @media only screen and (max-width: 25em) {
   .About {
     width: 100%;
-    height: 150vh;
-    padding: 1.5rem;
+    height: 170vh;
+    padding: 2rem 0.5rem;
   }
 }
 
@@ -48,10 +56,19 @@ body {
   color: white;
 }
 
+@media only screen and (max-width: 37.5em) {
+  .About__boxes {
+    -ms-grid-columns: 14rem 14rem;
+        grid-template-columns: 14rem 14rem;
+    -ms-grid-rows: 11rem 11rem 11rem;
+        grid-template-rows: 11rem 11rem 11rem;
+  }
+}
+
 @media only screen and (max-width: 31.25em) {
   .About__boxes {
-    -ms-grid-columns: 13rem 13rem;
-        grid-template-columns: 13rem 13rem;
+    -ms-grid-columns: 11rem 11rem;
+        grid-template-columns: 11rem 11rem;
     -ms-grid-rows: 11rem 11rem 11rem;
         grid-template-rows: 11rem 11rem 11rem;
   }
@@ -59,8 +76,8 @@ body {
 
 @media only screen and (max-width: 25em) {
   .About__boxes {
-    -ms-grid-columns: 11rem 11rem;
-        grid-template-columns: 11rem 11rem;
+    -ms-grid-columns: 10rem 10rem;
+        grid-template-columns: 10rem 10rem;
     -ms-grid-rows: 11rem 11rem 11rem;
         grid-template-rows: 11rem 11rem 11rem;
   }
@@ -74,9 +91,16 @@ body {
   padding: 1rem;
 }
 
+@media only screen and (max-width: 37.5em) {
+  .About__boxes--1, .About__boxes--2, .About__boxes--3, .About__boxes--4, .About__boxes--5, .About__boxes--6 {
+    padding: 0.7rem;
+  }
+}
+
 @media only screen and (max-width: 31.25em) {
   .About__boxes--1, .About__boxes--2, .About__boxes--3, .About__boxes--4, .About__boxes--5, .About__boxes--6 {
     padding: 0.6rem;
+    margin-left: 1rem;
   }
 }
 
@@ -95,6 +119,18 @@ body {
   font-size: 1rem;
   color: rgba(255, 255, 255, 0.9);
   margin-bottom: 0.3rem;
+}
+
+@media only screen and (max-width: 37.5em) {
+  .About__boxes--1 > h3,
+  .About__boxes--2 > h3,
+  .About__boxes--3 > h3,
+  .About__boxes--4 > h3,
+  .About__boxes--5 > h3,
+  .About__boxes--6 > h3 {
+    font-size: 0.8rem;
+    margin-right: 0.1rem;
+  }
 }
 
 @media only screen and (max-width: 31.25em) {
@@ -142,6 +178,19 @@ body {
   margin: 15% 40% 10% 40%;
 }
 
+@media only screen and (max-width: 37.5em) {
+  #code,
+  #globe,
+  #resize,
+  #gauge,
+  #tools,
+  #circle {
+    width: 1.7rem;
+    height: 1.7rem;
+    margin: 5% 30%;
+  }
+}
+
 @media only screen and (max-width: 31.25em) {
   #code,
   #globe,
@@ -177,7 +226,7 @@ body {
   line-height: 1.5rem;
 }
 
-@media only screen and (max-width: 31.25em) {
+@media only screen and (max-width: 37.5em) {
   .About__me {
     width: 100%;
     height: 15vh;
@@ -188,11 +237,22 @@ body {
   }
 }
 
+@media only screen and (max-width: 31.25em) {
+  .About__me {
+    width: 95%;
+    height: 15vh;
+    font-size: 0.76rem;
+    line-height: auto;
+    margin-bottom: 7rem;
+    text-align: center;
+  }
+}
+
 @media only screen and (max-width: 25em) {
   .About__me {
-    width: 100%;
+    width: 90%;
     height: 15vh;
-    font-size: 0.765rem;
+    font-size: 0.7rem;
     line-height: auto;
     margin-bottom: 7rem;
   }
@@ -201,27 +261,35 @@ body {
 .Contacts {
   width: 100%;
   height: 100vh;
-  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.9)), to(rgba(0, 0, 0, 0.9))), url("/Images/pexels-cottonbro-4709285.jpg");
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url("/Images/pexels-cottonbro-4709285.jpg");
+  background: -webkit-gradient(linear, left top, right top, from(rgba(112, 128, 144, 0.6)), to(rgba(112, 128, 144, 0.6))), url("/Images/pexels-cottonbro-4709285.jpg");
+  background: linear-gradient(to right, rgba(112, 128, 144, 0.6), rgba(112, 128, 144, 0.6)), url("/Images/pexels-cottonbro-4709285.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   padding: 7rem 0 0 12rem;
 }
 
+@media only screen and (max-width: 37.5em) {
+  .Contacts {
+    width: 100%;
+    height: 120vh;
+    padding: 7rem 3rem;
+  }
+}
+
 @media only screen and (max-width: 31.25em) {
   .Contacts {
     width: 100%;
-    height: 100vh;
-    padding: 10rem 3rem;
+    height: 120vh;
+    padding: 7rem 3rem;
   }
 }
 
 @media only screen and (max-width: 25em) {
   .Contacts {
     width: 100%;
-    height: 100vh;
-    padding: 10rem 3rem;
+    height: 110vh;
+    padding: 5rem 0rem;
   }
 }
 
@@ -235,6 +303,18 @@ body {
   padding-left: 2rem;
 }
 
+@media only screen and (max-width: 37.5em) {
+  .Contacts__wrapper {
+    width: 100%;
+    height: 100vh;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 2rem;
+  }
+}
+
 @media only screen and (max-width: 31.25em) {
   .Contacts__wrapper {
     width: 100%;
@@ -255,7 +335,7 @@ body {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    padding: 2rem;
+    padding: 1.5rem 3.5rem;
   }
 }
 
@@ -272,11 +352,22 @@ body {
           flex-direction: column;
 }
 
+@media only screen and (max-width: 37.5em) {
+  .form {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 50%;
+            flex: 0 0 50%;
+    margin-bottom: 2rem;
+    margin-left: 7rem;
+  }
+}
+
 @media only screen and (max-width: 31.25em) {
   .form {
     -webkit-box-flex: 0;
         -ms-flex: 0 0 60%;
             flex: 0 0 60%;
+    margin-left: 3rem;
   }
 }
 
@@ -285,6 +376,7 @@ body {
     -webkit-box-flex: 0;
         -ms-flex: 0 0 60%;
             flex: 0 0 60%;
+    margin-left: 2rem;
   }
 }
 
@@ -300,11 +392,20 @@ body {
   color: #fff;
 }
 
+@media only screen and (max-width: 37.5em) {
+  #name,
+  #email,
+  #mssg {
+    width: 75%;
+    height: 6vh;
+  }
+}
+
 @media only screen and (max-width: 31.25em) {
   #name,
   #email,
   #mssg {
-    width: 95%;
+    width: 85%;
     height: 6vh;
   }
 }
@@ -313,8 +414,17 @@ body {
   #name,
   #email,
   #mssg {
-    width: 95%;
+    width: 80%;
   }
+}
+
+#name:active,
+#name:focus,
+#email:active,
+#email:focus,
+#mssg:active,
+#mssg:focus {
+  outline: none;
 }
 
 ::-webkit-input-placeholder {
@@ -354,15 +464,21 @@ body {
   font-family: poppins, sans-serif;
 }
 
+@media only screen and (max-width: 37.5em) {
+  .submit {
+    width: 75%;
+  }
+}
+
 @media only screen and (max-width: 31.25em) {
   .submit {
-    width: 95%;
+    width: 85%;
   }
 }
 
 @media only screen and (max-width: 25em) {
   .submit {
-    width: 95%;
+    width: 80%;
   }
 }
 
@@ -373,15 +489,24 @@ body {
   font-size: 0.8rem;
 }
 
+@media only screen and (max-width: 37.5em) {
+  .ownerInfo > h4 {
+    font-size: 0.7rem;
+    margin-left: 7rem;
+  }
+}
+
 @media only screen and (max-width: 31.25em) {
   .ownerInfo > h4 {
     font-size: 0.6rem;
+    margin-left: 3rem;
   }
 }
 
 @media only screen and (max-width: 25em) {
   .ownerInfo > h4 {
     font-size: 0.6rem;
+    margin-left: 2rem;
   }
 }
 
@@ -391,6 +516,17 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+@media only screen and (max-width: 37.5em) {
+  .footer {
+    width: 100%;
+    height: 100vh;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
 }
 
 @media only screen and (max-width: 31.25em) {
@@ -428,6 +564,24 @@ body {
   padding: 3rem 0 0 3rem;
 }
 
+@media only screen and (max-width: 37.5em) {
+  .footer__1 {
+    padding: 0;
+  }
+}
+
+@media only screen and (max-width: 31.25em) {
+  .footer__1 {
+    padding: 0;
+  }
+}
+
+@media only screen and (max-width: 25em) {
+  .footer__1 {
+    padding: 0;
+  }
+}
+
 .footer__1--Instagram, .footer__1--twitter, .footer__1--facebook {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -449,11 +603,47 @@ body {
   padding: 3rem 0 0 2rem;
 }
 
+@media only screen and (max-width: 37.5em) {
+  .footer__2 {
+    padding: 0;
+  }
+}
+
+@media only screen and (max-width: 31.25em) {
+  .footer__2 {
+    padding: 0;
+  }
+}
+
+@media only screen and (max-width: 25em) {
+  .footer__2 {
+    padding: 0;
+  }
+}
+
 .footer__3 {
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
   padding: 3rem 0 0 3rem;
+}
+
+@media only screen and (max-width: 37.5em) {
+  .footer__3 {
+    padding: 0;
+  }
+}
+
+@media only screen and (max-width: 31.25em) {
+  .footer__3 {
+    padding: 0;
+  }
+}
+
+@media only screen and (max-width: 25em) {
+  .footer__3 {
+    padding: 0;
+  }
 }
 
 .footer__3--platforms {
@@ -474,6 +664,14 @@ body {
   cursor: pointer;
   -webkit-transition: all ease 0.4s;
   transition: all ease 0.4s;
+}
+
+@media only screen and (max-width: 25em) {
+  .instagram,
+  .twitter,
+  .facebook {
+    margin-right: 1rem;
+  }
 }
 
 .instagram:hover,
@@ -527,6 +725,14 @@ body {
   cursor: text;
 }
 
+@media only screen and (max-width: 37.5em) {
+  .html,
+  .JS,
+  .sass {
+    width: 2rem;
+  }
+}
+
 @media only screen and (max-width: 31.25em) {
   .html,
   .JS,
@@ -551,6 +757,13 @@ body {
   cursor: text;
 }
 
+@media only screen and (max-width: 37.5em) {
+  .figma {
+    width: 3rem;
+    height: 3rem;
+  }
+}
+
 @media only screen and (max-width: 31.25em) {
   .figma {
     width: 3rem;
@@ -571,6 +784,13 @@ body {
   margin-right: 0.7rem;
   fill: #666;
   cursor: text;
+}
+
+@media only screen and (max-width: 37.5em) {
+  .css {
+    width: 2rem;
+    height: 2rem;
+  }
 }
 
 @media only screen and (max-width: 31.25em) {
@@ -599,13 +819,21 @@ body {
 .home {
   width: 100%;
   height: 100vh;
-  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.95)), to(rgba(0, 0, 0, 0.95))), url("../Images/anthony-riera-it9kG_dWyVo-unsplash.jpg");
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.95), rgba(0, 0, 0, 0.95)), url("../Images/anthony-riera-it9kG_dWyVo-unsplash.jpg");
+  background: -webkit-gradient(linear, left top, left bottom, from(#ccccff), color-stop(rgba(255, 204, 204, 0.75)), to(rgba(255, 204, 204, 0.95))), url("../Images/anthony-riera-it9kG_dWyVo-unsplash.jpg");
+  background: linear-gradient(180deg, #ccccff, rgba(255, 204, 204, 0.75), rgba(255, 204, 204, 0.95)), url("../Images/anthony-riera-it9kG_dWyVo-unsplash.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   padding: 0 3.5rem;
   position: relative;
+}
+
+@media only screen and (max-width: 37.5em) {
+  .home {
+    width: 100%;
+    height: 100vh;
+    padding: 1.4rem 2.5rem;
+  }
 }
 
 @media only screen and (max-width: 31.25em) {
@@ -619,12 +847,13 @@ body {
 @media only screen and (max-width: 25em) {
   .home {
     width: 100%;
+    height: 100vh;
     padding: 1.3rem 2rem;
   }
 }
 
 .home__nav {
-  color: white;
+  color: rgba(0, 0, 0, 0.95);
   width: 100%;
   height: 9vh;
   display: -webkit-box;
@@ -638,8 +867,16 @@ body {
           align-items: center;
   padding-top: 1rem;
   font-size: 0.8rem;
-  font-weight: 600;
+  font-weight: 700;
   text-transform: uppercase;
+}
+
+@media only screen and (max-width: 37.5em) {
+  .home__nav {
+    width: 100%;
+    height: 7vh;
+    padding-top: 0.7rem;
+  }
 }
 
 @media only screen and (max-width: 31.25em) {
@@ -677,6 +914,12 @@ body {
           justify-content: space-between;
 }
 
+@media only screen and (max-width: 37.5em) {
+  .home__nav--list {
+    display: none;
+  }
+}
+
 @media only screen and (max-width: 31.25em) {
   .home__nav--list {
     display: none;
@@ -695,7 +938,6 @@ body {
 
 .home__nav--list > li a {
   text-decoration: none;
-  color: white;
   font-weight: 600;
   cursor: pointer;
 }
@@ -704,6 +946,12 @@ body {
   width: 100%;
   height: 15vh;
   margin: 10rem 0 1rem 0;
+}
+
+@media only screen and (max-width: 37.5em) {
+  .home__body--title {
+    margin: 10rem 0 0.5rem 0;
+  }
 }
 
 @media only screen and (max-width: 31.25em) {
@@ -719,8 +967,16 @@ body {
 }
 
 .home__body--title > p {
-  color: rgba(255, 255, 255, 0.75);
+  color: rgba(0, 0, 0, 0.95);
   font-size: 1rem;
+  font-weight: 600;
+}
+
+@media only screen and (max-width: 37.5em) {
+  .home__body--title > p {
+    font-size: 0.9rem;
+    font-weight: 600;
+  }
 }
 
 @media only screen and (max-width: 31.25em) {
@@ -738,7 +994,7 @@ body {
 }
 
 .home__body--buttons {
-  color: white;
+  color: rgba(255, 255, 255, 0.9);
   width: 26%;
   height: 7vh;
   display: -webkit-box;
@@ -749,23 +1005,32 @@ body {
           justify-content: space-between;
 }
 
+@media only screen and (max-width: 37.5em) {
+  .home__body--buttons {
+    width: 48%;
+    margin-top: 1rem;
+  }
+}
+
 @media only screen and (max-width: 31.25em) {
   .home__body--buttons {
     width: 55%;
+    margin-top: 0;
   }
 }
 
 @media only screen and (max-width: 25em) {
   .home__body--buttons {
     width: 63%;
+    margin-top: 0;
   }
 }
 
 .home__body--buttons > .hireBtn {
   width: 8rem;
   height: 5.7vh;
-  color: rgba(0, 0, 0, 0.75);
-  background-color: #c4c4c4;
+  color: #fff;
+  background-color: black;
   text-align: center;
   font-size: 0.8rem;
   font-weight: 600;
@@ -773,11 +1038,21 @@ body {
   cursor: pointer;
 }
 
+@media only screen and (max-width: 37.5em) {
+  .home__body--buttons > .hireBtn {
+    width: 7.5rem;
+    height: 6.6vh;
+    font-weight: 700;
+    padding: 0.4rem 0;
+  }
+}
+
 @media only screen and (max-width: 31.25em) {
   .home__body--buttons > .hireBtn {
     width: 7rem;
     height: 6.6vh;
     font-weight: 700;
+    font-size: 0.7rem;
     padding: 0.4rem 0;
   }
 }
@@ -788,20 +1063,29 @@ body {
     height: 5.7vh;
     font-size: 0.6rem;
     font-weight: 700;
-    padding: 0.3rem 0;
+    padding: 0.4rem 0;
   }
 }
 
 .home__body--buttons > .needAWebsiteBtn {
   width: 8rem;
   height: 5.7vh;
-  color: rgba(255, 255, 255, 0.9);
-  border: 1px solid lightgray;
+  color: rgba(0, 0, 0, 0.9);
+  border: 1px solid black;
   text-align: center;
   padding: 0.5rem 0;
   font-weight: 700;
   font-size: 0.7rem;
   cursor: pointer;
+}
+
+@media only screen and (max-width: 37.5em) {
+  .home__body--buttons > .needAWebsiteBtn {
+    width: 7rem;
+    height: 6.6vh;
+    padding: 0.4rem 0;
+    font-weight: 700;
+  }
 }
 
 @media only screen and (max-width: 31.25em) {
@@ -810,6 +1094,7 @@ body {
     height: 6.6vh;
     padding: 0.4rem 0;
     font-weight: 700;
+    font-size: 0.7rem;
   }
 }
 
@@ -825,14 +1110,14 @@ body {
 
 .hireBtn > a {
   text-decoration: none;
-  color: rgba(0, 0, 0, 0.75);
+  color: rgba(255, 255, 255, 0.95);
   text-transform: uppercase;
 }
 
 .needAWebsiteBtn > a {
   text-decoration: none;
-  color: rgba(255, 255, 255, 0.9);
-  font-weight: 500;
+  color: rgba(0, 0, 0, 0.9);
+  font-weight: 700;
   text-transform: uppercase;
 }
 
@@ -843,17 +1128,26 @@ body {
   display: -ms-flexbox;
   display: flex;
   height: 4.2rem;
-  color: rgba(255, 255, 255, 0.9);
+  color: rgba(0, 0, 0, 0.9);
   font-size: 2.2rem;
-  font-weight: 600;
+  font-weight: 700;
   text-transform: uppercase;
   font-family: poppins;
+}
+
+@media only screen and (max-width: 37.5em) {
+  .wrapperSmall {
+    font-size: 1.89rem;
+    height: 2.6rem;
+    margin-bottom: 0.4rem;
+  }
 }
 
 @media only screen and (max-width: 31.25em) {
   .wrapperSmall {
     font-size: 1.5rem;
     height: 2.4rem;
+    margin-bottom: 0;
   }
 }
 
@@ -861,6 +1155,7 @@ body {
   .wrapperSmall {
     font-size: 1.5rem;
     height: 2.7rem;
+    margin-bottom: 0;
   }
 }
 
@@ -874,10 +1169,17 @@ span {
   padding-left: 1rem;
   padding-top: 0.35rem;
   font-size: 2.2rem;
-  font-weight: 600;
+  font-weight: 700;
   -webkit-animation: spin_words 6s infinite;
           animation: spin_words 6s infinite;
   text-transform: uppercase;
+}
+
+@media only screen and (max-width: 37.5em) {
+  span {
+    font-size: 1.89rem;
+    padding-left: 0.6rem;
+  }
 }
 
 @media only screen and (max-width: 31.25em) {
@@ -971,6 +1273,13 @@ span {
   display: none;
 }
 
+@media only screen and (max-width: 37.5em) {
+  .home__nav2 {
+    width: 100%;
+    padding: 0.3rem 2rem;
+  }
+}
+
 @media only screen and (max-width: 31.25em) {
   .home__nav2 {
     width: 100%;
@@ -1002,6 +1311,12 @@ span {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+
+@media only screen and (max-width: 37.5em) {
+  .home__nav2--list {
+    display: none;
+  }
 }
 
 @media only screen and (max-width: 31.25em) {
@@ -1038,14 +1353,22 @@ span {
 .mywork__section {
   width: 100%;
   height: 150vh;
-  background-color: black;
+  background-color: slategray;
   padding: 5rem 3rem 0 3rem;
+}
+
+@media only screen and (max-width: 37.5em) {
+  .mywork__section {
+    width: 100%;
+    height: 200vh;
+  }
 }
 
 @media only screen and (max-width: 31.25em) {
   .mywork__section {
     width: 100%;
     height: 200vh;
+    padding: 5rem 2rem 0 2rem;
   }
 }
 
@@ -1053,6 +1376,7 @@ span {
   .mywork__section {
     width: 100%;
     height: 200vh;
+    padding: 5rem 0rem 0 0.5rem;
   }
 }
 
@@ -1066,6 +1390,12 @@ span {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+}
+
+@media only screen and (max-width: 37.5em) {
+  .mywork {
+    widht: 100%;
+  }
 }
 
 @media only screen and (max-width: 31.25em) {
@@ -1101,7 +1431,7 @@ span {
   grid-row: 2/10;
 }
 
-@media only screen and (max-width: 31.25em) {
+@media only screen and (max-width: 37.5em) {
   .mywork__wrapper--pic {
     -ms-grid-column: 1;
     -ms-grid-column-span: 10;
@@ -1112,11 +1442,22 @@ span {
   }
 }
 
+@media only screen and (max-width: 31.25em) {
+  .mywork__wrapper--pic {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 9;
+    grid-column: 1/10;
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 5;
+    grid-row: 2/7;
+  }
+}
+
 @media only screen and (max-width: 25em) {
   .mywork__wrapper--pic {
     -ms-grid-column: 1;
-    -ms-grid-column-span: 10;
-    grid-column: 1/11;
+    -ms-grid-column-span: 9;
+    grid-column: 1/10;
     -ms-grid-row: 2;
     -ms-grid-row-span: 4;
     grid-row: 2/6;
@@ -1136,11 +1477,22 @@ span {
   grid-row: 3/7;
 }
 
-@media only screen and (max-width: 31.25em) {
+@media only screen and (max-width: 37.5em) {
   .mywork__wrapper--description {
     -ms-grid-column: 2;
     -ms-grid-column-span: 8;
     grid-column: 2/10;
+    -ms-grid-row: 6;
+    -ms-grid-row-span: 4;
+    grid-row: 6/10;
+  }
+}
+
+@media only screen and (max-width: 31.25em) {
+  .mywork__wrapper--description {
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 7;
+    grid-column: 2/9;
     -ms-grid-row: 5;
     -ms-grid-row-span: 3;
     grid-row: 5/8;
@@ -1150,8 +1502,8 @@ span {
 @media only screen and (max-width: 25em) {
   .mywork__wrapper--description {
     -ms-grid-column: 2;
-    -ms-grid-column-span: 8;
-    grid-column: 2/10;
+    -ms-grid-column-span: 7;
+    grid-column: 2/9;
     -ms-grid-row: 5;
     -ms-grid-row-span: 3;
     grid-row: 5/8;
@@ -1232,7 +1584,7 @@ span {
   grid-row: 2/5;
 }
 
-@media only screen and (max-width: 31.25em) {
+@media only screen and (max-width: 37.5em) {
   .mywork__wrapper2--pic {
     -ms-grid-column: 1;
     -ms-grid-column-span: 10;
@@ -1243,11 +1595,22 @@ span {
   }
 }
 
+@media only screen and (max-width: 31.25em) {
+  .mywork__wrapper2--pic {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 9;
+    grid-column: 1/10;
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 6;
+    grid-row: 2/8;
+  }
+}
+
 @media only screen and (max-width: 25em) {
   .mywork__wrapper2--pic {
     -ms-grid-column: 1;
-    -ms-grid-column-span: 10;
-    grid-column: 1/11;
+    -ms-grid-column-span: 9;
+    grid-column: 1/10;
     -ms-grid-row: 2;
     -ms-grid-row-span: 5;
     grid-row: 2/7;
@@ -1267,14 +1630,25 @@ span {
   padding: 1rem;
 }
 
+@media only screen and (max-width: 37.5em) {
+  .mywork__wrapper2--description {
+    -ms-grid-row: 6;
+    -ms-grid-row-span: 5;
+    grid-row: 6/11;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 8;
+    grid-column: 2/10;
+  }
+}
+
 @media only screen and (max-width: 31.25em) {
   .mywork__wrapper2--description {
     -ms-grid-row: 5;
     -ms-grid-row-span: 4;
     grid-row: 5/9;
     -ms-grid-column: 2;
-    -ms-grid-column-span: 8;
-    grid-column: 2/10;
+    -ms-grid-column-span: 7;
+    grid-column: 2/9;
   }
 }
 
@@ -1284,8 +1658,8 @@ span {
     -ms-grid-row-span: 4;
     grid-row: 5/9;
     -ms-grid-column: 2;
-    -ms-grid-column-span: 8;
-    grid-column: 2/10;
+    -ms-grid-column-span: 7;
+    grid-column: 2/9;
   }
 }
 
@@ -1498,14 +1872,22 @@ span {
 .Plans {
   width: 100%;
   height: 100vh;
-  background-color: black;
+  background-color: slategray;
   padding: 5rem 0;
+}
+
+@media only screen and (max-width: 37.5em) {
+  .Plans {
+    width: 100%;
+    height: 300vh;
+    padding: 1rem;
+  }
 }
 
 @media only screen and (max-width: 31.25em) {
   .Plans {
     width: 100%;
-    height: 250vh;
+    height: 300vh;
     padding: 1rem;
   }
 }
@@ -1513,8 +1895,7 @@ span {
 @media only screen and (max-width: 25em) {
   .Plans {
     width: 100%;
-    height: 250vh;
-    padding: 1rem;
+    height: 290vh;
   }
 }
 
@@ -1528,6 +1909,18 @@ span {
   display: flex;
 }
 
+@media only screen and (max-width: 37.5em) {
+  .contaneir {
+    margin-left: 4rem;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: 100vh;
+    width: 100%;
+  }
+}
+
 @media only screen and (max-width: 31.25em) {
   .contaneir {
     margin-left: 1rem;
@@ -1542,14 +1935,14 @@ span {
 
 @media only screen and (max-width: 25em) {
   .contaneir {
-    margin-left: 1rem;
+    margin-left: 0;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
     height: 100vh;
     width: 100%;
-    padding: 0 1rem 0 3rem;
+    padding: 0 2rem;
   }
 }
 
@@ -1561,6 +1954,14 @@ span {
   padding: 1rem;
 }
 
+@media only screen and (max-width: 37.5em) {
+  .contaneir__card1, .contaneir__card3 {
+    margin-top: 1rem;
+    width: 70%;
+    height: 100vh;
+  }
+}
+
 @media only screen and (max-width: 31.25em) {
   .contaneir__card1, .contaneir__card3 {
     margin-top: 1rem;
@@ -1572,13 +1973,20 @@ span {
 @media only screen and (max-width: 25em) {
   .contaneir__card1, .contaneir__card3 {
     margin-top: 1rem;
-    width: 80%;
+    width: 77%;
     height: 80vh;
+    margin-left: 1.5rem;
   }
 }
 
 .contaneir__card1 {
   margin-right: 1rem;
+}
+
+@media only screen and (max-width: 37.5em) {
+  .contaneir__card1 {
+    margin-right: 0;
+  }
 }
 
 @media only screen and (max-width: 31.25em) {
@@ -1616,6 +2024,14 @@ span {
   padding: 2rem;
 }
 
+@media only screen and (max-width: 37.5em) {
+  .contaneir__card2 {
+    margin-top: 1rem;
+    width: 70%;
+    height: 130vh;
+  }
+}
+
 @media only screen and (max-width: 31.25em) {
   .contaneir__card2 {
     margin-top: 1rem;
@@ -1627,8 +2043,9 @@ span {
 @media only screen and (max-width: 25em) {
   .contaneir__card2 {
     margin-top: 1rem;
-    width: 80%;
-    height: 98vh;
+    margin-left: 1.5rem;
+    width: 77%;
+    height: 100vh;
   }
 }
 
@@ -1705,7 +2122,14 @@ span {
 .extrapage {
   width: 100%;
   height: 65vh;
-  background-color: black;
+  background-color: slategray;
+}
+
+@media only screen and (max-width: 37.5em) {
+  .extrapage {
+    width: 100%;
+    height: 100vh;
+  }
 }
 
 @media only screen and (max-width: 31.25em) {
@@ -1728,6 +2152,12 @@ span {
   padding: 4rem;
 }
 
+@media only screen and (max-width: 37.5em) {
+  .FAQ {
+    padding: 2rem;
+  }
+}
+
 @media only screen and (max-width: 31.25em) {
   .FAQ {
     padding: 2rem;
@@ -1736,7 +2166,7 @@ span {
 
 @media only screen and (max-width: 25em) {
   .FAQ {
-    padding: 2rem;
+    padding: 1rem;
   }
 }
 
@@ -1746,6 +2176,13 @@ span {
   color: white;
   margin-bottom: 1rem;
   cursor: pointer;
+}
+
+@media only screen and (max-width: 37.5em) {
+  .FAQ__title {
+    font-size: 0.8rem;
+    font-weight: 400;
+  }
 }
 
 @media only screen and (max-width: 31.25em) {
@@ -1771,9 +2208,17 @@ span {
   color: rgba(0, 0, 0, 0.8);
 }
 
+@media only screen and (max-width: 37.5em) {
+  .FAQ__1, .FAQ__2, .FAQ__3 {
+    width: 70%;
+    height: 15vh;
+    padding: 0.7rem;
+  }
+}
+
 @media only screen and (max-width: 31.25em) {
   .FAQ__1, .FAQ__2, .FAQ__3 {
-    width: 100%;
+    width: 85%;
     height: 15vh;
     padding: 0.7rem;
   }
@@ -1781,8 +2226,8 @@ span {
 
 @media only screen and (max-width: 25em) {
   .FAQ__1, .FAQ__2, .FAQ__3 {
-    width: 100%;
-    height: 15vh;
+    width: 85%;
+    height: 12vh;
     padding: 0.7rem;
   }
 }
@@ -1794,6 +2239,15 @@ span {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+
+@media only screen and (max-width: 37.5em) {
+  .FAQ__1--heading, .FAQ__2--heading, .FAQ__3--heading {
+    font-size: 0.7rem;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
 }
 
 @media only screen and (max-width: 31.25em) {
@@ -1842,6 +2296,21 @@ span {
   cursor: pointer;
 }
 
+@media only screen and (max-width: 37.5em) {
+  .FAQ__1--headingBtn,
+  .FAQ__2--headingBtn,
+  .FAQ__3--headingBtn {
+    font-size: 0.5rem;
+    height: 1rem;
+    width: 5rem;
+    padding: 0.15rem;
+    margin-right: 0.2rem;
+    border: none;
+    border-radius: 50rem;
+    background-color: lightcoral;
+  }
+}
+
 @media only screen and (max-width: 31.25em) {
   .FAQ__1--headingBtn,
   .FAQ__2--headingBtn,
@@ -1884,6 +2353,21 @@ span {
   padding: 0.4rem;
   cursor: pointer;
   display: none;
+}
+
+@media only screen and (max-width: 37.5em) {
+  .FAQ__1--headingBtnLess,
+  .FAQ__2--headingBtnLess,
+  .FAQ__3--headingBtnLess {
+    font-size: 0.5rem;
+    height: 1rem;
+    width: 5rem;
+    padding: 0.15rem;
+    margin-right: 0.2rem;
+    border: none;
+    border-radius: 50rem;
+    background-color: lightcoral;
+  }
 }
 
 @media only screen and (max-width: 31.25em) {
@@ -1932,11 +2416,23 @@ span {
   visibility: none;
 }
 
+@media only screen and (max-width: 37.5em) {
+  .hirePopup {
+    width: 75%;
+    height: 75vh;
+    padding: 1.6rem;
+    -webkit-transform: translate(-55%, -50%);
+            transform: translate(-55%, -50%);
+  }
+}
+
 @media only screen and (max-width: 31.25em) {
   .hirePopup {
     width: 70%;
     height: 70vh;
     padding: 1rem;
+    -webkit-transform: translate(-55%, -50%);
+            transform: translate(-55%, -50%);
   }
 }
 
@@ -1945,6 +2441,8 @@ span {
     width: 70%;
     height: 70vh;
     padding: 1rem;
+    -webkit-transform: translate(-55%, -50%);
+            transform: translate(-55%, -50%);
   }
 }
 
@@ -1965,6 +2463,12 @@ span {
 .hirePopup__heading--text {
   font-size: 0.9rem;
   font-weight: 500;
+}
+
+@media only screen and (max-width: 37.5em) {
+  .hirePopup__heading--text {
+    font-size: 1rem;
+  }
 }
 
 @media only screen and (max-width: 31.25em) {
@@ -1988,6 +2492,15 @@ span {
   width: 4rem;
   color: #666;
   cursor: pointer;
+}
+
+@media only screen and (max-width: 37.5em) {
+  .hirePopup__heading--remove {
+    font-size: 0.8rem;
+    padding: 0 0.1rem;
+    height: 1.1rem;
+    width: 3.3rem;
+  }
 }
 
 @media only screen and (max-width: 31.25em) {
@@ -2021,6 +2534,14 @@ span {
 .hirePopup__main--text {
   font-weight: 500;
   margin-bottom: 2rem;
+}
+
+@media only screen and (max-width: 37.5em) {
+  .hirePopup__main--text {
+    font-size: 0.68rem;
+    margin-top: 0.7rem;
+    color: #666;
+  }
 }
 
 @media only screen and (max-width: 31.25em) {
@@ -2060,6 +2581,15 @@ span {
   font-family: poppins, sans-serif;
 }
 
+@media only screen and (max-width: 37.5em) {
+  .companyName,
+  .companyEmail {
+    width: 90%;
+    height: 2rem;
+    border: 1px solid #666;
+  }
+}
+
 @media only screen and (max-width: 31.25em) {
   .companyName,
   .companyEmail {
@@ -2088,9 +2618,18 @@ span {
   font-family: poppins, sans-serif;
 }
 
+@media only screen and (max-width: 37.5em) {
+  .mssgCompany {
+    width: 90%;
+    height: 27vh;
+    border: 1px solid #666;
+  }
+}
+
 @media only screen and (max-width: 31.25em) {
   .mssgCompany {
     width: 90%;
+    height: 20vh;
     border: 1px solid #666;
   }
 }
@@ -2098,6 +2637,7 @@ span {
 @media only screen and (max-width: 25em) {
   .mssgCompany {
     width: 90%;
+    height: 20vh;
     border: 1px solid #666;
   }
 }
@@ -2125,6 +2665,15 @@ span {
   font-weight: 400;
   padding: 0.5rem;
   cursor: pointer;
+}
+
+@media only screen and (max-width: 37.5em) {
+  #Hsubmit,
+  #Csubmit {
+    width: 90%;
+    height: 7vh;
+    font-size: 0.8rem;
+  }
 }
 
 @media only screen and (max-width: 31.25em) {
@@ -2161,11 +2710,23 @@ span {
   visibility: none;
 }
 
+@media only screen and (max-width: 37.5em) {
+  .websitePopup {
+    width: 75%;
+    height: 75vh;
+    padding: 1.6rem;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  }
+}
+
 @media only screen and (max-width: 31.25em) {
   .websitePopup {
-    width: 80%;
+    width: 75%;
     height: 80vh;
     padding: 1rem;
+    -webkit-transform: translate(-55%, -50%);
+            transform: translate(-55%, -50%);
   }
 }
 
@@ -2174,6 +2735,8 @@ span {
     width: 80%;
     height: 80vh;
     padding: 1rem;
+    -webkit-transform: translate(-54%, -50%);
+            transform: translate(-54%, -50%);
   }
 }
 
@@ -2219,6 +2782,15 @@ span {
   cursor: pointer;
 }
 
+@media only screen and (max-width: 37.5em) {
+  .websitePopup__heading--remove {
+    font-size: 0.8rem;
+    padding: 0 0.1rem;
+    height: 1.1rem;
+    width: 3.3rem;
+  }
+}
+
 @media only screen and (max-width: 31.25em) {
   .websitePopup__heading--remove {
     font-size: 0.7rem;
@@ -2252,6 +2824,14 @@ span {
   margin-bottom: 2rem;
 }
 
+@media only screen and (max-width: 37.5em) {
+  .websitePopup__main--text {
+    font-size: 0.68rem;
+    margin-top: 0.7rem;
+    color: #666;
+  }
+}
+
 @media only screen and (max-width: 31.25em) {
   .websitePopup__main--text {
     font-size: 0.6rem;
@@ -2277,6 +2857,16 @@ span {
   margin-bottom: 0.3rem;
   padding: 0.5rem;
   font-family: poppins, sans-serif;
+}
+
+@media only screen and (max-width: 37.5em) {
+  .clientName,
+  .clientPlan,
+  .clientEmail {
+    width: 90%;
+    height: 2rem;
+    border: 1px solid #666;
+  }
 }
 
 @media only screen and (max-width: 31.25em) {
@@ -2307,6 +2897,14 @@ span {
   margin-bottom: 0.3rem;
   padding: 0.5rem;
   font-family: poppins, sans-serif;
+}
+
+@media only screen and (max-width: 37.5em) {
+  .mssgClient {
+    width: 90%;
+    height: 21vh;
+    border: 1px solid #666;
+  }
 }
 
 @media only screen and (max-width: 31.25em) {

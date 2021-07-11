@@ -2,6 +2,11 @@
   width: 100%;
   height: 50vh;
   display: flex;
+  @include repsond(x-phone) {
+    width: 100%;
+    height: 100vh;
+    flex-direction: column;
+  }
   @include repsond(m-phone) {
     width: 100%;
     height: 100vh;
@@ -21,6 +26,15 @@
     flex: 0 0 40%;
 
     padding: 3rem 0 0 3rem;
+    @include repsond(x-phone) {
+      padding: 0;
+    }
+    @include repsond(m-phone) {
+      padding: 0;
+    }
+    @include repsond(s-phone) {
+      padding: 0;
+    }
     &--Instagram,
     &--twitter,
     &--facebook {
@@ -34,11 +48,29 @@
     flex: 0 0 10%;
     display: flex;
     padding: 3rem 0 0 2rem;
+    @include repsond(x-phone) {
+      padding: 0;
+    }
+    @include repsond(m-phone) {
+      padding: 0;
+    }
+    @include repsond(s-phone) {
+      padding: 0;
+    }
   }
   &__3 {
     flex: 1;
 
     padding: 3rem 0 0 3rem;
+    @include repsond(x-phone) {
+      padding: 0;
+    }
+    @include repsond(m-phone) {
+      padding: 0;
+    }
+    @include repsond(s-phone) {
+      padding: 0;
+    }
     &--platforms {
       display: flex;
       align-items: center;
@@ -54,6 +86,9 @@
   margin-right: 0.5rem;
   cursor: pointer;
   transition: all ease 0.4s;
+  @include repsond(s-phone) {
+    margin-right: 1rem;
+  }
 }
 .instagram:hover,
 .twitter:hover,
@@ -98,6 +133,9 @@
   margin-right: 0.7rem;
   fill: #666;
   cursor: text;
+  @include repsond(x-phone) {
+    width: 2rem;
+  }
   @include repsond(m-phone) {
     width: 2rem;
   }
@@ -111,6 +149,10 @@
   height: 4rem;
   fill: #666;
   cursor: text;
+  @include repsond(x-phone) {
+    width: 3rem;
+    height: 3rem;
+  }
   @include repsond(m-phone) {
     width: 3rem;
     height: 3rem;
@@ -126,6 +168,10 @@
   margin-right: 0.7rem;
   fill: #666;
   cursor: text;
+  @include repsond(x-phone) {
+    width: 2rem;
+    height: 2rem;
+  }
   @include repsond(m-phone) {
     width: 2rem;
     height: 2rem;

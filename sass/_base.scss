@@ -44,13 +44,6 @@ body {
   font-family: poppins, sans-serif;
   font-size: 62.5%;
   font-weight: 400;
-
-  // @include repsond(s-phone) {
-  //   font-size: 62.5%;
-  // }
-  // @include repsond(m-phone) {
-  //   font-size: 70%;
-  // }
 }
 @mixin box {
   width: 100%;
@@ -58,8 +51,12 @@ body {
   border: 1px solid rgba(211, 211, 211, 0.5);
   text-align: center;
   padding: 1rem;
+  @include repsond(x-phone) {
+    padding: 0.7rem;
+  }
   @include repsond(m-phone) {
     padding: 0.6rem;
+    margin-left: 1rem;
   }
   @include repsond(s-phone) {
     padding: 0.6rem;
@@ -69,7 +66,11 @@ body {
   width: 3rem;
   height: 3rem;
   margin: 15% 40% 10% 40%;
-
+  @include repsond(x-phone) {
+    width: 1.7rem;
+    height: 1.7rem;
+    margin: 5% 30%;
+  }
   @include repsond(m-phone) {
     width: 1.6rem;
     height: 1.6rem;

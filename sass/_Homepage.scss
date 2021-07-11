@@ -2,9 +2,12 @@
   width: 100%;
   height: 100vh;
   background: linear-gradient(
-      to right,
-      rgba(0, 0, 0, 0.95),
-      rgba(0, 0, 0, 0.95)
+      180deg,
+      #ccccff,
+      rgba(255, 204, 204, 0.75),
+      rgba(255, 204, 204, 0.95)
+        /*rgba(0, 0, 0, 0.95),
+      rgba(0, 0, 0, 0.95)*/
     ),
     url("../Images/anthony-riera-it9kG_dWyVo-unsplash.jpg");
   background-repeat: no-repeat;
@@ -12,6 +15,11 @@
   background-position: center;
   padding: 0 3.5rem;
   position: relative;
+  @include repsond(x-phone) {
+    width: 100%;
+    height: 100vh;
+    padding: 1.4rem 2.5rem;
+  }
   @include repsond(m-phone) {
     width: 100%;
     height: 100vh;
@@ -19,13 +27,14 @@
   }
   @include repsond(s-phone) {
     width: 100%;
+    height: 100vh;
     padding: 1.3rem 2rem;
   }
 
   /////////////////
   //////////////NAVIGATION BAR //////////////////////////
   &__nav {
-    color: white;
+    color: rgba(0, 0, 0, 0.95);
     width: 100%;
     height: 9vh;
     display: flex;
@@ -33,8 +42,13 @@
     align-items: center;
     padding-top: 1rem;
     font-size: 0.8rem;
-    font-weight: 600;
+    font-weight: 700;
     text-transform: uppercase;
+    @include repsond(x-phone) {
+      width: 100%;
+      height: 7vh;
+      padding-top: 0.7rem;
+    }
     @include repsond(m-phone) {
       width: 100%;
       height: 7vh;
@@ -54,6 +68,9 @@
       flex: 1;
       display: flex;
       justify-content: space-between;
+      @include repsond(x-phone) {
+        display: none;
+      }
       @include repsond(m-phone) {
         display: none;
       }
@@ -66,7 +83,6 @@
     }
     &--list > li a {
       text-decoration: none;
-      color: white;
       font-weight: 600;
       cursor: pointer;
     }
@@ -78,6 +94,9 @@
       width: 100%;
       height: 15vh;
       margin: 10rem 0 1rem 0;
+      @include repsond(x-phone) {
+        margin: 10rem 0 0.5rem 0;
+      }
       @include repsond(m-phone) {
         margin: 10rem 0 0.5rem 0;
       }
@@ -87,8 +106,13 @@
     }
 
     &--title > p {
-      color: rgba(255, 255, 255, 0.75);
+      color: rgba(0, 0, 0, 0.95);
       font-size: 1rem;
+      font-weight: 600;
+      @include repsond(x-phone) {
+        font-size: 0.9rem;
+        font-weight: 600;
+      }
       @include repsond(m-phone) {
         font-size: 0.6rem;
         font-weight: 600;
@@ -99,32 +123,45 @@
       }
     }
     &--buttons {
-      color: white;
+      color: rgba(255, 255, 255, 0.9);
       width: 26%;
       height: 7vh;
       display: flex;
       justify-content: space-between;
+      @include repsond(x-phone) {
+        width: 48%;
+        margin-top: 1rem;
+      }
       @include repsond(m-phone) {
         width: 55%;
+        margin-top: 0;
       }
       @include repsond(s-phone) {
         width: 63%;
+        margin-top: 0;
       }
     }
     &--buttons > .hireBtn {
       width: 8rem;
       height: 5.7vh;
-      color: rgba(0, 0, 0, 0.75);
-      background-color: #c4c4c4;
+      color: #fff;
+      background-color: rgb(0, 0, 0);
       text-align: center;
       font-size: 0.8rem;
       font-weight: 600;
       padding: 0.5rem 0;
       cursor: pointer;
+      @include repsond(x-phone) {
+        width: 7.5rem;
+        height: 6.6vh;
+        font-weight: 700;
+        padding: 0.4rem 0;
+      }
       @include repsond(m-phone) {
         width: 7rem;
         height: 6.6vh;
         font-weight: 700;
+        font-size: 0.7rem;
         padding: 0.4rem 0;
       }
       @include repsond(s-phone) {
@@ -132,25 +169,32 @@
         height: 5.7vh;
         font-size: 0.6rem;
         font-weight: 700;
-        padding: 0.3rem 0;
+        padding: 0.4rem 0;
       }
     }
 
     &--buttons > .needAWebsiteBtn {
       width: 8rem;
       height: 5.7vh;
-      color: rgba(255, 255, 255, 0.9);
-      border: 1px solid lightgray;
+      color: rgba(0, 0, 0, 0.9);
+      border: 1px solid rgb(0, 0, 0);
       text-align: center;
       padding: 0.5rem 0;
       font-weight: 700;
       font-size: 0.7rem;
       cursor: pointer;
+      @include repsond(x-phone) {
+        width: 7rem;
+        height: 6.6vh;
+        padding: 0.4rem 0;
+        font-weight: 700;
+      }
       @include repsond(m-phone) {
         width: 7rem;
         height: 6.6vh;
         padding: 0.4rem 0;
         font-weight: 700;
+        font-size: 0.7rem;
       }
       @include repsond(s-phone) {
         width: 6rem;
@@ -164,31 +208,38 @@
 }
 .hireBtn > a {
   text-decoration: none;
-  color: rgba(0, 0, 0, 0.75);
+  color: rgba(255, 255, 255, 0.95);
   text-transform: uppercase;
 }
 .needAWebsiteBtn > a {
   text-decoration: none;
-  color: rgba(255, 255, 255, 0.9);
-  font-weight: 500;
+  color: rgba(0, 0, 0, 0.9);
+  font-weight: 700;
   text-transform: uppercase;
 }
 .wrapperSmall {
   box-sizing: content-box;
   display: flex;
   height: 4.2rem;
-  color: rgba(255, 255, 255, 0.9);
+  color: rgba(0, 0, 0, 0.9);
   font-size: 2.2rem;
-  font-weight: 600;
+  font-weight: 700;
   text-transform: uppercase;
   font-family: poppins;
+  @include repsond(x-phone) {
+    font-size: 1.89rem;
+    height: 2.6rem;
+    margin-bottom: 0.4rem;
+  }
   @include repsond(m-phone) {
     font-size: 1.5rem;
     height: 2.4rem;
+    margin-bottom: 0;
   }
   @include repsond(s-phone) {
     font-size: 1.5rem;
     height: 2.7rem;
+    margin-bottom: 0;
   }
 }
 .words {
@@ -200,9 +251,14 @@ span {
   padding-left: 1rem;
   padding-top: 0.35rem;
   font-size: 2.2rem;
-  font-weight: 600;
+  font-weight: 700;
   animation: spin_words 6s infinite;
   text-transform: uppercase;
+  @include repsond(x-phone) {
+    font-size: 1.89rem;
+    // /padding-left: 0.6rem;
+    padding-left: 0.6rem;
+  }
   @include repsond(m-phone) {
     font-size: 1.5rem;
     padding-left: 0.6rem;
@@ -253,6 +309,10 @@ span {
   font-weight: 500;
   overflow: hidden;
   display: none;
+  @include repsond(x-phone) {
+    width: 100%;
+    padding: 0.3rem 2rem;
+  }
   @include repsond(m-phone) {
     width: 100%;
     padding: 0.3rem 2rem;
@@ -269,6 +329,9 @@ span {
     flex: 1;
     display: flex;
     justify-content: space-between;
+    @include repsond(x-phone) {
+      display: none;
+    }
     @include repsond(m-phone) {
       display: none;
     }
