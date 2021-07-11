@@ -15,6 +15,11 @@
   background-position: center;
   padding: 0 3.5rem;
   position: relative;
+  @include repsond(tab-port) {
+    width: 100%;
+    height: 100vh;
+    padding: 1.4rem 2.5rem;
+  }
   @include repsond(x-phone) {
     width: 100%;
     height: 100vh;
@@ -44,6 +49,12 @@
     font-size: 0.8rem;
     font-weight: 700;
     text-transform: uppercase;
+    @include repsond(tab-port) {
+      width: 100%;
+      height: 7.5vh;
+      padding: 0.7rem 0;
+      font-size: 0.7rem;
+    }
     @include repsond(x-phone) {
       width: 100%;
       height: 7vh;
@@ -63,6 +74,9 @@
     &--logo {
       flex: 0 0 65%;
       cursor: pointer;
+      @include repsond(tab-port) {
+        flex: 0 0 50%;
+      }
     }
     &--list {
       flex: 1;
@@ -94,6 +108,9 @@
       width: 100%;
       height: 15vh;
       margin: 10rem 0 1rem 0;
+      @include repsond(tab-port) {
+        margin: 10rem 0 0.5rem 0;
+      }
       @include repsond(x-phone) {
         margin: 10rem 0 0.5rem 0;
       }
@@ -109,6 +126,10 @@
       color: rgba(0, 0, 0, 0.95);
       font-size: 1rem;
       font-weight: 600;
+      @include repsond(tab-port) {
+        font-size: 1rem;
+        font-weight: 600;
+      }
       @include repsond(x-phone) {
         font-size: 0.9rem;
         font-weight: 600;
@@ -128,6 +149,10 @@
       height: 7vh;
       display: flex;
       justify-content: space-between;
+      @include repsond(tab-port) {
+        width: 45%;
+        margin-top: 2rem;
+      }
       @include repsond(x-phone) {
         width: 48%;
         margin-top: 1rem;
@@ -151,6 +176,10 @@
       font-weight: 600;
       padding: 0.5rem 0;
       cursor: pointer;
+      @include repsond(tab-port) {
+        width: 8.5rem;
+        height: 7vh;
+      }
       @include repsond(x-phone) {
         width: 7.5rem;
         height: 6.6vh;
@@ -183,6 +212,10 @@
       font-weight: 700;
       font-size: 0.7rem;
       cursor: pointer;
+      @include repsond(tab-port) {
+        width: 7.5rem;
+        height: 7vh;
+      }
       @include repsond(x-phone) {
         width: 7rem;
         height: 6.6vh;
@@ -226,10 +259,14 @@
   font-weight: 700;
   text-transform: uppercase;
   font-family: poppins;
+  @include repsond(tab-port) {
+    margin-bottom: 0.3rem;
+    height: 2.9rem;
+  }
   @include repsond(x-phone) {
     font-size: 1.89rem;
     height: 2.6rem;
-    margin-bottom: 0.4rem;
+    margin-bottom: 0.1rem;
   }
   @include repsond(m-phone) {
     font-size: 1.5rem;
@@ -309,6 +346,11 @@ span {
   font-weight: 500;
   overflow: hidden;
   display: none;
+  @include repsond(tab-port) {
+    width: 100%;
+    padding: 0.4rem 2.5rem;
+    font-size: 0.7rem;
+  }
   @include repsond(x-phone) {
     width: 100%;
     padding: 0.3rem 2rem;
@@ -324,6 +366,9 @@ span {
   &--logo {
     flex: 0 0 70%;
     cursor: pointer;
+    @include repsond(tab-port) {
+      flex: 0 0 50%;
+    }
   }
   &--list {
     flex: 1;
