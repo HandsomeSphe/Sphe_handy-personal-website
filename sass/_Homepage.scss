@@ -15,6 +15,11 @@
   background-position: center;
   padding: 0 3.5rem;
   position: relative;
+  @include repsond(tab-land) {
+    width: 100%;
+    height: 100vh;
+    padding: 1.4rem 2.5rem;
+  }
   @include repsond(tab-port) {
     width: 100%;
     height: 100vh;
@@ -49,6 +54,12 @@
     font-size: 0.8rem;
     font-weight: 700;
     text-transform: uppercase;
+    @include repsond(tab-land) {
+      width: 100%;
+      height: 7.5vh;
+      padding: 0.7rem 0;
+      font-size: 0.7rem;
+    }
     @include repsond(tab-port) {
       width: 100%;
       height: 7.5vh;
@@ -108,6 +119,9 @@
       width: 100%;
       height: 15vh;
       margin: 10rem 0 1rem 0;
+      @include repsond(tab-land) {
+        margin: 10rem 0 0.5rem 0;
+      }
       @include repsond(tab-port) {
         margin: 10rem 0 0.5rem 0;
       }
@@ -126,6 +140,10 @@
       color: rgba(0, 0, 0, 0.95);
       font-size: 1rem;
       font-weight: 600;
+      @include repsond(tab-land) {
+        font-size: 1rem;
+        font-weight: 600;
+      }
       @include repsond(tab-port) {
         font-size: 1rem;
         font-weight: 600;
@@ -149,6 +167,10 @@
       height: 7vh;
       display: flex;
       justify-content: space-between;
+      @include repsond(tab-land) {
+        width: 33%;
+        margin-top: 2rem;
+      }
       @include repsond(tab-port) {
         width: 45%;
         margin-top: 2rem;
@@ -176,6 +198,10 @@
       font-weight: 600;
       padding: 0.5rem 0;
       cursor: pointer;
+      @include repsond(tab-land) {
+        width: 8.5rem;
+        height: 7vh;
+      }
       @include repsond(tab-port) {
         width: 8.5rem;
         height: 7vh;
@@ -212,6 +238,10 @@
       font-weight: 700;
       font-size: 0.7rem;
       cursor: pointer;
+      @include repsond(tab-land) {
+        width: 7.5rem;
+        height: 7vh;
+      }
       @include repsond(tab-port) {
         width: 7.5rem;
         height: 7vh;
@@ -259,6 +289,10 @@
   font-weight: 700;
   text-transform: uppercase;
   font-family: poppins;
+  @include repsond(tab-land) {
+    margin-bottom: 0.5rem;
+    height: 3rem;
+  }
   @include repsond(tab-port) {
     margin-bottom: 0.3rem;
     height: 2.9rem;
@@ -291,9 +325,12 @@ span {
   font-weight: 700;
   animation: spin_words 6s infinite;
   text-transform: uppercase;
+  @include repsond(tab-land) {
+    font-size: 2rem;
+    padding-left: 0.6rem;
+  }
   @include repsond(x-phone) {
     font-size: 1.89rem;
-    // /padding-left: 0.6rem;
     padding-left: 0.6rem;
   }
   @include repsond(m-phone) {
@@ -346,6 +383,11 @@ span {
   font-weight: 500;
   overflow: hidden;
   display: none;
+  @include repsond(tab-land) {
+    width: 100%;
+    padding: 0.4rem 2.5rem;
+    font-size: 0.7rem;
+  }
   @include repsond(tab-port) {
     width: 100%;
     padding: 0.4rem 2.5rem;
@@ -366,6 +408,9 @@ span {
   &--logo {
     flex: 0 0 70%;
     cursor: pointer;
+    @include repsond(tab-land) {
+      flex: 0 0 45%;
+    }
     @include repsond(tab-port) {
       flex: 0 0 50%;
     }
