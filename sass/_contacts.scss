@@ -96,7 +96,7 @@
 #email,
 #mssg {
   width: 75%;
-  height: 2.4vh;
+  height: 5vh;
   margin-bottom: 0.2rem;
   border: 1px solid lightgray;
   padding-left: 0.3rem;
@@ -112,6 +112,11 @@
   }
   @include repsond(s-phone) {
     width: 80%;
+    height: 3rem;
+  }
+  @include repsond(xs-phone) {
+    width: 80%;
+    height: 2.5rem;
   }
 }
 #name:active,
