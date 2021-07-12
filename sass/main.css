@@ -57,7 +57,7 @@ body {
   .About {
     width: 100%;
     height: 170vh;
-    padding: 2rem 1.5rem;
+    padding: 2rem 0.5rem;
   }
 }
 
@@ -118,8 +118,8 @@ body {
 
 @media only screen and (max-width: 23.4em) {
   .About__boxes {
-    -ms-grid-columns: 10rem 10rem;
-        grid-template-columns: 10rem 10rem;
+    -ms-grid-columns: 9rem 9rem;
+        grid-template-columns: 9rem 9rem;
     -ms-grid-rows: 11rem 11rem 11rem;
         grid-template-rows: 11rem 11rem 11rem;
   }
