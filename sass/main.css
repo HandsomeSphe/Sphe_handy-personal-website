@@ -53,11 +53,19 @@ body {
   }
 }
 
-@media only screen and (max-width: 25em) {
+@media only screen and (max-width: 27em) {
   .About {
     width: 100%;
     height: 170vh;
     padding: 2rem 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 20em) {
+  .About {
+    width: 100%;
+    height: 180vh;
+    padding: 2rem 1rem;
   }
 }
 
@@ -108,12 +116,21 @@ body {
   }
 }
 
-@media only screen and (max-width: 25em) {
+@media only screen and (max-width: 27em) {
   .About__boxes {
     -ms-grid-columns: 10rem 10rem;
         grid-template-columns: 10rem 10rem;
     -ms-grid-rows: 11rem 11rem 11rem;
         grid-template-rows: 11rem 11rem 11rem;
+  }
+}
+
+@media only screen and (max-width: 20em) {
+  .About__boxes {
+    -ms-grid-columns: 7rem 7rem;
+        grid-template-columns: 7rem 7rem;
+    -ms-grid-rows: 8rem 8rem 8rem;
+        grid-template-rows: 8rem 8rem 8rem;
   }
 }
 
@@ -144,7 +161,7 @@ body {
   }
 }
 
-@media only screen and (max-width: 25em) {
+@media only screen and (max-width: 27em) {
   .About__boxes--1, .About__boxes--2, .About__boxes--3, .About__boxes--4, .About__boxes--5, .About__boxes--6 {
     padding: 0.6rem;
   }
@@ -207,7 +224,7 @@ body {
   }
 }
 
-@media only screen and (max-width: 25em) {
+@media only screen and (max-width: 27em) {
   .About__boxes--1 > h3,
   .About__boxes--2 > h3,
   .About__boxes--3 > h3,
@@ -279,7 +296,7 @@ body {
   }
 }
 
-@media only screen and (max-width: 25em) {
+@media only screen and (max-width: 27em) {
   #code,
   #globe,
   #resize,
@@ -333,7 +350,7 @@ body {
   }
 }
 
-@media only screen and (max-width: 25em) {
+@media only screen and (max-width: 27em) {
   .About__me {
     width: 90%;
     height: 15vh;
@@ -379,7 +396,7 @@ body {
   }
 }
 
-@media only screen and (max-width: 25em) {
+@media only screen and (max-width: 27em) {
   .Contacts {
     width: 100%;
     height: 110vh;
@@ -433,7 +450,7 @@ body {
   }
 }
 
-@media only screen and (max-width: 25em) {
+@media only screen and (max-width: 27em) {
   .Contacts__wrapper {
     width: 100%;
     height: 100vh;
@@ -487,7 +504,7 @@ body {
   }
 }
 
-@media only screen and (max-width: 25em) {
+@media only screen and (max-width: 27em) {
   .form {
     -webkit-box-flex: 0;
         -ms-flex: 0 0 60%;
@@ -526,7 +543,7 @@ body {
   }
 }
 
-@media only screen and (max-width: 25em) {
+@media only screen and (max-width: 27em) {
   #name,
   #email,
   #mssg {
@@ -592,7 +609,7 @@ body {
   }
 }
 
-@media only screen and (max-width: 25em) {
+@media only screen and (max-width: 27em) {
   .submit {
     width: 80%;
   }
@@ -626,7 +643,7 @@ body {
   }
 }
 
-@media only screen and (max-width: 25em) {
+@media only screen and (max-width: 27em) {
   .ownerInfo > h4 {
     font-size: 0.6rem;
     margin-left: 2rem;
@@ -674,7 +691,7 @@ body {
   }
 }
 
-@media only screen and (max-width: 25em) {
+@media only screen and (max-width: 27em) {
   .footer {
     width: 100%;
     height: 100vh;
@@ -710,7 +727,7 @@ body {
   }
 }
 
-@media only screen and (max-width: 25em) {
+@media only screen and (max-width: 27em) {
   .footer__1 {
     padding: 2rem;
   }
@@ -749,7 +766,7 @@ body {
   }
 }
 
-@media only screen and (max-width: 25em) {
+@media only screen and (max-width: 27em) {
   .footer__2 {
     padding: 2rem;
   }
@@ -774,7 +791,7 @@ body {
   }
 }
 
-@media only screen and (max-width: 25em) {
+@media only screen and (max-width: 27em) {
   .footer__3 {
     padding: 2rem;
   }
@@ -800,7 +817,7 @@ body {
   transition: all ease 0.4s;
 }
 
-@media only screen and (max-width: 25em) {
+@media only screen and (max-width: 27em) {
   .instagram,
   .twitter,
   .facebook {
@@ -875,7 +892,7 @@ body {
   }
 }
 
-@media only screen and (max-width: 25em) {
+@media only screen and (max-width: 27em) {
   .html,
   .JS,
   .sass {
@@ -905,7 +922,7 @@ body {
   }
 }
 
-@media only screen and (max-width: 25em) {
+@media only screen and (max-width: 27em) {
   .figma {
     width: 3rem;
     height: 3rem;
@@ -934,7 +951,7 @@ body {
   }
 }
 
-@media only screen and (max-width: 25em) {
+@media only screen and (max-width: 27em) {
   .css {
     width: 2rem;
     height: 2rem;
@@ -994,11 +1011,19 @@ body {
   }
 }
 
-@media only screen and (max-width: 25em) {
+@media only screen and (max-width: 27em) {
   .home {
     width: 100%;
     height: 100vh;
     padding: 1.3rem 2rem;
+  }
+}
+
+@media only screen and (max-width: 20em) {
+  .home {
+    width: 100%;
+    height: 100vh;
+    padding: 1rem;
   }
 }
 
@@ -1055,11 +1080,19 @@ body {
   }
 }
 
-@media only screen and (max-width: 25em) {
+@media only screen and (max-width: 27em) {
   .home__nav {
     width: 100%;
     height: 7vh;
     padding-top: 0.7rem;
+  }
+}
+
+@media only screen and (max-width: 20em) {
+  .home__nav {
+    width: 100%;
+    height: 6vh;
+    padding-top: 0.5rem;
   }
 }
 
@@ -1102,7 +1135,13 @@ body {
   }
 }
 
-@media only screen and (max-width: 25em) {
+@media only screen and (max-width: 27em) {
+  .home__nav--list {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 20em) {
   .home__nav--list {
     display: none;
   }
@@ -1148,9 +1187,15 @@ body {
   }
 }
 
-@media only screen and (max-width: 25em) {
+@media only screen and (max-width: 27em) {
   .home__body--title {
     margin: 10rem 0 0.5rem 0;
+  }
+}
+
+@media only screen and (max-width: 20em) {
+  .home__body--title {
+    margin: 7rem 0 0.3rem 0;
   }
 }
 
@@ -1188,7 +1233,14 @@ body {
   }
 }
 
-@media only screen and (max-width: 25em) {
+@media only screen and (max-width: 27em) {
+  .home__body--title > p {
+    font-size: 0.6rem;
+    font-weight: 600;
+  }
+}
+
+@media only screen and (max-width: 20em) {
   .home__body--title > p {
     font-size: 0.6rem;
     font-weight: 600;
@@ -1235,9 +1287,16 @@ body {
   }
 }
 
-@media only screen and (max-width: 25em) {
+@media only screen and (max-width: 27em) {
   .home__body--buttons {
     width: 67%;
+    margin-top: 0;
+  }
+}
+
+@media only screen and (max-width: 20em) {
+  .home__body--buttons {
+    width: 73%;
     margin-top: 0;
   }
 }
@@ -1287,7 +1346,17 @@ body {
   }
 }
 
-@media only screen and (max-width: 25em) {
+@media only screen and (max-width: 27em) {
+  .home__body--buttons > .hireBtn {
+    width: 6rem;
+    height: 5.7vh;
+    font-size: 0.6rem;
+    font-weight: 700;
+    padding: 0.4rem 0;
+  }
+}
+
+@media only screen and (max-width: 20em) {
   .home__body--buttons > .hireBtn {
     width: 6rem;
     height: 5.7vh;
@@ -1342,7 +1411,17 @@ body {
   }
 }
 
-@media only screen and (max-width: 25em) {
+@media only screen and (max-width: 27em) {
+  .home__body--buttons > .needAWebsiteBtn {
+    width: 6rem;
+    height: 5.7vh;
+    padding: 0.3rem 0;
+    font-size: 0.6rem;
+    font-weight: 700;
+  }
+}
+
+@media only screen and (max-width: 20em) {
   .home__body--buttons > .needAWebsiteBtn {
     width: 6rem;
     height: 5.7vh;
@@ -1409,11 +1488,18 @@ body {
   }
 }
 
-@media only screen and (max-width: 25em) {
+@media only screen and (max-width: 27em) {
   .wrapperSmall {
     font-size: 1.5rem;
     height: 2.7rem;
     margin-bottom: 0;
+  }
+}
+
+@media only screen and (max-width: 20em) {
+  .wrapperSmall {
+    font-size: 1.2rem;
+    height: 2.1rem;
   }
 }
 
@@ -1455,7 +1541,7 @@ span {
   }
 }
 
-@media only screen and (max-width: 25em) {
+@media only screen and (max-width: 27em) {
   span {
     font-size: 1.2rem;
     padding-left: 0.5rem;
@@ -1568,7 +1654,7 @@ span {
   }
 }
 
-@media only screen and (max-width: 25em) {
+@media only screen and (max-width: 27em) {
   .home__nav2 {
     width: 100%;
     padding: 0.3rem 2rem;
@@ -1622,7 +1708,7 @@ span {
   }
 }
 
-@media only screen and (max-width: 25em) {
+@media only screen and (max-width: 27em) {
   .home__nav2--list {
     display: none;
   }
@@ -1686,7 +1772,7 @@ span {
   }
 }
 
-@media only screen and (max-width: 25em) {
+@media only screen and (max-width: 27em) {
   .mywork__section {
     width: 100%;
     height: 200vh;
@@ -1730,7 +1816,7 @@ span {
   }
 }
 
-@media only screen and (max-width: 25em) {
+@media only screen and (max-width: 27em) {
   .mywork {
     width: 100%;
   }
@@ -1801,7 +1887,7 @@ span {
   }
 }
 
-@media only screen and (max-width: 25em) {
+@media only screen and (max-width: 27em) {
   .mywork__wrapper--pic {
     -ms-grid-column: 1;
     -ms-grid-column-span: 9;
@@ -1869,7 +1955,7 @@ span {
   }
 }
 
-@media only screen and (max-width: 25em) {
+@media only screen and (max-width: 27em) {
   .mywork__wrapper--description {
     -ms-grid-column: 2;
     -ms-grid-column-span: 7;
@@ -1890,7 +1976,7 @@ span {
   }
 }
 
-@media only screen and (max-width: 25em) {
+@media only screen and (max-width: 27em) {
   .mywork__wrapper--description > .title {
     font-size: 0.7rem;
   }
@@ -1908,7 +1994,7 @@ span {
   }
 }
 
-@media only screen and (max-width: 25em) {
+@media only screen and (max-width: 27em) {
   .mywork__wrapper--description > .subtitle {
     margin-bottom: 0.4rem;
     font-size: 0.6rem;
@@ -1927,7 +2013,7 @@ span {
   }
 }
 
-@media only screen and (max-width: 25em) {
+@media only screen and (max-width: 27em) {
   .mywork__wrapper--description > .descript {
     font-size: 0.6rem;
   }
@@ -1998,7 +2084,7 @@ span {
   }
 }
 
-@media only screen and (max-width: 25em) {
+@media only screen and (max-width: 27em) {
   .mywork__wrapper2--pic {
     -ms-grid-column: 1;
     -ms-grid-column-span: 9;
@@ -2066,7 +2152,7 @@ span {
   }
 }
 
-@media only screen and (max-width: 25em) {
+@media only screen and (max-width: 27em) {
   .mywork__wrapper2--description {
     -ms-grid-row: 5;
     -ms-grid-row-span: 4;
@@ -2087,7 +2173,7 @@ span {
   }
 }
 
-@media only screen and (max-width: 25em) {
+@media only screen and (max-width: 27em) {
   .mywork__wrapper2--description > .title {
     font-size: 0.7rem;
   }
@@ -2105,7 +2191,7 @@ span {
   }
 }
 
-@media only screen and (max-width: 25em) {
+@media only screen and (max-width: 27em) {
   .mywork__wrapper2--description > .subtitle {
     font-size: 0.6rem;
     margin-bottom: 0.4rem;
@@ -2124,7 +2210,7 @@ span {
   }
 }
 
-@media only screen and (max-width: 25em) {
+@media only screen and (max-width: 27em) {
   .mywork__wrapper2--description > .descript {
     font-size: 0.6rem;
   }
@@ -2152,7 +2238,7 @@ span {
   }
 }
 
-@media only screen and (max-width: 25em) {
+@media only screen and (max-width: 27em) {
   #penty,
   #cafe {
     width: 100%;
@@ -2208,7 +2294,7 @@ span {
   }
 }
 
-@media only screen and (max-width: 25em) {
+@media only screen and (max-width: 27em) {
   .buttons,
   .buttons2 {
     width: 90%;
@@ -2240,7 +2326,7 @@ span {
   }
 }
 
-@media only screen and (max-width: 25em) {
+@media only screen and (max-width: 27em) {
   .viewBtn {
     width: 40%;
     height: 1.7rem;
@@ -2267,7 +2353,7 @@ span {
   }
 }
 
-@media only screen and (max-width: 25em) {
+@media only screen and (max-width: 27em) {
   .codeBtn,
   .codeBtn2 {
     width: 40%;
@@ -2351,7 +2437,7 @@ span {
   }
 }
 
-@media only screen and (max-width: 25em) {
+@media only screen and (max-width: 27em) {
   .Plans {
     width: 100%;
     height: 290vh;
@@ -2415,7 +2501,7 @@ span {
   }
 }
 
-@media only screen and (max-width: 25em) {
+@media only screen and (max-width: 27em) {
   .contaneir {
     margin-left: 0;
     -webkit-box-orient: vertical;
@@ -2467,7 +2553,7 @@ span {
   }
 }
 
-@media only screen and (max-width: 25em) {
+@media only screen and (max-width: 27em) {
   .contaneir__card1, .contaneir__card3 {
     margin-top: 1rem;
     width: 77%;
@@ -2504,7 +2590,13 @@ span {
   }
 }
 
-@media only screen and (max-width: 25em) {
+@media only screen and (max-width: 27em) {
+  .contaneir__card1 {
+    margin-right: 0;
+  }
+}
+
+@media only screen and (max-width: 20em) {
   .contaneir__card1 {
     margin-right: 0;
   }
@@ -2565,7 +2657,7 @@ span {
   }
 }
 
-@media only screen and (max-width: 25em) {
+@media only screen and (max-width: 27em) {
   .contaneir__card2 {
     margin-top: 1rem;
     margin-left: 1.5rem;
@@ -2671,7 +2763,7 @@ span {
   }
 }
 
-@media only screen and (max-width: 25em) {
+@media only screen and (max-width: 27em) {
   .extrapage {
     width: 100%;
     height: 100vh;
@@ -2696,7 +2788,7 @@ span {
   }
 }
 
-@media only screen and (max-width: 25em) {
+@media only screen and (max-width: 27em) {
   .FAQ {
     padding: 1rem;
   }
@@ -2731,7 +2823,7 @@ span {
   }
 }
 
-@media only screen and (max-width: 25em) {
+@media only screen and (max-width: 27em) {
   .FAQ__title {
     font-size: 0.7rem;
     font-weight: 400;
@@ -2771,7 +2863,7 @@ span {
   }
 }
 
-@media only screen and (max-width: 25em) {
+@media only screen and (max-width: 27em) {
   .FAQ__1, .FAQ__2, .FAQ__3 {
     width: 85%;
     height: 12vh;
@@ -2815,7 +2907,7 @@ span {
   }
 }
 
-@media only screen and (max-width: 25em) {
+@media only screen and (max-width: 27em) {
   .FAQ__1--heading, .FAQ__2--heading, .FAQ__3--heading {
     font-size: 0.6rem;
     -webkit-box-align: center;
@@ -2893,7 +2985,7 @@ span {
   }
 }
 
-@media only screen and (max-width: 25em) {
+@media only screen and (max-width: 27em) {
   .FAQ__1--headingBtn,
   .FAQ__2--headingBtn,
   .FAQ__3--headingBtn {
@@ -2952,7 +3044,7 @@ span {
   }
 }
 
-@media only screen and (max-width: 25em) {
+@media only screen and (max-width: 27em) {
   .FAQ__1--headingBtnLess,
   .FAQ__2--headingBtnLess,
   .FAQ__3--headingBtnLess {
@@ -3023,7 +3115,7 @@ span {
   }
 }
 
-@media only screen and (max-width: 25em) {
+@media only screen and (max-width: 27em) {
   .hirePopup {
     width: 70%;
     height: 70vh;
@@ -3076,7 +3168,7 @@ span {
   }
 }
 
-@media only screen and (max-width: 25em) {
+@media only screen and (max-width: 27em) {
   .hirePopup__heading--text {
     font-size: 0.7rem;
   }
@@ -3129,7 +3221,7 @@ span {
   }
 }
 
-@media only screen and (max-width: 25em) {
+@media only screen and (max-width: 27em) {
   .hirePopup__heading--remove {
     font-size: 0.6rem;
     padding: 0 0.4rem;
@@ -3185,7 +3277,7 @@ span {
   }
 }
 
-@media only screen and (max-width: 25em) {
+@media only screen and (max-width: 27em) {
   .hirePopup__main--text {
     font-size: 0.6rem;
     margin-top: 0.3rem;
@@ -3250,7 +3342,7 @@ span {
   }
 }
 
-@media only screen and (max-width: 25em) {
+@media only screen and (max-width: 27em) {
   .companyName,
   .companyEmail {
     width: 80%;
@@ -3301,7 +3393,7 @@ span {
   }
 }
 
-@media only screen and (max-width: 25em) {
+@media only screen and (max-width: 27em) {
   .mssgCompany {
     width: 80%;
     height: 20vh;
@@ -3370,7 +3462,7 @@ span {
   }
 }
 
-@media only screen and (max-width: 25em) {
+@media only screen and (max-width: 27em) {
   #Hsubmit,
   #Csubmit {
     width: 80%;
@@ -3435,7 +3527,7 @@ span {
   }
 }
 
-@media only screen and (max-width: 25em) {
+@media only screen and (max-width: 27em) {
   .websitePopup {
     width: 80%;
     height: 80vh;
@@ -3488,7 +3580,7 @@ span {
   }
 }
 
-@media only screen and (max-width: 25em) {
+@media only screen and (max-width: 27em) {
   .websitePopup__heading--text {
     font-size: 0.7rem;
   }
@@ -3541,7 +3633,7 @@ span {
   }
 }
 
-@media only screen and (max-width: 25em) {
+@media only screen and (max-width: 27em) {
   .websitePopup__heading--remove {
     font-size: 0.6rem;
     padding: 0 0.4rem;
@@ -3597,7 +3689,7 @@ span {
   }
 }
 
-@media only screen and (max-width: 25em) {
+@media only screen and (max-width: 27em) {
   .websitePopup__main--text {
     font-size: 0.6rem;
     margin-top: 0.3rem;
@@ -3656,7 +3748,7 @@ span {
   }
 }
 
-@media only screen and (max-width: 25em) {
+@media only screen and (max-width: 27em) {
   .clientName,
   .clientPlan,
   .clientEmail {
@@ -3708,7 +3800,7 @@ span {
   }
 }
 
-@media only screen and (max-width: 25em) {
+@media only screen and (max-width: 27em) {
   .mssgClient {
     width: 80%;
     height: 23vh;

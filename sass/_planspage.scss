@@ -118,6 +118,9 @@
     @include repsond(s-phone) {
       margin-right: 0;
     }
+    @include repsond(xs-phone) {
+      margin-right: 0;
+    }
   }
   &__card1 > .title {
     font-size: 1rem;

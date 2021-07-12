@@ -40,6 +40,11 @@
     height: 100vh;
     padding: 1.3rem 2rem;
   }
+  @include repsond(xs-phone) {
+    width: 100%;
+    height: 100vh;
+    padding: 1rem;
+  }
 
   /////////////////
   //////////////NAVIGATION BAR //////////////////////////
@@ -81,6 +86,11 @@
       height: 7vh;
       padding-top: 0.7rem;
     }
+    @include repsond(xs-phone) {
+      width: 100%;
+      height: 6vh;
+      padding-top: 0.5rem;
+    }
 
     &--logo {
       flex: 0 0 65%;
@@ -100,6 +110,9 @@
         display: none;
       }
       @include repsond(s-phone) {
+        display: none;
+      }
+      @include repsond(xs-phone) {
         display: none;
       }
     }
@@ -134,6 +147,9 @@
       @include repsond(s-phone) {
         margin: 10rem 0 0.5rem 0;
       }
+      @include repsond(xs-phone) {
+        margin: 7rem 0 0.3rem 0;
+      }
     }
 
     &--title > p {
@@ -157,6 +173,10 @@
         font-weight: 600;
       }
       @include repsond(s-phone) {
+        font-size: 0.6rem;
+        font-weight: 600;
+      }
+      @include repsond(xs-phone) {
         font-size: 0.6rem;
         font-weight: 600;
       }
@@ -185,6 +205,10 @@
       }
       @include repsond(s-phone) {
         width: 67%;
+        margin-top: 0;
+      }
+      @include repsond(xs-phone) {
+        width: 73%;
         margin-top: 0;
       }
     }
@@ -226,6 +250,13 @@
         font-weight: 700;
         padding: 0.4rem 0;
       }
+      @include repsond(xs-phone) {
+        width: 6rem;
+        height: 5.7vh;
+        font-size: 0.6rem;
+        font-weight: 700;
+        padding: 0.4rem 0;
+      }
     }
 
     &--buttons > .needAWebsiteBtn {
@@ -260,6 +291,13 @@
         font-size: 0.7rem;
       }
       @include repsond(s-phone) {
+        width: 6rem;
+        height: 5.7vh;
+        padding: 0.3rem 0;
+        font-size: 0.6rem;
+        font-weight: 700;
+      }
+      @include repsond(xs-phone) {
         width: 6rem;
         height: 5.7vh;
         padding: 0.3rem 0;
@@ -311,6 +349,10 @@
     font-size: 1.5rem;
     height: 2.7rem;
     margin-bottom: 0;
+  }
+  @include repsond(xs-phone) {
+    font-size: 1.2rem;
+    height: 2.1rem;
   }
 }
 .words {
