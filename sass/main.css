@@ -2481,6 +2481,7 @@ span {
   .Plans {
     width: 100%;
     height: 290vh;
+    padding: 1rem;
   }
 }
 
