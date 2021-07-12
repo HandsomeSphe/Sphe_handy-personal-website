@@ -40,6 +40,12 @@
     padding: 1rem;
     transform: translate(-50%, -50%);
   }
+  @include repsond(xs-phone) {
+    width: 80%;
+    height: 60vh;
+    padding: 1rem;
+    transform: translate(-50%, -50%);
+  }
   &__heading {
     width: 100%;
     height: 2vh;
@@ -300,7 +306,13 @@
   }
   @include repsond(s-phone) {
     width: 80%;
-    height: 80vh;
+    height: 65vh;
+    padding: 1rem;
+    transform: translate(-50%, -50%);
+  }
+  @include repsond(xs-phone) {
+    width: 80%;
+    height: 70vh;
     padding: 1rem;
     transform: translate(-50%, -50%);
   }

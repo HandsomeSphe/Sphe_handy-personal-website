@@ -3147,6 +3147,16 @@ span {
   }
 }
 
+@media only screen and (max-width: 20em) {
+  .hirePopup {
+    width: 80%;
+    height: 60vh;
+    padding: 1rem;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  }
+}
+
 .hirePopup__heading {
   width: 100%;
   height: 2vh;
@@ -3552,7 +3562,17 @@ span {
 @media only screen and (max-width: 23.4em) {
   .websitePopup {
     width: 80%;
-    height: 80vh;
+    height: 65vh;
+    padding: 1rem;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  }
+}
+
+@media only screen and (max-width: 20em) {
+  .websitePopup {
+    width: 80%;
+    height: 70vh;
     padding: 1rem;
     -webkit-transform: translate(-50%, -50%);
             transform: translate(-50%, -50%);
