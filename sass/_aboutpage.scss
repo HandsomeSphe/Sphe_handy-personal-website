@@ -31,7 +31,7 @@
   @include repsond(xs-phone) {
     width: 100%;
     height: 150vh;
-    padding: 2rem 0.3rem;
+    padding: 2rem 0.1rem;
   }
   &__boxes {
     display: grid;
@@ -61,7 +61,7 @@
     }
     @include repsond(xs-phone) {
       grid-template-columns: 9rem 9rem;
-      grid-template-rows: 10rem 10rem 10rem;
+      grid-template-rows: 11.5rem 11.5rem 11.5rem;
     }
     // border: 1px solid lightgray;
     &--1,

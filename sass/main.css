@@ -65,7 +65,7 @@ body {
   .About {
     width: 100%;
     height: 150vh;
-    padding: 2rem 0.3rem;
+    padding: 2rem 0.1rem;
   }
 }
 
@@ -129,8 +129,8 @@ body {
   .About__boxes {
     -ms-grid-columns: 9rem 9rem;
         grid-template-columns: 9rem 9rem;
-    -ms-grid-rows: 10rem 10rem 10rem;
-        grid-template-rows: 10rem 10rem 10rem;
+    -ms-grid-rows: 11.5rem 11.5rem 11.5rem;
+        grid-template-rows: 11.5rem 11.5rem 11.5rem;
   }
 }
 
