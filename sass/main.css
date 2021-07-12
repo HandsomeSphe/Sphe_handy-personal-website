@@ -1197,7 +1197,7 @@ body {
 
 .home__body--buttons {
   color: rgba(255, 255, 255, 0.9);
-  width: 26%;
+  width: 25%;
   height: 7vh;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1237,7 +1237,7 @@ body {
 
 @media only screen and (max-width: 25em) {
   .home__body--buttons {
-    width: 70%;
+    width: 67%;
     margin-top: 0;
   }
 }

@@ -163,7 +163,7 @@
     }
     &--buttons {
       color: rgba(255, 255, 255, 0.9);
-      width: 26%;
+      width: 25%;
       height: 7vh;
       display: flex;
       justify-content: space-between;
@@ -184,7 +184,7 @@
         margin-top: 0;
       }
       @include repsond(s-phone) {
-        width: 70%;
+        width: 67%;
         margin-top: 0;
       }
     }
