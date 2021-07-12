@@ -127,10 +127,10 @@ body {
 
 @media only screen and (max-width: 20em) {
   .About__boxes {
-    -ms-grid-columns: 7rem 7rem;
-        grid-template-columns: 7rem 7rem;
-    -ms-grid-rows: 8rem 8rem 8rem;
-        grid-template-rows: 8rem 8rem 8rem;
+    -ms-grid-columns: 8.5rem 8.5rem;
+        grid-template-columns: 8.5rem 8.5rem;
+    -ms-grid-rows: 9rem 9rem 9rem;
+        grid-template-rows: 9rem 9rem 9rem;
   }
 }
 
