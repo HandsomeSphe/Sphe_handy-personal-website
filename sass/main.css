@@ -1498,7 +1498,7 @@ body {
 
 @media only screen and (max-width: 20em) {
   .wrapperSmall {
-    font-size: 1.2rem;
+    font-size: 1rem;
     height: 2.1rem;
   }
 }
