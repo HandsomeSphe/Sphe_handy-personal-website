@@ -18,6 +18,10 @@
     width: 100%;
     height: 100vh;
   }
+  @include repsond(xs-phone) {
+    width: 100%;
+    height: 100vh;
+  }
 }
 .FAQ {
   width: 100%;
@@ -91,7 +95,7 @@
     }
     @include repsond(xs-phone) {
       width: 100%;
-      height: 15vh;
+      height: 12vh;
       padding: 0.7rem;
     }
   }
