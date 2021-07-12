@@ -3140,7 +3140,7 @@ span {
 @media only screen and (max-width: 23.4em) {
   .hirePopup {
     width: 80%;
-    height: 65vh;
+    height: 55vh;
     padding: 1rem;
     -webkit-transform: translate(-50%, -50%);
             transform: translate(-50%, -50%);
