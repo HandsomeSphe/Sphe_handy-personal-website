@@ -204,7 +204,7 @@
         margin-top: 0;
       }
       @include repsond(s-phone) {
-        width: 67%;
+        width: 63.5%;
         margin-top: 0;
       }
       @include repsond(xs-phone) {
@@ -346,13 +346,14 @@
     margin-bottom: 0;
   }
   @include repsond(s-phone) {
-    font-size: 1.5rem;
-    height: 2.7rem;
+    font-size: 1.1rem;
+    height: 2.3rem;
     margin-bottom: 0;
   }
   @include repsond(xs-phone) {
-    font-size: 1rem;
+    font-size: 1.1rem;
     height: 2.1rem;
+    margin-bottom: 0;
   }
 }
 .words {
@@ -381,9 +382,14 @@ span {
     padding-top: 0.2rem;
   }
   @include repsond(s-phone) {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     padding-left: 0.5rem;
     padding-top: 0.1rem;
+  }
+  @include repsond(xs-phone) {
+    font-size: 1.1rem;
+    padding-top: 0.1rem;
+    padding-left: 0.3rem;
   }
 }
 @keyframes spin_words {
@@ -447,6 +453,10 @@ span {
     width: 100%;
     padding: 0.3rem 2rem;
   }
+  @include repsond(xs-phone) {
+    width: 100%;
+    padding: 0.3rem 2rem;
+  }
   &--logo {
     flex: 0 0 70%;
     cursor: pointer;
@@ -468,6 +478,9 @@ span {
       display: none;
     }
     @include repsond(s-phone) {
+      display: none;
+    }
+    @include repsond(xs-phone) {
       display: none;
     }
   }

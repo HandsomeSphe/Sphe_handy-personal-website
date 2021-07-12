@@ -53,7 +53,7 @@ body {
   }
 }
 
-@media only screen and (max-width: 27em) {
+@media only screen and (max-width: 23.4em) {
   .About {
     width: 100%;
     height: 170vh;
@@ -116,7 +116,7 @@ body {
   }
 }
 
-@media only screen and (max-width: 27em) {
+@media only screen and (max-width: 23.4em) {
   .About__boxes {
     -ms-grid-columns: 10rem 10rem;
         grid-template-columns: 10rem 10rem;
@@ -161,7 +161,7 @@ body {
   }
 }
 
-@media only screen and (max-width: 27em) {
+@media only screen and (max-width: 23.4em) {
   .About__boxes--1, .About__boxes--2, .About__boxes--3, .About__boxes--4, .About__boxes--5, .About__boxes--6 {
     padding: 0.6rem;
   }
@@ -224,7 +224,7 @@ body {
   }
 }
 
-@media only screen and (max-width: 27em) {
+@media only screen and (max-width: 23.4em) {
   .About__boxes--1 > h3,
   .About__boxes--2 > h3,
   .About__boxes--3 > h3,
@@ -296,7 +296,7 @@ body {
   }
 }
 
-@media only screen and (max-width: 27em) {
+@media only screen and (max-width: 23.4em) {
   #code,
   #globe,
   #resize,
@@ -350,7 +350,7 @@ body {
   }
 }
 
-@media only screen and (max-width: 27em) {
+@media only screen and (max-width: 23.4em) {
   .About__me {
     width: 90%;
     height: 15vh;
@@ -396,7 +396,7 @@ body {
   }
 }
 
-@media only screen and (max-width: 27em) {
+@media only screen and (max-width: 23.4em) {
   .Contacts {
     width: 100%;
     height: 110vh;
@@ -450,7 +450,7 @@ body {
   }
 }
 
-@media only screen and (max-width: 27em) {
+@media only screen and (max-width: 23.4em) {
   .Contacts__wrapper {
     width: 100%;
     height: 100vh;
@@ -504,7 +504,7 @@ body {
   }
 }
 
-@media only screen and (max-width: 27em) {
+@media only screen and (max-width: 23.4em) {
   .form {
     -webkit-box-flex: 0;
         -ms-flex: 0 0 60%;
@@ -543,7 +543,7 @@ body {
   }
 }
 
-@media only screen and (max-width: 27em) {
+@media only screen and (max-width: 23.4em) {
   #name,
   #email,
   #mssg {
@@ -609,7 +609,7 @@ body {
   }
 }
 
-@media only screen and (max-width: 27em) {
+@media only screen and (max-width: 23.4em) {
   .submit {
     width: 80%;
   }
@@ -643,7 +643,7 @@ body {
   }
 }
 
-@media only screen and (max-width: 27em) {
+@media only screen and (max-width: 23.4em) {
   .ownerInfo > h4 {
     font-size: 0.6rem;
     margin-left: 2rem;
@@ -691,7 +691,7 @@ body {
   }
 }
 
-@media only screen and (max-width: 27em) {
+@media only screen and (max-width: 23.4em) {
   .footer {
     width: 100%;
     height: 100vh;
@@ -727,7 +727,7 @@ body {
   }
 }
 
-@media only screen and (max-width: 27em) {
+@media only screen and (max-width: 23.4em) {
   .footer__1 {
     padding: 2rem;
   }
@@ -766,7 +766,7 @@ body {
   }
 }
 
-@media only screen and (max-width: 27em) {
+@media only screen and (max-width: 23.4em) {
   .footer__2 {
     padding: 2rem;
   }
@@ -791,7 +791,7 @@ body {
   }
 }
 
-@media only screen and (max-width: 27em) {
+@media only screen and (max-width: 23.4em) {
   .footer__3 {
     padding: 2rem;
   }
@@ -817,7 +817,7 @@ body {
   transition: all ease 0.4s;
 }
 
-@media only screen and (max-width: 27em) {
+@media only screen and (max-width: 23.4em) {
   .instagram,
   .twitter,
   .facebook {
@@ -892,7 +892,7 @@ body {
   }
 }
 
-@media only screen and (max-width: 27em) {
+@media only screen and (max-width: 23.4em) {
   .html,
   .JS,
   .sass {
@@ -922,7 +922,7 @@ body {
   }
 }
 
-@media only screen and (max-width: 27em) {
+@media only screen and (max-width: 23.4em) {
   .figma {
     width: 3rem;
     height: 3rem;
@@ -951,7 +951,7 @@ body {
   }
 }
 
-@media only screen and (max-width: 27em) {
+@media only screen and (max-width: 23.4em) {
   .css {
     width: 2rem;
     height: 2rem;
@@ -1011,7 +1011,7 @@ body {
   }
 }
 
-@media only screen and (max-width: 27em) {
+@media only screen and (max-width: 23.4em) {
   .home {
     width: 100%;
     height: 100vh;
@@ -1080,7 +1080,7 @@ body {
   }
 }
 
-@media only screen and (max-width: 27em) {
+@media only screen and (max-width: 23.4em) {
   .home__nav {
     width: 100%;
     height: 7vh;
@@ -1135,7 +1135,7 @@ body {
   }
 }
 
-@media only screen and (max-width: 27em) {
+@media only screen and (max-width: 23.4em) {
   .home__nav--list {
     display: none;
   }
@@ -1187,7 +1187,7 @@ body {
   }
 }
 
-@media only screen and (max-width: 27em) {
+@media only screen and (max-width: 23.4em) {
   .home__body--title {
     margin: 10rem 0 0.5rem 0;
   }
@@ -1233,7 +1233,7 @@ body {
   }
 }
 
-@media only screen and (max-width: 27em) {
+@media only screen and (max-width: 23.4em) {
   .home__body--title > p {
     font-size: 0.6rem;
     font-weight: 600;
@@ -1287,9 +1287,9 @@ body {
   }
 }
 
-@media only screen and (max-width: 27em) {
+@media only screen and (max-width: 23.4em) {
   .home__body--buttons {
-    width: 67%;
+    width: 63.5%;
     margin-top: 0;
   }
 }
@@ -1346,7 +1346,7 @@ body {
   }
 }
 
-@media only screen and (max-width: 27em) {
+@media only screen and (max-width: 23.4em) {
   .home__body--buttons > .hireBtn {
     width: 6rem;
     height: 5.7vh;
@@ -1411,7 +1411,7 @@ body {
   }
 }
 
-@media only screen and (max-width: 27em) {
+@media only screen and (max-width: 23.4em) {
   .home__body--buttons > .needAWebsiteBtn {
     width: 6rem;
     height: 5.7vh;
@@ -1488,18 +1488,19 @@ body {
   }
 }
 
-@media only screen and (max-width: 27em) {
+@media only screen and (max-width: 23.4em) {
   .wrapperSmall {
-    font-size: 1.5rem;
-    height: 2.7rem;
+    font-size: 1.1rem;
+    height: 2.3rem;
     margin-bottom: 0;
   }
 }
 
 @media only screen and (max-width: 20em) {
   .wrapperSmall {
-    font-size: 1rem;
+    font-size: 1.1rem;
     height: 2.1rem;
+    margin-bottom: 0;
   }
 }
 
@@ -1541,11 +1542,19 @@ span {
   }
 }
 
-@media only screen and (max-width: 27em) {
+@media only screen and (max-width: 23.4em) {
   span {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     padding-left: 0.5rem;
     padding-top: 0.1rem;
+  }
+}
+
+@media only screen and (max-width: 20em) {
+  span {
+    font-size: 1.1rem;
+    padding-top: 0.1rem;
+    padding-left: 0.3rem;
   }
 }
 
@@ -1654,7 +1663,14 @@ span {
   }
 }
 
-@media only screen and (max-width: 27em) {
+@media only screen and (max-width: 23.4em) {
+  .home__nav2 {
+    width: 100%;
+    padding: 0.3rem 2rem;
+  }
+}
+
+@media only screen and (max-width: 20em) {
   .home__nav2 {
     width: 100%;
     padding: 0.3rem 2rem;
@@ -1708,7 +1724,13 @@ span {
   }
 }
 
-@media only screen and (max-width: 27em) {
+@media only screen and (max-width: 23.4em) {
+  .home__nav2--list {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 20em) {
   .home__nav2--list {
     display: none;
   }
@@ -1772,7 +1794,7 @@ span {
   }
 }
 
-@media only screen and (max-width: 27em) {
+@media only screen and (max-width: 23.4em) {
   .mywork__section {
     width: 100%;
     height: 200vh;
@@ -1816,7 +1838,7 @@ span {
   }
 }
 
-@media only screen and (max-width: 27em) {
+@media only screen and (max-width: 23.4em) {
   .mywork {
     width: 100%;
   }
@@ -1887,7 +1909,7 @@ span {
   }
 }
 
-@media only screen and (max-width: 27em) {
+@media only screen and (max-width: 23.4em) {
   .mywork__wrapper--pic {
     -ms-grid-column: 1;
     -ms-grid-column-span: 9;
@@ -1955,7 +1977,7 @@ span {
   }
 }
 
-@media only screen and (max-width: 27em) {
+@media only screen and (max-width: 23.4em) {
   .mywork__wrapper--description {
     -ms-grid-column: 2;
     -ms-grid-column-span: 7;
@@ -1976,7 +1998,7 @@ span {
   }
 }
 
-@media only screen and (max-width: 27em) {
+@media only screen and (max-width: 23.4em) {
   .mywork__wrapper--description > .title {
     font-size: 0.7rem;
   }
@@ -1994,7 +2016,7 @@ span {
   }
 }
 
-@media only screen and (max-width: 27em) {
+@media only screen and (max-width: 23.4em) {
   .mywork__wrapper--description > .subtitle {
     margin-bottom: 0.4rem;
     font-size: 0.6rem;
@@ -2013,7 +2035,7 @@ span {
   }
 }
 
-@media only screen and (max-width: 27em) {
+@media only screen and (max-width: 23.4em) {
   .mywork__wrapper--description > .descript {
     font-size: 0.6rem;
   }
@@ -2084,7 +2106,7 @@ span {
   }
 }
 
-@media only screen and (max-width: 27em) {
+@media only screen and (max-width: 23.4em) {
   .mywork__wrapper2--pic {
     -ms-grid-column: 1;
     -ms-grid-column-span: 9;
@@ -2152,7 +2174,7 @@ span {
   }
 }
 
-@media only screen and (max-width: 27em) {
+@media only screen and (max-width: 23.4em) {
   .mywork__wrapper2--description {
     -ms-grid-row: 5;
     -ms-grid-row-span: 4;
@@ -2173,7 +2195,7 @@ span {
   }
 }
 
-@media only screen and (max-width: 27em) {
+@media only screen and (max-width: 23.4em) {
   .mywork__wrapper2--description > .title {
     font-size: 0.7rem;
   }
@@ -2191,7 +2213,7 @@ span {
   }
 }
 
-@media only screen and (max-width: 27em) {
+@media only screen and (max-width: 23.4em) {
   .mywork__wrapper2--description > .subtitle {
     font-size: 0.6rem;
     margin-bottom: 0.4rem;
@@ -2210,7 +2232,7 @@ span {
   }
 }
 
-@media only screen and (max-width: 27em) {
+@media only screen and (max-width: 23.4em) {
   .mywork__wrapper2--description > .descript {
     font-size: 0.6rem;
   }
@@ -2238,7 +2260,7 @@ span {
   }
 }
 
-@media only screen and (max-width: 27em) {
+@media only screen and (max-width: 23.4em) {
   #penty,
   #cafe {
     width: 100%;
@@ -2294,7 +2316,7 @@ span {
   }
 }
 
-@media only screen and (max-width: 27em) {
+@media only screen and (max-width: 23.4em) {
   .buttons,
   .buttons2 {
     width: 90%;
@@ -2326,7 +2348,7 @@ span {
   }
 }
 
-@media only screen and (max-width: 27em) {
+@media only screen and (max-width: 23.4em) {
   .viewBtn {
     width: 40%;
     height: 1.7rem;
@@ -2353,7 +2375,7 @@ span {
   }
 }
 
-@media only screen and (max-width: 27em) {
+@media only screen and (max-width: 23.4em) {
   .codeBtn,
   .codeBtn2 {
     width: 40%;
@@ -2437,7 +2459,7 @@ span {
   }
 }
 
-@media only screen and (max-width: 27em) {
+@media only screen and (max-width: 23.4em) {
   .Plans {
     width: 100%;
     height: 290vh;
@@ -2501,7 +2523,7 @@ span {
   }
 }
 
-@media only screen and (max-width: 27em) {
+@media only screen and (max-width: 23.4em) {
   .contaneir {
     margin-left: 0;
     -webkit-box-orient: vertical;
@@ -2553,7 +2575,7 @@ span {
   }
 }
 
-@media only screen and (max-width: 27em) {
+@media only screen and (max-width: 23.4em) {
   .contaneir__card1, .contaneir__card3 {
     margin-top: 1rem;
     width: 77%;
@@ -2590,7 +2612,7 @@ span {
   }
 }
 
-@media only screen and (max-width: 27em) {
+@media only screen and (max-width: 23.4em) {
   .contaneir__card1 {
     margin-right: 0;
   }
@@ -2657,7 +2679,7 @@ span {
   }
 }
 
-@media only screen and (max-width: 27em) {
+@media only screen and (max-width: 23.4em) {
   .contaneir__card2 {
     margin-top: 1rem;
     margin-left: 1.5rem;
@@ -2763,7 +2785,7 @@ span {
   }
 }
 
-@media only screen and (max-width: 27em) {
+@media only screen and (max-width: 23.4em) {
   .extrapage {
     width: 100%;
     height: 100vh;
@@ -2788,7 +2810,7 @@ span {
   }
 }
 
-@media only screen and (max-width: 27em) {
+@media only screen and (max-width: 23.4em) {
   .FAQ {
     padding: 1rem;
   }
@@ -2823,7 +2845,7 @@ span {
   }
 }
 
-@media only screen and (max-width: 27em) {
+@media only screen and (max-width: 23.4em) {
   .FAQ__title {
     font-size: 0.7rem;
     font-weight: 400;
@@ -2863,7 +2885,7 @@ span {
   }
 }
 
-@media only screen and (max-width: 27em) {
+@media only screen and (max-width: 23.4em) {
   .FAQ__1, .FAQ__2, .FAQ__3 {
     width: 85%;
     height: 12vh;
@@ -2907,7 +2929,7 @@ span {
   }
 }
 
-@media only screen and (max-width: 27em) {
+@media only screen and (max-width: 23.4em) {
   .FAQ__1--heading, .FAQ__2--heading, .FAQ__3--heading {
     font-size: 0.6rem;
     -webkit-box-align: center;
@@ -2985,7 +3007,7 @@ span {
   }
 }
 
-@media only screen and (max-width: 27em) {
+@media only screen and (max-width: 23.4em) {
   .FAQ__1--headingBtn,
   .FAQ__2--headingBtn,
   .FAQ__3--headingBtn {
@@ -3044,7 +3066,7 @@ span {
   }
 }
 
-@media only screen and (max-width: 27em) {
+@media only screen and (max-width: 23.4em) {
   .FAQ__1--headingBtnLess,
   .FAQ__2--headingBtnLess,
   .FAQ__3--headingBtnLess {
@@ -3115,7 +3137,7 @@ span {
   }
 }
 
-@media only screen and (max-width: 27em) {
+@media only screen and (max-width: 23.4em) {
   .hirePopup {
     width: 70%;
     height: 70vh;
@@ -3168,7 +3190,7 @@ span {
   }
 }
 
-@media only screen and (max-width: 27em) {
+@media only screen and (max-width: 23.4em) {
   .hirePopup__heading--text {
     font-size: 0.7rem;
   }
@@ -3221,7 +3243,7 @@ span {
   }
 }
 
-@media only screen and (max-width: 27em) {
+@media only screen and (max-width: 23.4em) {
   .hirePopup__heading--remove {
     font-size: 0.6rem;
     padding: 0 0.4rem;
@@ -3277,7 +3299,7 @@ span {
   }
 }
 
-@media only screen and (max-width: 27em) {
+@media only screen and (max-width: 23.4em) {
   .hirePopup__main--text {
     font-size: 0.6rem;
     margin-top: 0.3rem;
@@ -3342,7 +3364,7 @@ span {
   }
 }
 
-@media only screen and (max-width: 27em) {
+@media only screen and (max-width: 23.4em) {
   .companyName,
   .companyEmail {
     width: 80%;
@@ -3393,7 +3415,7 @@ span {
   }
 }
 
-@media only screen and (max-width: 27em) {
+@media only screen and (max-width: 23.4em) {
   .mssgCompany {
     width: 80%;
     height: 20vh;
@@ -3462,7 +3484,7 @@ span {
   }
 }
 
-@media only screen and (max-width: 27em) {
+@media only screen and (max-width: 23.4em) {
   #Hsubmit,
   #Csubmit {
     width: 80%;
@@ -3527,7 +3549,7 @@ span {
   }
 }
 
-@media only screen and (max-width: 27em) {
+@media only screen and (max-width: 23.4em) {
   .websitePopup {
     width: 80%;
     height: 80vh;
@@ -3580,7 +3602,7 @@ span {
   }
 }
 
-@media only screen and (max-width: 27em) {
+@media only screen and (max-width: 23.4em) {
   .websitePopup__heading--text {
     font-size: 0.7rem;
   }
@@ -3633,7 +3655,7 @@ span {
   }
 }
 
-@media only screen and (max-width: 27em) {
+@media only screen and (max-width: 23.4em) {
   .websitePopup__heading--remove {
     font-size: 0.6rem;
     padding: 0 0.4rem;
@@ -3689,7 +3711,7 @@ span {
   }
 }
 
-@media only screen and (max-width: 27em) {
+@media only screen and (max-width: 23.4em) {
   .websitePopup__main--text {
     font-size: 0.6rem;
     margin-top: 0.3rem;
@@ -3748,7 +3770,7 @@ span {
   }
 }
 
-@media only screen and (max-width: 27em) {
+@media only screen and (max-width: 23.4em) {
   .clientName,
   .clientPlan,
   .clientEmail {
@@ -3800,7 +3822,7 @@ span {
   }
 }
 
-@media only screen and (max-width: 27em) {
+@media only screen and (max-width: 23.4em) {
   .mssgClient {
     width: 80%;
     height: 23vh;
