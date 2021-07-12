@@ -1289,7 +1289,7 @@ body {
 
 @media only screen and (max-width: 23.4em) {
   .home__body--buttons {
-    width: 63.5%;
+    width: 67%;
     margin-top: 0;
   }
 }
@@ -1490,7 +1490,7 @@ body {
 
 @media only screen and (max-width: 23.4em) {
   .wrapperSmall {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     height: 2.3rem;
     margin-bottom: 0;
   }
@@ -1544,7 +1544,7 @@ span {
 
 @media only screen and (max-width: 23.4em) {
   span {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     padding-left: 0.5rem;
     padding-top: 0.1rem;
   }
