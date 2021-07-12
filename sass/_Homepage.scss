@@ -204,7 +204,7 @@
         margin-top: 0;
       }
       @include repsond(s-phone) {
-        width: 67%;
+        width: 69%;
         margin-top: 0;
       }
       @include repsond(xs-phone) {
@@ -248,14 +248,14 @@
         height: 5.7vh;
         font-size: 0.6rem;
         font-weight: 700;
-        padding: 0.4rem 0;
+        padding: 0.5rem 0;
       }
       @include repsond(xs-phone) {
         width: 6rem;
         height: 5.7vh;
         font-size: 0.6rem;
         font-weight: 700;
-        padding: 0.4rem 0;
+        padding: 0.5rem 0;
       }
     }
 
@@ -293,14 +293,14 @@
       @include repsond(s-phone) {
         width: 6rem;
         height: 5.7vh;
-        padding: 0.3rem 0;
+        padding: 0.5rem 0;
         font-size: 0.6rem;
         font-weight: 700;
       }
       @include repsond(xs-phone) {
         width: 6rem;
         height: 5.7vh;
-        padding: 0.3rem 0;
+        padding: 0.5rem 0;
         font-size: 0.6rem;
         font-weight: 700;
       }

@@ -1289,7 +1289,7 @@ body {
 
 @media only screen and (max-width: 23.4em) {
   .home__body--buttons {
-    width: 67%;
+    width: 69%;
     margin-top: 0;
   }
 }
@@ -1352,7 +1352,7 @@ body {
     height: 5.7vh;
     font-size: 0.6rem;
     font-weight: 700;
-    padding: 0.4rem 0;
+    padding: 0.5rem 0;
   }
 }
 
@@ -1362,7 +1362,7 @@ body {
     height: 5.7vh;
     font-size: 0.6rem;
     font-weight: 700;
-    padding: 0.4rem 0;
+    padding: 0.5rem 0;
   }
 }
 
@@ -1415,7 +1415,7 @@ body {
   .home__body--buttons > .needAWebsiteBtn {
     width: 6rem;
     height: 5.7vh;
-    padding: 0.3rem 0;
+    padding: 0.5rem 0;
     font-size: 0.6rem;
     font-weight: 700;
   }
@@ -1425,7 +1425,7 @@ body {
   .home__body--buttons > .needAWebsiteBtn {
     width: 6rem;
     height: 5.7vh;
-    padding: 0.3rem 0;
+    padding: 0.5rem 0;
     font-size: 0.6rem;
     font-weight: 700;
   }
@@ -3139,8 +3139,8 @@ span {
 
 @media only screen and (max-width: 23.4em) {
   .hirePopup {
-    width: 70%;
-    height: 70vh;
+    width: 80%;
+    height: 65vh;
     padding: 1rem;
     -webkit-transform: translate(-50%, -50%);
             transform: translate(-50%, -50%);
