@@ -2334,8 +2334,8 @@ span {
 @media only screen and (max-width: 20em) {
   #eye,
   #eye2 {
-    width: 0.6rem;
-    height: 0.6rem;
+    width: 0.9rem;
+    height: 0rem;
   }
 }
 
