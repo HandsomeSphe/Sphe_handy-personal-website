@@ -2323,6 +2323,22 @@ span {
   height: 1rem;
 }
 
+@media only screen and (max-width: 23.4em) {
+  #eye,
+  #eye2 {
+    width: 1rem;
+    height: 1rem;
+  }
+}
+
+@media only screen and (max-width: 20em) {
+  #eye,
+  #eye2 {
+    width: 0.6rem;
+    height: 0.6rem;
+  }
+}
+
 .c,
 .c2 {
   width: 5rem;
@@ -2398,6 +2414,13 @@ span {
 }
 
 @media only screen and (max-width: 23.4em) {
+  .viewBtn {
+    width: 43%;
+    height: 1.7rem;
+  }
+}
+
+@media only screen and (max-width: 20em) {
   .viewBtn {
     width: 43%;
     height: 1.7rem;
