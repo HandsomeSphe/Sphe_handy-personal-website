@@ -56,12 +56,12 @@
       grid-template-rows: 11rem 11rem 11rem;
     }
     @include repsond(s-phone) {
-      grid-template-columns: 9rem 9rem;
+      grid-template-columns: 10rem 10rem;
       grid-template-rows: 11rem 11rem 11rem;
     }
     @include repsond(xs-phone) {
       grid-template-columns: 9rem 9rem;
-      grid-template-rows: 11.5rem 11.5rem 11.5rem;
+      grid-template-rows: 11rem 11rem 11rem;
     }
     // border: 1px solid lightgray;
     &--1,
@@ -96,7 +96,11 @@
         margin-bottom: 0.1rem;
       }
       @include repsond(s-phone) {
-        font-size: 0.8rem;
+        font-size: 0.75rem;
+        margin-bottom: 0.1rem;
+      }
+      @include repsond(xs-phone) {
+        font-size: 0.7rem;
         margin-bottom: 0.1rem;
       }
     }
@@ -155,6 +159,14 @@
     font-size: 0.7rem;
     line-height: auto;
     margin-bottom: 7rem;
+    margin-left: 1rem;
+  }
+  @include repsond(xs-phone) {
+    margin-bottom: 9rem;
+    height: 15vh;
+    width: 90%;
+    font-size: 0.7rem;
+    line-height: auto;
     margin-left: 1rem;
   }
 }

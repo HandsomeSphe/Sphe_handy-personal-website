@@ -118,8 +118,8 @@ body {
 
 @media only screen and (max-width: 23.4em) {
   .About__boxes {
-    -ms-grid-columns: 9rem 9rem;
-        grid-template-columns: 9rem 9rem;
+    -ms-grid-columns: 10rem 10rem;
+        grid-template-columns: 10rem 10rem;
     -ms-grid-rows: 11rem 11rem 11rem;
         grid-template-rows: 11rem 11rem 11rem;
   }
@@ -129,8 +129,8 @@ body {
   .About__boxes {
     -ms-grid-columns: 9rem 9rem;
         grid-template-columns: 9rem 9rem;
-    -ms-grid-rows: 11.5rem 11.5rem 11.5rem;
-        grid-template-rows: 11.5rem 11.5rem 11.5rem;
+    -ms-grid-rows: 11rem 11rem 11rem;
+        grid-template-rows: 11rem 11rem 11rem;
   }
 }
 
@@ -231,7 +231,19 @@ body {
   .About__boxes--4 > h3,
   .About__boxes--5 > h3,
   .About__boxes--6 > h3 {
-    font-size: 0.8rem;
+    font-size: 0.75rem;
+    margin-bottom: 0.1rem;
+  }
+}
+
+@media only screen and (max-width: 20em) {
+  .About__boxes--1 > h3,
+  .About__boxes--2 > h3,
+  .About__boxes--3 > h3,
+  .About__boxes--4 > h3,
+  .About__boxes--5 > h3,
+  .About__boxes--6 > h3 {
+    font-size: 0.7rem;
     margin-bottom: 0.1rem;
   }
 }
@@ -357,6 +369,17 @@ body {
     font-size: 0.7rem;
     line-height: auto;
     margin-bottom: 7rem;
+    margin-left: 1rem;
+  }
+}
+
+@media only screen and (max-width: 20em) {
+  .About__me {
+    margin-bottom: 9rem;
+    height: 15vh;
+    width: 90%;
+    font-size: 0.7rem;
+    line-height: auto;
     margin-left: 1rem;
   }
 }
@@ -565,7 +588,7 @@ body {
   #email,
   #mssg {
     width: 80%;
-    height: 2.5rem;
+    height: 1.7rem;
   }
 }
 
@@ -1815,7 +1838,7 @@ span {
 @media only screen and (max-width: 23.4em) {
   .mywork__section {
     width: 100%;
-    height: 150vh;
+    height: 190vh;
     padding: 5rem 0rem 0 1.7rem;
   }
 }
@@ -2488,7 +2511,15 @@ span {
 @media only screen and (max-width: 23.4em) {
   .Plans {
     width: 100%;
-    height: 290vh;
+    height: 280vh;
+    padding: 1rem;
+  }
+}
+
+@media only screen and (max-width: 20em) {
+  .Plans {
+    width: 100%;
+    height: 250vh;
     padding: 1rem;
   }
 }
@@ -2559,7 +2590,20 @@ span {
             flex-direction: column;
     height: 100vh;
     width: 100%;
-    padding: 0 2rem;
+    padding: 0 1rem;
+  }
+}
+
+@media only screen and (max-width: 20em) {
+  .contaneir {
+    margin-left: 0;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    padding: 0 1rem;
   }
 }
 
@@ -2605,9 +2649,17 @@ span {
 @media only screen and (max-width: 23.4em) {
   .contaneir__card1, .contaneir__card3 {
     margin-top: 1rem;
-    width: 77%;
+    width: 80%;
     height: 80vh;
     margin-left: 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 20em) {
+  .contaneir__card1, .contaneir__card3 {
+    width: 80%;
+    height: 80vh;
+    margin: 1rem 0 0 1.5rem;
   }
 }
 
@@ -2710,8 +2762,17 @@ span {
   .contaneir__card2 {
     margin-top: 1rem;
     margin-left: 1.5rem;
-    width: 77%;
+    width: 80%;
     height: 100vh;
+  }
+}
+
+@media only screen and (max-width: 20em) {
+  .contaneir__card2 {
+    height: 80vh;
+    width: 80%;
+    margin-left: 1.5rem;
+    margin-top: 1rem;
   }
 }
 
@@ -2752,6 +2813,26 @@ span {
   margin-right: 0.5rem;
 }
 
+@media only screen and (max-width: 23.4em) {
+  .check,
+  .gray,
+  .stopwatch,
+  .blackCircle {
+    width: 0.67rem;
+    height: 0.67rem;
+  }
+}
+
+@media only screen and (max-width: 20em) {
+  .check,
+  .gray,
+  .stopwatch,
+  .blackCircle {
+    width: 0.6rem;
+    height: 0.6rem;
+  }
+}
+
 .pages,
 .designCustome,
 .Responsive,
@@ -2770,6 +2851,32 @@ span {
   margin-bottom: 0.8rem;
 }
 
+@media only screen and (max-width: 23.4em) {
+  .pages,
+  .designCustome,
+  .Responsive,
+  .Domain,
+  .source,
+  .delivery,
+  .revision {
+    font-size: 0.75rem;
+    margin-bottom: 0.6rem;
+  }
+}
+
+@media only screen and (max-width: 20em) {
+  .pages,
+  .designCustome,
+  .Responsive,
+  .Domain,
+  .source,
+  .delivery,
+  .revision {
+    font-size: 0.67rem;
+    margin-bottom: 0.4rem;
+  }
+}
+
 .price1,
 .price3 {
   text-align: center;
@@ -2783,6 +2890,18 @@ span {
   font-weight: 700;
   font-size: 1rem;
   margin-top: 5rem;
+}
+
+@media only screen and (max-width: 23.4em) {
+  .price2 {
+    margin-top: 2rem;
+  }
+}
+
+@media only screen and (max-width: 20em) {
+  .price2 {
+    margin-top: 2rem;
+  }
 }
 
 .extrapage {
