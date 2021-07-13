@@ -2511,7 +2511,7 @@ span {
 @media only screen and (max-width: 23.4em) {
   .Plans {
     width: 100%;
-    height: 250vh;
+    height: 220vh;
     padding: 1rem;
   }
 }
@@ -2588,7 +2588,7 @@ span {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    height: 100vh;
+    height: 80vh;
     width: 100%;
     padding: 0 1rem;
   }
